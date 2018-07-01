@@ -1,0 +1,2192 @@
+
+KL36_Update.elf:     file format elf32-littlearm
+KL36_Update.elf
+architecture: arm, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00007ce9
+
+Program Header:
+    LOAD off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**15
+         filesz 0x000078c0 memsz 0x000078c0 flags r--
+    LOAD off    0x00007c00 vaddr 0x00007c00 paddr 0x00007c00 align 2**15
+         filesz 0x00000010 memsz 0x00000010 flags r--
+    LOAD off    0x00007c10 vaddr 0x00007c10 paddr 0x00007c10 align 2**15
+         filesz 0x000007d0 memsz 0x000007d0 flags rwx
+    LOAD off    0x00008800 vaddr 0x20000800 paddr 0x000083e0 align 2**15
+         filesz 0x00000064 memsz 0x00000498 flags rw-
+private flags = 5000002: [Version5 EABI] [has entry point]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn  Flags
+  0 .interrupts   000000c0  00007800  00007800  00007800  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .flash_config 00000010  00007c00  00007c00  00007c00  2**0  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .text         000007c0  00007c10  00007c10  00007c10  2**2  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .ARM          00000008  000083d0  000083d0  000083d0  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .init_array   00000004  000083d8  000083d8  000083d8  2**2  CONTENTS, ALLOC, LOAD, DATA
+  5 .fini_array   00000004  000083dc  000083dc  000083dc  2**2  CONTENTS, ALLOC, LOAD, DATA
+  6 .data         00000064  20000800  000083e0  00008800  2**2  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          00000134  20000864  00008444  00008864  2**2  ALLOC
+  8 .heap         00000200  20000998  00008578  00008864  2**0  ALLOC
+  9 .stack        00000100  20000b98  00008778  00008864  2**0  ALLOC
+ 10 .ARM.attributes 00000028  00000000  00000000  00008864  2**0  CONTENTS, READONLY
+ 11 .debug_info   00003c7a  00000000  00000000  0000888c  2**0  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_abbrev 000008e3  00000000  00000000  0000c506  2**0  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    0000039e  00000000  00000000  0000cde9  2**0  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_aranges 00000140  00000000  00000000  0000d188  2**3  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_ranges 00000100  00000000  00000000  0000d2c8  2**0  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_macro  0000e7f0  00000000  00000000  0000d3c8  2**0  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_line   000027a2  00000000  00000000  0001bbb8  2**0  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_str    0004dc64  00000000  00000000  0001e35a  2**0  CONTENTS, READONLY, DEBUGGING
+ 19 .comment      00000070  00000000  00000000  0006bfbe  2**0  CONTENTS, READONLY
+ 20 .debug_frame  00000288  00000000  00000000  0006c030  2**2  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+00007800 l    d  .interrupts	00000000 .interrupts
+00007c00 l    d  .flash_config	00000000 .flash_config
+00007c10 l    d  .text	00000000 .text
+000083d0 l    d  .ARM	00000000 .ARM
+000083d8 l    d  .init_array	00000000 .init_array
+000083dc l    d  .fini_array	00000000 .fini_array
+20000800 l    d  .data	00000000 .data
+20000864 l    d  .bss	00000000 .bss
+20000998 l    d  .heap	00000000 .heap
+20000b98 l    d  .stack	00000000 .stack
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 ./03_MCU/startup/startup_MKL36Z4.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+000083b8 l     O .text	00000000 __EH_FRAME_BEGIN__
+20000860 l     O .data	00000000 __JCR_LIST__
+00007c10 l     F .text	00000000 __do_global_dtors_aux
+20000864 l       .bss	00000000 completed.7863
+000083dc l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+00007c38 l     F .text	00000000 frame_dummy
+20000868 l       .bss	00000000 object.7868
+000083d8 l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 c:/program/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+00000000 l    df *ABS*	00000000 isr.c
+20000880 l     O .bss	00000001 count.6211
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 common.c
+00000000 l    df *ABS*	00000000 system_MKL36Z4.c
+00000000 l    df *ABS*	00000000 wdog.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 impure.c
+20000800 l     O .data	00000060 impure_data
+00000000 l    df *ABS*	00000000 c:/program/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+00000000 l    df *ABS*	00000000 c:/program/kds/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+20000860 l     O .data	00000000 __JCR_END__
+00000000 l    df *ABS*	00000000 
+00000100 l       *ABS*	00000000 STACK_SIZE
+20000b98 l       .heap	00000000 __HeapLimit
+00000200 l       *ABS*	00000000 HEAP_SIZE
+000083dc l       .init_array	00000000 __init_array_end
+000083d8 l       .init_array	00000000 __preinit_array_end
+000083e0 l       .fini_array	00000000 __DATA_ROM
+20001700 l       *ABS*	00000000 __StackLimit
+000083d8 l       .init_array	00000000 __init_array_start
+000083d8 l       .init_array	00000000 __preinit_array_start
+20000884 g     O .bss	00000004 flash_write
+20000998 g       .heap	00000000 __HeapBase
+20000888 g     O .bss	00000004 gpio_get_int
+2000088c g     O .bss	00000004 flash_read_physical
+20000890 g     O .bss	00000004 gpio_drive_strength
+20000800 g       .data	00000000 __data_start__
+00007d14  w    F .text	00000004 I2C0_IRQHandler
+20000894 g     O .bss	00000004 uecom_config
+20000898 g     O .bss	00000004 uecom_getSignalPower
+00007d14  w    F .text	00000004 HardFault_Handler
+2000097c g     O .bss	00000004 SPI_sendN
+00007d1c g     F .text	00000002 SysTick_Handler
+00007d14  w    F .text	00000004 PendSV_Handler
+00007d14  w    F .text	00000004 NMI_Handler
+000083d8 g       .ARM	00000000 __exidx_end
+00007d14  w    F .text	00000004 PORTC_PORTD_IRQHandler
+2000089c g     O .bss	00000004 uart_sendN
+00007d14  w    F .text	00000004 I2C1_IRQHandler
+00007d14  w    F .text	00000004 UART1_IRQHandler
+000083e0 g       .fini_array	00000000 __etext
+200008a0 g     O .bss	00000004 disable_lptmr_int
+00007d14  w    F .text	00000004 DMA2_IRQHandler
+200008a4 g     O .bss	00000004 uart_enable_re_int
+00007d14  w    F .text	00000004 TPM0_IRQHandler
+200008a8 g     O .bss	00000004 gnss_get_time
+00007d14  w    F .text	00000004 I2S0_IRQHandler
+00007d14  w    F .text	00000004 LLWU_IRQHandler
+00007d4c g     F .text	00000028 TSI0_IRQHandler
+00007d74 g     F .text	00000044 UART0_IRQHandler
+200008ac g     O .bss	00000004 flash_protect
+000083d8 g       .init_array	00000000 __DTOR_END__
+200008b0 g     O .bss	00000004 gpio_clear_allint
+00007d14  w    F .text	00000004 ADC0_IRQHandler
+20000864 g       .bss	00000000 __START_BSS
+200008b4 g     O .bss	00000004 tsi_set_threshold
+20000864 g       .bss	00000000 __bss_start__
+200008b8 g     O .bss	00000004 flash_erase
+00007d14  w    F .text	00000004 SPI1_IRQHandler
+00007d14  w    F .text	00000004 DefaultISR
+200008bc g     O .bss	00000004 uart_disable_re_int
+000083d0 g       .ARM	00000000 __exidx_start
+000083b4 g     O .text	00000004 _global_impure_ptr
+00008348 g     F .text	0000004c __libc_init_array
+200008c0 g     O .bss	00000004 flash_init
+00007c70 g     F .text	00000000 _mainCRTStartup
+200008c4 g     O .bss	00000004 enable_lptmr_int
+000083b8 g     F .text	00000000 _init
+00007d14  w    F .text	00000004 TPM2_IRQHandler
+200008c8 g     O .bss	00000004 uecom_getCurCommunity
+200008cc g     O .bss	00000004 tsi_softsearch
+00000000  w      *UND*	00000000 __libc_fini_array
+00007d14  w    F .text	00000004 RTC_IRQHandler
+00007e04 g     F .text	00000418 funPointerInit
+00007ce8  w    F .text	0000002c Reset_Handler
+20000980 g     O .bss	00000004 SPI_disable_re_int
+00007d14  w    F .text	00000004 LCD_IRQHandler
+200008d0 g     O .bss	00000004 adc_read
+200008d4 g     O .bss	00000004 uart_get_re_int
+200008d8 g     O .bss	00000004 uart_reN
+200008dc g     O .bss	00000004 gnss_init
+00000000  w      *UND*	00000000 __sf_fake_stderr
+00007d14  w    F .text	00000004 RTC_Seconds_IRQHandler
+00000000  w      *UND*	00000000 __deregister_frame_info
+00007d14  w    F .text	00000004 MCG_IRQHandler
+200008e0 g     O .bss	00000004 uart_send_string
+00007d14  w    F .text	00000004 UART2_IRQHandler
+20000864 g       .data	00000000 __data_end__
+200008e4 g     O .bss	00000004 getSystemTime
+000083d8 g       .init_array	00000000 __CTOR_LIST__
+200008e8 g     O .bss	00000004 uart_init
+200008ec g     O .bss	00000004 tsi_get_value16
+20000998 g       .bss	00000000 __bss_end__
+200008f0 g     O .bss	00000004 gpio_get
+00007d14  w    F .text	00000004 Reserved20_IRQHandler
+20000984 g     O .bss	00000004 SPI_receive1
+00000000  w      *UND*	00000000 __call_exitprocs
+00007c70 g     F .text	00000000 _start
+200008f4 g     O .bss	00000004 uart_deint
+200008f8 g     O .bss	00000004 http_get
+200008fc g     O .bss	00000004 tsi_disable_re_int
+20000900 g     O .bss	00000004 lptmr_init
+00000000  w      *UND*	00000000 software_init_hook
+20000988 g     O .bss	00000004 SPI_receiveN
+20000904 g     O .bss	00000004 uecom_send
+20000908 g     O .bss	00000004 gpio_disable_int
+2000090c g     O .bss	00000004 gnss_get_location
+20000910 g     O .bss	00000004 flash_read_logic
+2000098c g     O .bss	00000004 SPI_send1
+20000914 g     O .bss	00000004 uart_re1
+20000918 g     O .bss	00000004 uecom_getIMEI
+2000091c g     O .bss	00000004 gnss_get_attitude
+00000000  w      *UND*	00000000 __sf_fake_stdin
+20000920 g     O .bss	00000004 gpio_clear_int
+00008394 g     F .text	00000010 memset
+00007800 g       .interrupts	000000c0 __isr_vector
+00007db8 g     F .text	0000004c main
+0000821c g     F .text	00000024 cpy_nvic
+00007d14  w    F .text	00000004 PIT_IRQHandler
+20000924 g     O .bss	00000004 gnss_get_speed
+00007d14  w    F .text	00000004 SVC_Handler
+20000800 g       .data	00000000 __DATA_RAM
+00000000  w      *UND*	00000000 hardware_init_hook
+20000928 g     O .bss	00000004 lptmr_reset
+2000092c g     O .bss	00000004 tsi_enable_re_int
+20000998 g       .heap	00000000 __end__
+20000930 g     O .bss	00000004 uecom_getUEIP
+000083d8 g       .init_array	00000000 __CTOR_END__
+00007d14  w    F .text	00000004 DMA3_IRQHandler
+000083d8 g       .init_array	00000000 __DTOR_LIST__
+20000998 g       .bss	00000000 __END_BSS
+00008240 g     F .text	000000c8 SystemInit
+00007d14  w    F .text	00000004 DMA0_IRQHandler
+000083c4 g     F .text	00000000 _fini
+20000934 g     O .bss	00000004 uecom_deInit
+00007d14  w    F .text	00000004 DAC0_IRQHandler
+00000000  w      *UND*	00000000 atexit
+20001800 g       *ABS*	00000000 __StackTop
+20000938 g     O .bss	00000004 adc_init
+2000093c g     O .bss	00000004 uecom_interrupt
+20000800 g       .data	00000000 _mtb_end
+20000940 g     O .bss	00000004 tsi_init
+00008444 g       .fini_array	00000000 __DATA_END
+20000944 g     O .bss	00000004 flash_isempty
+20000948 g     O .bss	00000004 gpio_enable_int
+00007d14  w    F .text	00000004 TPM1_IRQHandler
+20001800 g       *ABS*	00000000 __stack
+00007d14  w    F .text	00000004 LVD_LVW_IRQHandler
+2000094c g     O .bss	00000004 gpio_pull
+00007d14  w    F .text	00000004 SPI0_IRQHandler
+00007d14  w    F .text	00000004 PORTA_IRQHandler
+00007800 g       .interrupts	00000000 __VECTOR_TABLE
+20000990 g     O .bss	00000004 SPI_init
+0000831c g     F .text	0000002c exit
+00007d14  w    F .text	00000004 FTFA_IRQHandler
+20000950 g     O .bss	00000004 uecom_switch
+20000800 g       .data	00000000 _mtb_start
+00000000  w      *UND*	00000000 __sf_fake_stdout
+00007d14  w    F .text	00000004 Reserved40_IRQHandler
+20000954 g     O .bss	00000004 uecom_default_delay_ms
+000083a4 g     F .text	00000002 _exit
+00007d20 g     F .text	0000002c LPTMR0_IRQHandler
+20000958 g     O .bss	00000004 uart_send1
+2000095c g     O .bss	00000004 uecom_fast_init
+00008308 g     F .text	00000014 wdog_stop
+20000960 g     O .bss	00000004 gpio_set
+20000964 g     O .bss	00000004 uecom_getBSNum
+20000968 g     O .bss	00000004 gpio_reverse
+2000096c g     O .bss	00000004 uecom_getFirmVer
+20000970 g     O .bss	00000004 uecom_init
+20000974 g     O .bss	00000004 gpio_init
+20000994 g     O .bss	00000004 SPI_enable_re_int
+00000000  w      *UND*	00000000 _Jv_RegisterClasses
+20000978 g     O .bss	00000004 uecom_getIMSI
+00007d14  w    F .text	00000004 CMP0_IRQHandler
+00000000  w      *UND*	00000000 __register_frame_info
+00007d14  w    F .text	00000004 DMA1_IRQHandler
+
+
+
+Disassembly of section .text:
+
+00007c10 <__do_global_dtors_aux>:
+$t():
+    7c10:	b510      	push	{r4, lr}
+    7c12:	4c06      	ldr	r4, [pc, #24]	; (7c2c <__do_global_dtors_aux+0x1c>)
+    7c14:	7823      	ldrb	r3, [r4, #0]
+    7c16:	2b00      	cmp	r3, #0
+    7c18:	d107      	bne.n	7c2a <__do_global_dtors_aux+0x1a>
+    7c1a:	4b05      	ldr	r3, [pc, #20]	; (7c30 <__do_global_dtors_aux+0x20>)
+    7c1c:	2b00      	cmp	r3, #0
+    7c1e:	d002      	beq.n	7c26 <__do_global_dtors_aux+0x16>
+    7c20:	4804      	ldr	r0, [pc, #16]	; (7c34 <__do_global_dtors_aux+0x24>)
+    7c22:	e000      	b.n	7c26 <__do_global_dtors_aux+0x16>
+    7c24:	bf00      	nop
+    7c26:	2301      	movs	r3, #1
+    7c28:	7023      	strb	r3, [r4, #0]
+    7c2a:	bd10      	pop	{r4, pc}
+$d():
+    7c2c:	20000864 	.word	0x20000864
+    7c30:	00000000 	.word	0x00000000
+    7c34:	000083b8 	.word	0x000083b8
+
+00007c38 <frame_dummy>:
+$t():
+    7c38:	b508      	push	{r3, lr}
+    7c3a:	4b08      	ldr	r3, [pc, #32]	; (7c5c <frame_dummy+0x24>)
+    7c3c:	2b00      	cmp	r3, #0
+    7c3e:	d003      	beq.n	7c48 <frame_dummy+0x10>
+    7c40:	4807      	ldr	r0, [pc, #28]	; (7c60 <frame_dummy+0x28>)
+    7c42:	4908      	ldr	r1, [pc, #32]	; (7c64 <frame_dummy+0x2c>)
+    7c44:	e000      	b.n	7c48 <frame_dummy+0x10>
+    7c46:	bf00      	nop
+    7c48:	4807      	ldr	r0, [pc, #28]	; (7c68 <frame_dummy+0x30>)
+    7c4a:	6803      	ldr	r3, [r0, #0]
+    7c4c:	2b00      	cmp	r3, #0
+    7c4e:	d003      	beq.n	7c58 <frame_dummy+0x20>
+    7c50:	4b06      	ldr	r3, [pc, #24]	; (7c6c <frame_dummy+0x34>)
+    7c52:	2b00      	cmp	r3, #0
+    7c54:	d000      	beq.n	7c58 <frame_dummy+0x20>
+    7c56:	4798      	blx	r3
+    7c58:	bd08      	pop	{r3, pc}
+    7c5a:	46c0      	nop			; (mov r8, r8)
+$d():
+    7c5c:	00000000 	.word	0x00000000
+    7c60:	000083b8 	.word	0x000083b8
+    7c64:	20000868 	.word	0x20000868
+    7c68:	20000860 	.word	0x20000860
+    7c6c:	00000000 	.word	0x00000000
+
+00007c70 <_mainCRTStartup>:
+$t():
+    7c70:	4b16      	ldr	r3, [pc, #88]	; (7ccc <_mainCRTStartup+0x5c>)
+    7c72:	2b00      	cmp	r3, #0
+    7c74:	d100      	bne.n	7c78 <_mainCRTStartup+0x8>
+    7c76:	4b14      	ldr	r3, [pc, #80]	; (7cc8 <_mainCRTStartup+0x58>)
+    7c78:	469d      	mov	sp, r3
+    7c7a:	2240      	movs	r2, #64	; 0x40
+    7c7c:	0292      	lsls	r2, r2, #10
+    7c7e:	1a9a      	subs	r2, r3, r2
+    7c80:	4692      	mov	sl, r2
+    7c82:	2100      	movs	r1, #0
+    7c84:	468b      	mov	fp, r1
+    7c86:	460f      	mov	r7, r1
+    7c88:	4813      	ldr	r0, [pc, #76]	; (7cd8 <_mainCRTStartup+0x68>)
+    7c8a:	4a14      	ldr	r2, [pc, #80]	; (7cdc <_mainCRTStartup+0x6c>)
+    7c8c:	1a12      	subs	r2, r2, r0
+    7c8e:	f000 fb81 	bl	8394 <memset>
+    7c92:	4b0f      	ldr	r3, [pc, #60]	; (7cd0 <_mainCRTStartup+0x60>)
+    7c94:	2b00      	cmp	r3, #0
+    7c96:	d000      	beq.n	7c9a <_mainCRTStartup+0x2a>
+    7c98:	4798      	blx	r3
+    7c9a:	4b0e      	ldr	r3, [pc, #56]	; (7cd4 <_mainCRTStartup+0x64>)
+    7c9c:	2b00      	cmp	r3, #0
+    7c9e:	d000      	beq.n	7ca2 <_mainCRTStartup+0x32>
+    7ca0:	4798      	blx	r3
+    7ca2:	2000      	movs	r0, #0
+    7ca4:	2100      	movs	r1, #0
+    7ca6:	0004      	movs	r4, r0
+    7ca8:	000d      	movs	r5, r1
+    7caa:	480d      	ldr	r0, [pc, #52]	; (7ce0 <_mainCRTStartup+0x70>)
+    7cac:	2800      	cmp	r0, #0
+    7cae:	d002      	beq.n	7cb6 <_mainCRTStartup+0x46>
+    7cb0:	480c      	ldr	r0, [pc, #48]	; (7ce4 <_mainCRTStartup+0x74>)
+    7cb2:	e000      	b.n	7cb6 <_mainCRTStartup+0x46>
+    7cb4:	bf00      	nop
+    7cb6:	f000 fb47 	bl	8348 <__libc_init_array>
+    7cba:	0020      	movs	r0, r4
+    7cbc:	0029      	movs	r1, r5
+    7cbe:	f000 f87b 	bl	7db8 <main>
+    7cc2:	f000 fb2b 	bl	831c <exit>
+    7cc6:	46c0      	nop			; (mov r8, r8)
+$d():
+    7cc8:	00080000 	.word	0x00080000
+    7ccc:	20001800 	.word	0x20001800
+	...
+    7cd8:	20000864 	.word	0x20000864
+    7cdc:	20000998 	.word	0x20000998
+	...
+
+00007ce8 <Reset_Handler>:
+Reset_Handler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:118
+    .align 2
+    .globl   Reset_Handler
+    .weak    Reset_Handler
+    .type    Reset_Handler, %function
+Reset_Handler:
+    cpsid   i               /* Mask interrupts */
+    7ce8:	b672      	cpsid	i
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:120
+#ifndef __NO_SYSTEM_INIT
+    bl SystemInit
+    7cea:	f000 faa9 	bl	8240 <SystemInit>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:122
+#endif
+    cpsie   i               /* Unmask interrupts */
+    7cee:	b662      	cpsie	i
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:130
+ *      linker script.
+ *      __etext: End of code section, i.e., begin of data sections to copy from.
+ *      __data_start__/__data_end__: RAM address range that data should be
+ *      copied to. Both must be aligned to 4 bytes boundary.  */
+
+    ldr    r1, =__etext
+    7cf0:	4905      	ldr	r1, [pc, #20]	; (7d08 <Reset_Handler+0x20>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:131
+    ldr    r2, =__data_start__
+    7cf2:	4a06      	ldr	r2, [pc, #24]	; (7d0c <Reset_Handler+0x24>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:132
+    ldr    r3, =__data_end__
+    7cf4:	4b06      	ldr	r3, [pc, #24]	; (7d10 <Reset_Handler+0x28>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:134
+
+    subs    r3, r2
+    7cf6:	1a9b      	subs	r3, r3, r2
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:135
+    ble     .LC0
+    7cf8:	dd03      	ble.n	7d02 <Reset_Handler+0x1a>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:138
+
+.LC1:
+    subs    r3, 4
+    7cfa:	3b04      	subs	r3, #4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:139
+    ldr    r0, [r1,r3]
+    7cfc:	58c8      	ldr	r0, [r1, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:140
+    str    r0, [r2,r3]
+    7cfe:	50d0      	str	r0, [r2, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:141
+    bgt    .LC1
+    7d00:	dcfb      	bgt.n	7cfa <Reset_Handler+0x12>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:169
+.LC3:
+#endif
+#ifndef __START
+#define __START _start
+#endif
+    bl    __START
+    7d02:	f7ff ffb5 	bl	7c70 <_mainCRTStartup>
+    7d06:	0000      	.short	0x0000
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:130
+ *      linker script.
+ *      __etext: End of code section, i.e., begin of data sections to copy from.
+ *      __data_start__/__data_end__: RAM address range that data should be
+ *      copied to. Both must be aligned to 4 bytes boundary.  */
+
+    ldr    r1, =__etext
+    7d08:	000083e0 	.word	0x000083e0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:131
+    ldr    r2, =__data_start__
+    7d0c:	20000800 	.word	0x20000800
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:132
+    ldr    r3, =__data_end__
+    7d10:	20000864 	.word	0x20000864
+
+00007d14 <ADC0_IRQHandler>:
+I2C0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:178
+    .align    1
+    .thumb_func
+    .weak DefaultISR
+    .type DefaultISR, %function
+DefaultISR:
+    ldr    r0, =DefaultISR
+    7d14:	4800      	ldr	r0, [pc, #0]	; (7d18 <ADC0_IRQHandler+0x4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:179
+    bx r0
+    7d16:	4700      	bx	r0
+$d():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/startup_MKL36Z4.S:178
+    .align    1
+    .thumb_func
+    .weak DefaultISR
+    .type DefaultISR, %function
+DefaultISR:
+    ldr    r0, =DefaultISR
+    7d18:	00007d15 	.word	0x00007d15
+
+00007d1c <SysTick_Handler>:
+SysTick_Handler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:14
+//========================中断函数服务例程===============================
+
+void SysTick_Handler(void)
+{
+	//light_change(LIGHT_RED);
+}
+    7d1c:	4770      	bx	lr
+    7d1e:	46c0      	nop			; (mov r8, r8)
+
+00007d20 <LPTMR0_IRQHandler>:
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:344
+  This function disables IRQ interrupts by setting the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
+{
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d20:	b672      	cpsid	i
+LPTMR0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:27
+//======================================================================
+void LPTMR0_IRQHandler(void)
+{
+	static uint_8 count = 0;
+	DISABLE_INTERRUPTS;        //关总中断
+	CLEAR_LPTMR_FLAG;          //清中断标志标志
+    7d22:	4b07      	ldr	r3, [pc, #28]	; (7d40 <LPTMR0_IRQHandler+0x20>)
+    7d24:	2280      	movs	r2, #128	; 0x80
+    7d26:	6819      	ldr	r1, [r3, #0]
+    7d28:	4311      	orrs	r1, r2
+    7d2a:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:29
+	//--------------------------------
+	count++;
+    7d2c:	4b05      	ldr	r3, [pc, #20]	; (7d44 <LPTMR0_IRQHandler+0x24>)
+    7d2e:	7819      	ldrb	r1, [r3, #0]
+    7d30:	3101      	adds	r1, #1
+    7d32:	7019      	strb	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:35
+//	wdog_feed();
+	if(count >= 2)
+	{
+
+	}
+	BSET(TSI_GENCS_TSIEN_SHIFT,TSI0_GENCS);
+    7d34:	4b04      	ldr	r3, [pc, #16]	; (7d48 <LPTMR0_IRQHandler+0x28>)
+    7d36:	6819      	ldr	r1, [r3, #0]
+    7d38:	430a      	orrs	r2, r1
+    7d3a:	601a      	str	r2, [r3, #0]
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:333
+  This function enables IRQ interrupts by clearing the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __enable_irq(void)
+{
+  __ASM volatile ("cpsie i" : : : "memory");
+    7d3c:	b662      	cpsie	i
+LPTMR0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:38
+    //--------------------------------
+    ENABLE_INTERRUPTS;       //开总中断
+}
+    7d3e:	4770      	bx	lr
+    7d40:	40040000 	.word	0x40040000
+    7d44:	20000880 	.word	0x20000880
+    7d48:	40045000 	.word	0x40045000
+
+00007d4c <TSI0_IRQHandler>:
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:344
+  This function disables IRQ interrupts by setting the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
+{
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d4c:	b672      	cpsid	i
+TSI0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:56
+//	static uint_64 j = 0;
+	uint_8 touchNum[5];
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+
+	if(TSI0_GENCS & TSI_GENCS_OUTRGF_MASK)//为超值中断
+    7d4e:	4b08      	ldr	r3, [pc, #32]	; (7d70 <TSI0_IRQHandler+0x24>)
+    7d50:	681a      	ldr	r2, [r3, #0]
+    7d52:	2a00      	cmp	r2, #0
+    7d54:	da00      	bge.n	7d58 <TSI0_IRQHandler+0xc>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:60
+	{
+		//获取计数值
+//		i = tsi_get_value16();
+		i = (TSI0_DATA & TSI_DATA_TSICNT_MASK);      //读取计数寄存器中的值;
+    7d56:	685b      	ldr	r3, [r3, #4]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:67
+		{
+
+		}
+	}
+	//写1清溢出中断位
+	TSI0_GENCS |=  TSI_GENCS_OUTRGF_MASK;//写1清楚该位
+    7d58:	4b05      	ldr	r3, [pc, #20]	; (7d70 <TSI0_IRQHandler+0x24>)
+    7d5a:	2280      	movs	r2, #128	; 0x80
+    7d5c:	6819      	ldr	r1, [r3, #0]
+    7d5e:	0612      	lsls	r2, r2, #24
+    7d60:	430a      	orrs	r2, r1
+    7d62:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:68
+	BCLR(TSI_GENCS_TSIEN_SHIFT,TSI0_GENCS);
+    7d64:	681a      	ldr	r2, [r3, #0]
+    7d66:	2180      	movs	r1, #128	; 0x80
+    7d68:	438a      	bics	r2, r1
+    7d6a:	601a      	str	r2, [r3, #0]
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:333
+  This function enables IRQ interrupts by clearing the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __enable_irq(void)
+{
+  __ASM volatile ("cpsie i" : : : "memory");
+    7d6c:	b662      	cpsie	i
+TSI0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:71
+	//-------------------------------
+	ENABLE_INTERRUPTS;       //开总中断
+}
+    7d6e:	4770      	bx	lr
+    7d70:	40045000 	.word	0x40045000
+
+00007d74 <UART0_IRQHandler>:
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:82
+//参数说明：无
+//函数返回：无
+//功能概要：串口0接收中断服务例程
+//======================================================================
+void UART0_IRQHandler(void)
+{
+    7d74:	b510      	push	{r4, lr}
+    7d76:	b082      	sub	sp, #8
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:344
+  This function disables IRQ interrupts by setting the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
+{
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d78:	b672      	cpsid	i
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:87
+	uint_8 ch;
+	uint_8 flag;
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+	if(uart_get_re_int(UART_0))
+    7d7a:	4b0c      	ldr	r3, [pc, #48]	; (7dac <UART0_IRQHandler+0x38>)
+    7d7c:	2000      	movs	r0, #0
+    7d7e:	681b      	ldr	r3, [r3, #0]
+    7d80:	4798      	blx	r3
+    7d82:	2800      	cmp	r0, #0
+    7d84:	d102      	bne.n	7d8c <UART0_IRQHandler+0x18>
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:333
+  This function enables IRQ interrupts by clearing the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __enable_irq(void)
+{
+  __ASM volatile ("cpsie i" : : : "memory");
+    7d86:	b662      	cpsie	i
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:97
+			uart_send1(UART_0, ch);     //向原串口发回一个字节
+		}
+	}
+	//-------------------------------
+	ENABLE_INTERRUPTS;       //开总中断
+}
+    7d88:	b002      	add	sp, #8
+    7d8a:	bd10      	pop	{r4, pc}
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:89
+	uint_8 flag;
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+	if(uart_get_re_int(UART_0))
+	{
+		ch = uart_re1 (UART_0, &flag);    //调用接收一个字节的函数，清接收中断位
+    7d8c:	4b08      	ldr	r3, [pc, #32]	; (7db0 <UART0_IRQHandler+0x3c>)
+    7d8e:	466c      	mov	r4, sp
+    7d90:	3407      	adds	r4, #7
+    7d92:	681b      	ldr	r3, [r3, #0]
+    7d94:	1c21      	adds	r1, r4, #0
+    7d96:	2000      	movs	r0, #0
+    7d98:	4798      	blx	r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:90
+		if(flag)
+    7d9a:	7823      	ldrb	r3, [r4, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:89
+	uint_8 flag;
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+	if(uart_get_re_int(UART_0))
+	{
+		ch = uart_re1 (UART_0, &flag);    //调用接收一个字节的函数，清接收中断位
+    7d9c:	1c01      	adds	r1, r0, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:90
+		if(flag)
+    7d9e:	2b00      	cmp	r3, #0
+    7da0:	d0f1      	beq.n	7d86 <UART0_IRQHandler+0x12>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/isr.c:92
+		{
+			uart_send1(UART_0, ch);     //向原串口发回一个字节
+    7da2:	4b04      	ldr	r3, [pc, #16]	; (7db4 <UART0_IRQHandler+0x40>)
+    7da4:	2000      	movs	r0, #0
+    7da6:	681b      	ldr	r3, [r3, #0]
+    7da8:	4798      	blx	r3
+    7daa:	e7ec      	b.n	7d86 <UART0_IRQHandler+0x12>
+    7dac:	200008d4 	.word	0x200008d4
+    7db0:	20000914 	.word	0x20000914
+    7db4:	20000958 	.word	0x20000958
+
+00007db8 <main>:
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:12
+
+//【根据实际需要增删】main.c使用的内部函数声明处
+
+//主函数，一般情况下可以认为程序从此开始运行（实际上有启动过程见书稿）
+int main(void)
+{
+    7db8:	b570      	push	{r4, r5, r6, lr}
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:344
+  This function disables IRQ interrupts by setting the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
+{
+  __ASM volatile ("cpsid i" : : : "memory");
+    7dba:	b672      	cpsid	i
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:20
+	uint_64 ct;
+
+    //（2）【不动】 关总中断
+    DISABLE_INTERRUPTS;
+
+    cpy_nvic();
+    7dbc:	f000 fa2e 	bl	821c <cpy_nvic>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:21
+    funPointerInit();
+    7dc0:	f000 f820 	bl	7e04 <funPointerInit>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:23
+
+    gpio_init(LIGHT_RED,GPIO_OUTPUT,LIGHT_OFF);
+    7dc4:	4b0a      	ldr	r3, [pc, #40]	; (7df0 <main+0x38>)
+    7dc6:	2005      	movs	r0, #5
+    7dc8:	2101      	movs	r1, #1
+    7dca:	2201      	movs	r2, #1
+    7dcc:	681b      	ldr	r3, [r3, #0]
+    7dce:	4798      	blx	r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:24
+    flash_init();
+    7dd0:	4b08      	ldr	r3, [pc, #32]	; (7df4 <main+0x3c>)
+    7dd2:	681b      	ldr	r3, [r3, #0]
+    7dd4:	4798      	blx	r3
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\02_Core/core_cmFunc.h:333
+  This function enables IRQ interrupts by clearing the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __enable_irq(void)
+{
+  __ASM volatile ("cpsie i" : : : "memory");
+    7dd6:	b662      	cpsie	i
+    7dd8:	4e07      	ldr	r6, [pc, #28]	; (7df8 <main+0x40>)
+    7dda:	4d08      	ldr	r5, [pc, #32]	; (7dfc <main+0x44>)
+    7ddc:	4c08      	ldr	r4, [pc, #32]	; (7e00 <main+0x48>)
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:44
+    {
+		mCount++;
+		if(mCount > 0xfffff)
+		{
+			mCount = 0;
+			gpio_reverse(LIGHT_RED);
+    7dde:	6833      	ldr	r3, [r6, #0]
+    7de0:	2005      	movs	r0, #5
+    7de2:	4798      	blx	r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../06_NosPrg/main.c:46
+			//light_change(LIGHT_RED);
+			uart_send_string(UART_2,"CCTest\n");
+    7de4:	682b      	ldr	r3, [r5, #0]
+    7de6:	1c21      	adds	r1, r4, #0
+    7de8:	2002      	movs	r0, #2
+    7dea:	4798      	blx	r3
+    7dec:	e7f7      	b.n	7dde <main+0x26>
+    7dee:	46c0      	nop			; (mov r8, r8)
+    7df0:	20000974 	.word	0x20000974
+    7df4:	200008c0 	.word	0x200008c0
+    7df8:	20000968 	.word	0x20000968
+    7dfc:	200008e0 	.word	0x200008e0
+    7e00:	000083a8 	.word	0x000083a8
+
+00007e04 <funPointerInit>:
+funPointerInit():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:200
+//函数返回：无
+//参数说明：无
+//功能概要：函数指针初始化，硬件驱动已固化在bootloader程序中，用户程序中只需使用指针指向驱动函数即可
+//======================================================================
+void funPointerInit()
+{
+    7e04:	b5f0      	push	{r4, r5, r6, r7, lr}
+    7e06:	465f      	mov	r7, fp
+    7e08:	4656      	mov	r6, sl
+    7e0a:	464d      	mov	r5, r9
+    7e0c:	4644      	mov	r4, r8
+    7e0e:	b4f0      	push	{r4, r5, r6, r7}
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:207
+	uint_8 *src;
+	struct funInfo info;
+
+	//（2）获取flash29扇区指针数据
+    src=(uint_8 *)(29*1024);
+    memcpy((uint_8*)&info,src,sizeof(struct funInfo));
+    7e10:	23e8      	movs	r3, #232	; 0xe8
+    7e12:	01d9      	lsls	r1, r3, #7
+    7e14:	6848      	ldr	r0, [r1, #4]
+    7e16:	68cb      	ldr	r3, [r1, #12]
+    7e18:	4681      	mov	r9, r0
+    7e1a:	6a48      	ldr	r0, [r1, #36]	; 0x24
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:200
+//函数返回：无
+//参数说明：无
+//功能概要：函数指针初始化，硬件驱动已固化在bootloader程序中，用户程序中只需使用指针指向驱动函数即可
+//======================================================================
+void funPointerInit()
+{
+    7e1c:	b0bb      	sub	sp, #236	; 0xec
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:207
+	uint_8 *src;
+	struct funInfo info;
+
+	//（2）获取flash29扇区指针数据
+    src=(uint_8 *)(29*1024);
+    memcpy((uint_8*)&info,src,sizeof(struct funInfo));
+    7e1e:	688a      	ldr	r2, [r1, #8]
+    7e20:	694f      	ldr	r7, [r1, #20]
+    7e22:	698e      	ldr	r6, [r1, #24]
+    7e24:	69cd      	ldr	r5, [r1, #28]
+    7e26:	6a0c      	ldr	r4, [r1, #32]
+    7e28:	469c      	mov	ip, r3
+    7e2a:	690b      	ldr	r3, [r1, #16]
+    7e2c:	9000      	str	r0, [sp, #0]
+    7e2e:	4690      	mov	r8, r2
+    7e30:	6a8a      	ldr	r2, [r1, #40]	; 0x28
+    7e32:	9201      	str	r2, [sp, #4]
+    7e34:	6ac8      	ldr	r0, [r1, #44]	; 0x2c
+    7e36:	9002      	str	r0, [sp, #8]
+    7e38:	6b0a      	ldr	r2, [r1, #48]	; 0x30
+    7e3a:	9203      	str	r2, [sp, #12]
+    7e3c:	6b48      	ldr	r0, [r1, #52]	; 0x34
+    7e3e:	9004      	str	r0, [sp, #16]
+    7e40:	6b8a      	ldr	r2, [r1, #56]	; 0x38
+    7e42:	9205      	str	r2, [sp, #20]
+    7e44:	6bc8      	ldr	r0, [r1, #60]	; 0x3c
+    7e46:	9006      	str	r0, [sp, #24]
+    7e48:	6c0a      	ldr	r2, [r1, #64]	; 0x40
+    7e4a:	9207      	str	r2, [sp, #28]
+    7e4c:	6c48      	ldr	r0, [r1, #68]	; 0x44
+    7e4e:	9008      	str	r0, [sp, #32]
+    7e50:	6c8a      	ldr	r2, [r1, #72]	; 0x48
+    7e52:	9209      	str	r2, [sp, #36]	; 0x24
+    7e54:	6d08      	ldr	r0, [r1, #80]	; 0x50
+    7e56:	900a      	str	r0, [sp, #40]	; 0x28
+    7e58:	6d4a      	ldr	r2, [r1, #84]	; 0x54
+    7e5a:	920b      	str	r2, [sp, #44]	; 0x2c
+    7e5c:	6d88      	ldr	r0, [r1, #88]	; 0x58
+    7e5e:	900c      	str	r0, [sp, #48]	; 0x30
+    7e60:	6dca      	ldr	r2, [r1, #92]	; 0x5c
+    7e62:	920d      	str	r2, [sp, #52]	; 0x34
+    7e64:	6e08      	ldr	r0, [r1, #96]	; 0x60
+    7e66:	900e      	str	r0, [sp, #56]	; 0x38
+    7e68:	6e4a      	ldr	r2, [r1, #100]	; 0x64
+    7e6a:	920f      	str	r2, [sp, #60]	; 0x3c
+    7e6c:	6e88      	ldr	r0, [r1, #104]	; 0x68
+    7e6e:	9010      	str	r0, [sp, #64]	; 0x40
+    7e70:	6eca      	ldr	r2, [r1, #108]	; 0x6c
+    7e72:	9211      	str	r2, [sp, #68]	; 0x44
+    7e74:	6f08      	ldr	r0, [r1, #112]	; 0x70
+    7e76:	9012      	str	r0, [sp, #72]	; 0x48
+    7e78:	6f4a      	ldr	r2, [r1, #116]	; 0x74
+    7e7a:	9213      	str	r2, [sp, #76]	; 0x4c
+    7e7c:	6f88      	ldr	r0, [r1, #120]	; 0x78
+    7e7e:	9014      	str	r0, [sp, #80]	; 0x50
+    7e80:	6fca      	ldr	r2, [r1, #124]	; 0x7c
+    7e82:	9215      	str	r2, [sp, #84]	; 0x54
+    7e84:	2280      	movs	r2, #128	; 0x80
+    7e86:	588a      	ldr	r2, [r1, r2]
+    7e88:	9216      	str	r2, [sp, #88]	; 0x58
+    7e8a:	2284      	movs	r2, #132	; 0x84
+    7e8c:	588a      	ldr	r2, [r1, r2]
+    7e8e:	9217      	str	r2, [sp, #92]	; 0x5c
+    7e90:	2288      	movs	r2, #136	; 0x88
+    7e92:	588a      	ldr	r2, [r1, r2]
+    7e94:	9218      	str	r2, [sp, #96]	; 0x60
+    7e96:	228c      	movs	r2, #140	; 0x8c
+    7e98:	588a      	ldr	r2, [r1, r2]
+    7e9a:	9219      	str	r2, [sp, #100]	; 0x64
+    7e9c:	2290      	movs	r2, #144	; 0x90
+    7e9e:	588a      	ldr	r2, [r1, r2]
+    7ea0:	921a      	str	r2, [sp, #104]	; 0x68
+    7ea2:	2294      	movs	r2, #148	; 0x94
+    7ea4:	588a      	ldr	r2, [r1, r2]
+    7ea6:	921b      	str	r2, [sp, #108]	; 0x6c
+    7ea8:	2298      	movs	r2, #152	; 0x98
+    7eaa:	588a      	ldr	r2, [r1, r2]
+    7eac:	921c      	str	r2, [sp, #112]	; 0x70
+    7eae:	229c      	movs	r2, #156	; 0x9c
+    7eb0:	588a      	ldr	r2, [r1, r2]
+    7eb2:	921d      	str	r2, [sp, #116]	; 0x74
+    7eb4:	22a0      	movs	r2, #160	; 0xa0
+    7eb6:	588a      	ldr	r2, [r1, r2]
+    7eb8:	921e      	str	r2, [sp, #120]	; 0x78
+    7eba:	22a4      	movs	r2, #164	; 0xa4
+    7ebc:	588a      	ldr	r2, [r1, r2]
+    7ebe:	921f      	str	r2, [sp, #124]	; 0x7c
+    7ec0:	22a8      	movs	r2, #168	; 0xa8
+    7ec2:	588a      	ldr	r2, [r1, r2]
+    7ec4:	9220      	str	r2, [sp, #128]	; 0x80
+    7ec6:	22ac      	movs	r2, #172	; 0xac
+    7ec8:	588a      	ldr	r2, [r1, r2]
+    7eca:	9221      	str	r2, [sp, #132]	; 0x84
+    7ecc:	22b0      	movs	r2, #176	; 0xb0
+    7ece:	588a      	ldr	r2, [r1, r2]
+    7ed0:	9222      	str	r2, [sp, #136]	; 0x88
+    7ed2:	22b4      	movs	r2, #180	; 0xb4
+    7ed4:	588a      	ldr	r2, [r1, r2]
+    7ed6:	9223      	str	r2, [sp, #140]	; 0x8c
+    7ed8:	22b8      	movs	r2, #184	; 0xb8
+    7eda:	588a      	ldr	r2, [r1, r2]
+    7edc:	9224      	str	r2, [sp, #144]	; 0x90
+    7ede:	22bc      	movs	r2, #188	; 0xbc
+    7ee0:	588a      	ldr	r2, [r1, r2]
+    7ee2:	9225      	str	r2, [sp, #148]	; 0x94
+    7ee4:	22c0      	movs	r2, #192	; 0xc0
+    7ee6:	588a      	ldr	r2, [r1, r2]
+    7ee8:	9226      	str	r2, [sp, #152]	; 0x98
+    7eea:	22c4      	movs	r2, #196	; 0xc4
+    7eec:	588a      	ldr	r2, [r1, r2]
+    7eee:	9227      	str	r2, [sp, #156]	; 0x9c
+    7ef0:	22c8      	movs	r2, #200	; 0xc8
+    7ef2:	588a      	ldr	r2, [r1, r2]
+    7ef4:	9228      	str	r2, [sp, #160]	; 0xa0
+    7ef6:	22cc      	movs	r2, #204	; 0xcc
+    7ef8:	588a      	ldr	r2, [r1, r2]
+    7efa:	9229      	str	r2, [sp, #164]	; 0xa4
+    7efc:	22d0      	movs	r2, #208	; 0xd0
+    7efe:	588a      	ldr	r2, [r1, r2]
+    7f00:	922a      	str	r2, [sp, #168]	; 0xa8
+    7f02:	22d4      	movs	r2, #212	; 0xd4
+    7f04:	588a      	ldr	r2, [r1, r2]
+    7f06:	922b      	str	r2, [sp, #172]	; 0xac
+    7f08:	22d8      	movs	r2, #216	; 0xd8
+    7f0a:	588a      	ldr	r2, [r1, r2]
+    7f0c:	922c      	str	r2, [sp, #176]	; 0xb0
+    7f0e:	22dc      	movs	r2, #220	; 0xdc
+    7f10:	588a      	ldr	r2, [r1, r2]
+    7f12:	922d      	str	r2, [sp, #180]	; 0xb4
+    7f14:	22e0      	movs	r2, #224	; 0xe0
+    7f16:	588a      	ldr	r2, [r1, r2]
+    7f18:	922e      	str	r2, [sp, #184]	; 0xb8
+    7f1a:	22e4      	movs	r2, #228	; 0xe4
+    7f1c:	588a      	ldr	r2, [r1, r2]
+    7f1e:	922f      	str	r2, [sp, #188]	; 0xbc
+    7f20:	22e8      	movs	r2, #232	; 0xe8
+    7f22:	588a      	ldr	r2, [r1, r2]
+    7f24:	9230      	str	r2, [sp, #192]	; 0xc0
+    7f26:	22ec      	movs	r2, #236	; 0xec
+    7f28:	588a      	ldr	r2, [r1, r2]
+    7f2a:	9231      	str	r2, [sp, #196]	; 0xc4
+    7f2c:	22f0      	movs	r2, #240	; 0xf0
+    7f2e:	588a      	ldr	r2, [r1, r2]
+    7f30:	9232      	str	r2, [sp, #200]	; 0xc8
+    7f32:	22f4      	movs	r2, #244	; 0xf4
+    7f34:	588a      	ldr	r2, [r1, r2]
+    7f36:	9233      	str	r2, [sp, #204]	; 0xcc
+    7f38:	22f8      	movs	r2, #248	; 0xf8
+    7f3a:	588a      	ldr	r2, [r1, r2]
+    7f3c:	9234      	str	r2, [sp, #208]	; 0xd0
+    7f3e:	22fc      	movs	r2, #252	; 0xfc
+    7f40:	588a      	ldr	r2, [r1, r2]
+    7f42:	9235      	str	r2, [sp, #212]	; 0xd4
+    7f44:	2280      	movs	r2, #128	; 0x80
+    7f46:	0052      	lsls	r2, r2, #1
+    7f48:	588a      	ldr	r2, [r1, r2]
+    7f4a:	9236      	str	r2, [sp, #216]	; 0xd8
+    7f4c:	2282      	movs	r2, #130	; 0x82
+    7f4e:	0052      	lsls	r2, r2, #1
+    7f50:	588a      	ldr	r2, [r1, r2]
+    7f52:	9237      	str	r2, [sp, #220]	; 0xdc
+    7f54:	2284      	movs	r2, #132	; 0x84
+    7f56:	0052      	lsls	r2, r2, #1
+    7f58:	588a      	ldr	r2, [r1, r2]
+    7f5a:	9238      	str	r2, [sp, #224]	; 0xe0
+    7f5c:	2286      	movs	r2, #134	; 0x86
+    7f5e:	0052      	lsls	r2, r2, #1
+    7f60:	588a      	ldr	r2, [r1, r2]
+    7f62:	9239      	str	r2, [sp, #228]	; 0xe4
+    7f64:	2288      	movs	r2, #136	; 0x88
+    7f66:	0052      	lsls	r2, r2, #1
+    7f68:	588a      	ldr	r2, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:210
+    //（3）指针函数赋值
+    //（3.1）bootloader对外接口函数
+    getSystemTime = (fun_systemTimeGet)info.fun_systemTimeGet;
+    7f6a:	6808      	ldr	r0, [r1, #0]
+    7f6c:	4966      	ldr	r1, [pc, #408]	; (8108 <funPointerInit+0x304>)
+    7f6e:	6008      	str	r0, [r1, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:212
+    //（3.2）adc构件函数指针，2个
+    adc_init = (fun_adc_init)info.fun_adc_init;
+    7f70:	4866      	ldr	r0, [pc, #408]	; (810c <funPointerInit+0x308>)
+    7f72:	4649      	mov	r1, r9
+    7f74:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:213
+    adc_read = (fun_adc_read)info.fun_adc_read;
+    7f76:	4966      	ldr	r1, [pc, #408]	; (8110 <funPointerInit+0x30c>)
+    7f78:	4640      	mov	r0, r8
+    7f7a:	6008      	str	r0, [r1, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:215
+    //（3.3）flash函数指针，7个
+    flash_init = (fun_flash_init)info.fun_flash_init;
+    7f7c:	4865      	ldr	r0, [pc, #404]	; (8114 <funPointerInit+0x310>)
+    7f7e:	4661      	mov	r1, ip
+    7f80:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:216
+    flash_erase = (fun_flash_erase)info.fun_flash_erase;
+    7f82:	4965      	ldr	r1, [pc, #404]	; (8118 <funPointerInit+0x314>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:223
+    flash_read_logic = (fun_flash_read_logic)info.fun_flash_read_logic;
+    flash_read_physical = (fun_flash_read_physical)info.fun_flash_read_physical;
+    flash_protect = (fun_flash_protect)info.fun_flash_protect;
+    flash_isempty = (fun_flash_isempty)info.fun_flash_isempty;
+    //（3.4）gpio构件函数指针，11个
+    gpio_init = (fun_gpio_init)info.fun_gpio_init;
+    7f84:	4865      	ldr	r0, [pc, #404]	; (811c <funPointerInit+0x318>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:216
+    //（3.2）adc构件函数指针，2个
+    adc_init = (fun_adc_init)info.fun_adc_init;
+    adc_read = (fun_adc_read)info.fun_adc_read;
+    //（3.3）flash函数指针，7个
+    flash_init = (fun_flash_init)info.fun_flash_init;
+    flash_erase = (fun_flash_erase)info.fun_flash_erase;
+    7f86:	600b      	str	r3, [r1, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:217
+    flash_write = (fun_flash_write)info.fun_flash_write;
+    7f88:	4965      	ldr	r1, [pc, #404]	; (8120 <funPointerInit+0x31c>)
+    7f8a:	600f      	str	r7, [r1, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:218
+    flash_read_logic = (fun_flash_read_logic)info.fun_flash_read_logic;
+    7f8c:	4f65      	ldr	r7, [pc, #404]	; (8124 <funPointerInit+0x320>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:221
+    flash_read_physical = (fun_flash_read_physical)info.fun_flash_read_physical;
+    flash_protect = (fun_flash_protect)info.fun_flash_protect;
+    flash_isempty = (fun_flash_isempty)info.fun_flash_isempty;
+    7f8e:	9900      	ldr	r1, [sp, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:218
+    adc_read = (fun_adc_read)info.fun_adc_read;
+    //（3.3）flash函数指针，7个
+    flash_init = (fun_flash_init)info.fun_flash_init;
+    flash_erase = (fun_flash_erase)info.fun_flash_erase;
+    flash_write = (fun_flash_write)info.fun_flash_write;
+    flash_read_logic = (fun_flash_read_logic)info.fun_flash_read_logic;
+    7f90:	603e      	str	r6, [r7, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:219
+    flash_read_physical = (fun_flash_read_physical)info.fun_flash_read_physical;
+    7f92:	4e65      	ldr	r6, [pc, #404]	; (8128 <funPointerInit+0x324>)
+    7f94:	6035      	str	r5, [r6, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:220
+    flash_protect = (fun_flash_protect)info.fun_flash_protect;
+    7f96:	4d65      	ldr	r5, [pc, #404]	; (812c <funPointerInit+0x328>)
+    7f98:	602c      	str	r4, [r5, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:221
+    flash_isempty = (fun_flash_isempty)info.fun_flash_isempty;
+    7f9a:	4c65      	ldr	r4, [pc, #404]	; (8130 <funPointerInit+0x32c>)
+    7f9c:	6021      	str	r1, [r4, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:223
+    //（3.4）gpio构件函数指针，11个
+    gpio_init = (fun_gpio_init)info.fun_gpio_init;
+    7f9e:	9901      	ldr	r1, [sp, #4]
+    7fa0:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:224
+    gpio_set = (fun_gpio_set)info.fun_gpio_set;
+    7fa2:	9902      	ldr	r1, [sp, #8]
+    7fa4:	4863      	ldr	r0, [pc, #396]	; (8134 <funPointerInit+0x330>)
+    7fa6:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:225
+    gpio_get = (fun_gpio_get)info.fun_gpio_get;
+    7fa8:	9903      	ldr	r1, [sp, #12]
+    7faa:	4863      	ldr	r0, [pc, #396]	; (8138 <funPointerInit+0x334>)
+    7fac:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:226
+    gpio_reverse = (fun_gpio_reverse)info.fun_gpio_reverse;
+    7fae:	9904      	ldr	r1, [sp, #16]
+    7fb0:	4862      	ldr	r0, [pc, #392]	; (813c <funPointerInit+0x338>)
+    7fb2:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:227
+    gpio_pull = (fun_gpio_pull)info.fun_gpio_pull;
+    7fb4:	9905      	ldr	r1, [sp, #20]
+    7fb6:	4862      	ldr	r0, [pc, #392]	; (8140 <funPointerInit+0x33c>)
+    7fb8:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:228
+    gpio_enable_int = (fun_gpio_enable_int)info.fun_gpio_enable_int;
+    7fba:	9906      	ldr	r1, [sp, #24]
+    7fbc:	4861      	ldr	r0, [pc, #388]	; (8144 <funPointerInit+0x340>)
+    7fbe:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:229
+    gpio_disable_int = (fun_gpio_disable_int)info.fun_gpio_disable_int;
+    7fc0:	9907      	ldr	r1, [sp, #28]
+    7fc2:	4861      	ldr	r0, [pc, #388]	; (8148 <funPointerInit+0x344>)
+    7fc4:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:230
+    gpio_get_int = (fun_gpio_get_int)info.fun_gpio_get_int;
+    7fc6:	9908      	ldr	r1, [sp, #32]
+    7fc8:	4860      	ldr	r0, [pc, #384]	; (814c <funPointerInit+0x348>)
+    7fca:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:231
+    gpio_clear_int = (fun_gpio_clear_int)info.fun_gpio_clear_int;
+    7fcc:	9909      	ldr	r1, [sp, #36]	; 0x24
+    7fce:	4860      	ldr	r0, [pc, #384]	; (8150 <funPointerInit+0x34c>)
+    7fd0:	6001      	str	r1, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:232
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    7fd2:	4860      	ldr	r0, [pc, #384]	; (8154 <funPointerInit+0x350>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:235
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    7fd4:	990b      	ldr	r1, [sp, #44]	; 0x2c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:232
+    gpio_pull = (fun_gpio_pull)info.fun_gpio_pull;
+    gpio_enable_int = (fun_gpio_enable_int)info.fun_gpio_enable_int;
+    gpio_disable_int = (fun_gpio_disable_int)info.fun_gpio_disable_int;
+    gpio_get_int = (fun_gpio_get_int)info.fun_gpio_get_int;
+    gpio_clear_int = (fun_gpio_clear_int)info.fun_gpio_clear_int;
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    7fd6:	6003      	str	r3, [r0, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:233
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+    7fd8:	980a      	ldr	r0, [sp, #40]	; 0x28
+    7fda:	4b5f      	ldr	r3, [pc, #380]	; (8158 <funPointerInit+0x354>)
+    7fdc:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:235
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    7fde:	4b5f      	ldr	r3, [pc, #380]	; (815c <funPointerInit+0x358>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:236
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    7fe0:	980c      	ldr	r0, [sp, #48]	; 0x30
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:235
+    gpio_get_int = (fun_gpio_get_int)info.fun_gpio_get_int;
+    gpio_clear_int = (fun_gpio_clear_int)info.fun_gpio_clear_int;
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    7fe2:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:236
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    7fe4:	4b5e      	ldr	r3, [pc, #376]	; (8160 <funPointerInit+0x35c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:237
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    7fe6:	990d      	ldr	r1, [sp, #52]	; 0x34
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:236
+    gpio_clear_int = (fun_gpio_clear_int)info.fun_gpio_clear_int;
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    7fe8:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:237
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    7fea:	4b5e      	ldr	r3, [pc, #376]	; (8164 <funPointerInit+0x360>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:238
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    7fec:	980e      	ldr	r0, [sp, #56]	; 0x38
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:237
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    7fee:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:238
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    7ff0:	4b5d      	ldr	r3, [pc, #372]	; (8168 <funPointerInit+0x364>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:240
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    7ff2:	990f      	ldr	r1, [sp, #60]	; 0x3c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:238
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+   	//（3.5）lptmr构件函数指针，4个
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    7ff4:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:240
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    7ff6:	4b5d      	ldr	r3, [pc, #372]	; (816c <funPointerInit+0x368>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:241
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    7ff8:	9810      	ldr	r0, [sp, #64]	; 0x40
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:240
+    lptmr_init = (fun_lptmr_init)info.fun_lptmr_init;
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    7ffa:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:241
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    7ffc:	4b5c      	ldr	r3, [pc, #368]	; (8170 <funPointerInit+0x36c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:242
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    7ffe:	9911      	ldr	r1, [sp, #68]	; 0x44
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:241
+    lptmr_reset = (fun_lptmr_reset)info.fun_lptmr_reset;
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    8000:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:242
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    8002:	4b5c      	ldr	r3, [pc, #368]	; (8174 <funPointerInit+0x370>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:243
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    8004:	9812      	ldr	r0, [sp, #72]	; 0x48
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:242
+    enable_lptmr_int = (fun_enable_lptmr_int)info.fun_enable_lptmr_int;
+    disable_lptmr_int = (fun_disable_lptmr_int)info.fun_disable_lptmr_int;
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    8006:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:243
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    8008:	4b5b      	ldr	r3, [pc, #364]	; (8178 <funPointerInit+0x374>)
+    800a:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:244
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    800c:	9913      	ldr	r1, [sp, #76]	; 0x4c
+    800e:	4b5b      	ldr	r3, [pc, #364]	; (817c <funPointerInit+0x378>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:245
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    8010:	9814      	ldr	r0, [sp, #80]	; 0x50
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:244
+    //（3.6）spi构件函数指针，7个
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    8012:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:245
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    8014:	4b5a      	ldr	r3, [pc, #360]	; (8180 <funPointerInit+0x37c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:246
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+    8016:	9915      	ldr	r1, [sp, #84]	; 0x54
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:245
+    SPI_init = (fun_SPI_init)info.fun_SPI_init;
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    8018:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:246
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+    801a:	4b5a      	ldr	r3, [pc, #360]	; (8184 <funPointerInit+0x380>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:248
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    801c:	9816      	ldr	r0, [sp, #88]	; 0x58
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:246
+    SPI_send1 = (fun_SPI_send1)info.fun_SPI_send1;
+    SPI_sendN = (fun_SPI_sendN)info.fun_SPI_sendN;
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+    801e:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:248
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    8020:	4b59      	ldr	r3, [pc, #356]	; (8188 <funPointerInit+0x384>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:249
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    8022:	9917      	ldr	r1, [sp, #92]	; 0x5c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:248
+    SPI_receive1 = (fun_SPI_receive1)info.fun_SPI_receive1;
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    8024:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:249
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    8026:	4b59      	ldr	r3, [pc, #356]	; (818c <funPointerInit+0x388>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:250
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    8028:	9818      	ldr	r0, [sp, #96]	; 0x60
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:249
+    SPI_receiveN = (fun_SPI_receiveN)info.fun_SPI_receiveN;
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    802a:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:250
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    802c:	4b58      	ldr	r3, [pc, #352]	; (8190 <funPointerInit+0x38c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:251
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    802e:	9919      	ldr	r1, [sp, #100]	; 0x64
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:250
+    SPI_enable_re_int = (fun_SPI_enable_re_int)info.fun_SPI_enable_re_int;
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    8030:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:251
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    8032:	4b58      	ldr	r3, [pc, #352]	; (8194 <funPointerInit+0x390>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:252
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    8034:	981a      	ldr	r0, [sp, #104]	; 0x68
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:251
+    SPI_disable_re_int = (fun_SPI_disable_re_int)info.fun_SPI_disable_re_int;
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    8036:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:252
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    8038:	4b57      	ldr	r3, [pc, #348]	; (8198 <funPointerInit+0x394>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:253
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    803a:	991b      	ldr	r1, [sp, #108]	; 0x6c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:252
+   	//（3.7）tsi构件函数指针，6个
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    803c:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:253
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    803e:	4b57      	ldr	r3, [pc, #348]	; (819c <funPointerInit+0x398>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:255
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    8040:	981c      	ldr	r0, [sp, #112]	; 0x70
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:253
+    tsi_init = (fun_tsi_init)info.fun_tsi_init;
+    tsi_get_value16 = (fun_tsi_get_value16)info.fun_tsi_get_value16;
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    8042:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:255
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    8044:	4b56      	ldr	r3, [pc, #344]	; (81a0 <funPointerInit+0x39c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:256
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    8046:	991d      	ldr	r1, [sp, #116]	; 0x74
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:255
+    tsi_set_threshold = (fun_tsi_set_threshold)info.fun_tsi_set_threshold;
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    8048:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:256
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    804a:	4b56      	ldr	r3, [pc, #344]	; (81a4 <funPointerInit+0x3a0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:257
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    804c:	981e      	ldr	r0, [sp, #120]	; 0x78
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:256
+    tsi_enable_re_int = (fun_tsi_enable_re_int)info.fun_tsi_enable_re_int;
+    tsi_disable_re_int = (fun_tsi_disable_re_int)info.fun_tsi_disable_re_int;
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    804e:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:257
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    8050:	4b55      	ldr	r3, [pc, #340]	; (81a8 <funPointerInit+0x3a4>)
+    8052:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:258
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    8054:	991f      	ldr	r1, [sp, #124]	; 0x7c
+    8056:	4b55      	ldr	r3, [pc, #340]	; (81ac <funPointerInit+0x3a8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:259
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    8058:	9820      	ldr	r0, [sp, #128]	; 0x80
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:258
+    tsi_softsearch = (fun_tsi_softsearch)info.fun_tsi_softsearch;
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    805a:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:259
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    805c:	4b54      	ldr	r3, [pc, #336]	; (81b0 <funPointerInit+0x3ac>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:260
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    805e:	9921      	ldr	r1, [sp, #132]	; 0x84
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:259
+    //（3.8）uart函数指针，10个
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    8060:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:260
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    8062:	4b54      	ldr	r3, [pc, #336]	; (81b4 <funPointerInit+0x3b0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:261
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    8064:	9822      	ldr	r0, [sp, #136]	; 0x88
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:260
+    uart_init = (fun_uart_init)info.fun_uart_init;
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    8066:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:261
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    8068:	4b53      	ldr	r3, [pc, #332]	; (81b8 <funPointerInit+0x3b4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:262
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    806a:	9923      	ldr	r1, [sp, #140]	; 0x8c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:261
+    uart_send1 = (fun_uart_send1)info.fun_uart_send1;
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    806c:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:262
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    806e:	4b53      	ldr	r3, [pc, #332]	; (81bc <funPointerInit+0x3b8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:263
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    8070:	9824      	ldr	r0, [sp, #144]	; 0x90
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:262
+    uart_sendN = (fun_uart_sendN)info.fun_uart_sendN;
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    8072:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:263
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    8074:	4b52      	ldr	r3, [pc, #328]	; (81c0 <funPointerInit+0x3bc>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:264
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+    8076:	9925      	ldr	r1, [sp, #148]	; 0x94
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:263
+    uart_send_string = (fun_uart_send_string)info.fun_uart_send_string;
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    8078:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:264
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+    807a:	4b52      	ldr	r3, [pc, #328]	; (81c4 <funPointerInit+0x3c0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:266
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    807c:	9826      	ldr	r0, [sp, #152]	; 0x98
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:264
+    uart_re1 = (fun_uart_re1)info.fun_uart_re1;
+    uart_reN = (fun_uart_reN)info.fun_uart_reN;
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+    807e:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:266
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    8080:	4b51      	ldr	r3, [pc, #324]	; (81c8 <funPointerInit+0x3c4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:267
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    8082:	9927      	ldr	r1, [sp, #156]	; 0x9c
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:266
+    uart_enable_re_int = (fun_uart_enable_re_int)info.fun_uart_enable_re_int;
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    8084:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:267
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    8086:	4b51      	ldr	r3, [pc, #324]	; (81cc <funPointerInit+0x3c8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:268
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    8088:	9828      	ldr	r0, [sp, #160]	; 0xa0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:267
+    uart_disable_re_int = (fun_uart_disable_re_int)info.fun_uart_disable_re_int;
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    808a:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:268
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    808c:	4b50      	ldr	r3, [pc, #320]	; (81d0 <funPointerInit+0x3cc>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:269
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    808e:	9929      	ldr	r1, [sp, #164]	; 0xa4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:268
+    uart_get_re_int = (fun_uart_get_re_int)info.fun_uart_get_re_int;
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    8090:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:269
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    8092:	4b50      	ldr	r3, [pc, #320]	; (81d4 <funPointerInit+0x3d0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:270
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    8094:	982a      	ldr	r0, [sp, #168]	; 0xa8
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:269
+    uart_deint = (fun_uart_deint)info.fun_uart_deint;
+   	//（3.9）uecom构件函数指针，21个
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    8096:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:270
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    8098:	4b4f      	ldr	r3, [pc, #316]	; (81d8 <funPointerInit+0x3d4>)
+    809a:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:271
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    809c:	992b      	ldr	r1, [sp, #172]	; 0xac
+    809e:	4b4f      	ldr	r3, [pc, #316]	; (81dc <funPointerInit+0x3d8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:272
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    80a0:	982c      	ldr	r0, [sp, #176]	; 0xb0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:271
+    uecom_init = (fun_uecom_init)info.fun_uecom_init;
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    80a2:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:272
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    80a4:	4b4e      	ldr	r3, [pc, #312]	; (81e0 <funPointerInit+0x3dc>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:273
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    80a6:	992d      	ldr	r1, [sp, #180]	; 0xb4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:272
+    uecom_fast_init = (fun_uecom_fast_init)info.fun_uecom_fast_init;
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    80a8:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:273
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    80aa:	4b4e      	ldr	r3, [pc, #312]	; (81e4 <funPointerInit+0x3e0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:274
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    80ac:	982e      	ldr	r0, [sp, #184]	; 0xb8
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:273
+    uecom_deInit = (fun_uecom_deInit)info.fun_uecom_deInit;
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    80ae:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:274
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    80b0:	4b4d      	ldr	r3, [pc, #308]	; (81e8 <funPointerInit+0x3e4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:275
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    80b2:	992f      	ldr	r1, [sp, #188]	; 0xbc
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:274
+    uecom_switch = (fun_uecom_switch)info.fun_uecom_switch;
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    80b4:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:275
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    80b6:	4b4d      	ldr	r3, [pc, #308]	; (81ec <funPointerInit+0x3e8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:276
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    80b8:	9830      	ldr	r0, [sp, #192]	; 0xc0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:275
+    uecom_send = (fun_uecom_send)info.fun_uecom_send;
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    80ba:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:276
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    80bc:	4b4c      	ldr	r3, [pc, #304]	; (81f0 <funPointerInit+0x3ec>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:277
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    80be:	9931      	ldr	r1, [sp, #196]	; 0xc4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:276
+    uecom_getIMEI = (fun_uecom_getIMEI)info.fun_uecom_getIMEI;
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    80c0:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:277
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    80c2:	4b4c      	ldr	r3, [pc, #304]	; (81f4 <funPointerInit+0x3f0>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:278
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    80c4:	9832      	ldr	r0, [sp, #200]	; 0xc8
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:277
+    uecom_getIMSI = (fun_uecom_getIMSI)info.fun_uecom_getIMSI;
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    80c6:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:278
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    80c8:	4b4b      	ldr	r3, [pc, #300]	; (81f8 <funPointerInit+0x3f4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:279
+    http_get = (fun_http_get)info.fun_http_get;
+    80ca:	9933      	ldr	r1, [sp, #204]	; 0xcc
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:278
+    uecom_getFirmVer = (fun_uecom_getFirmVer)info.fun_uecom_getFirmVer;
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    80cc:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:279
+    http_get = (fun_http_get)info.fun_http_get;
+    80ce:	4b4b      	ldr	r3, [pc, #300]	; (81fc <funPointerInit+0x3f8>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:280
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    80d0:	9834      	ldr	r0, [sp, #208]	; 0xd0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:279
+    uecom_getSignalPower = (fun_uecom_getSignalPower)info.fun_uecom_getSignalPower;
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    http_get = (fun_http_get)info.fun_http_get;
+    80d2:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:280
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    80d4:	4b4a      	ldr	r3, [pc, #296]	; (8200 <funPointerInit+0x3fc>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:281
+    uecom_default_delay_ms = (fun_uecom_default_delay_ms)info.fun_uecom_default_delay_ms;
+    80d6:	9935      	ldr	r1, [sp, #212]	; 0xd4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:280
+    uecom_getBSNum = (fun_uecom_getBSNum)info.fun_uecom_getBSNum;
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    http_get = (fun_http_get)info.fun_http_get;
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    80d8:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:281
+    uecom_default_delay_ms = (fun_uecom_default_delay_ms)info.fun_uecom_default_delay_ms;
+    80da:	4b4a      	ldr	r3, [pc, #296]	; (8204 <funPointerInit+0x400>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:282
+    gnss_init = (fun_gnss_init)info.fun_gnss_init;
+    80dc:	9836      	ldr	r0, [sp, #216]	; 0xd8
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:281
+    uecom_getUEIP = (fun_uecom_getUEIP)info.fun_uecom_getUEIP;
+    uecom_config = (fun_uecom_config)info.fun_uecom_config;
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    http_get = (fun_http_get)info.fun_http_get;
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    uecom_default_delay_ms = (fun_uecom_default_delay_ms)info.fun_uecom_default_delay_ms;
+    80de:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:282
+    gnss_init = (fun_gnss_init)info.fun_gnss_init;
+    80e0:	4b49      	ldr	r3, [pc, #292]	; (8208 <funPointerInit+0x404>)
+    80e2:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:283
+    gnss_get_time = (fun_gnss_get_time)info.fun_gnss_get_time;
+    80e4:	4b49      	ldr	r3, [pc, #292]	; (820c <funPointerInit+0x408>)
+    80e6:	9937      	ldr	r1, [sp, #220]	; 0xdc
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:284
+    gnss_get_speed = (fun_gnss_get_speed)info.fun_gnss_get_speed;
+    80e8:	9838      	ldr	r0, [sp, #224]	; 0xe0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:283
+    uecom_getCurCommunity = (fun_uecom_getCurCommunity)info.fun_uecom_getCurCommunity;
+    http_get = (fun_http_get)info.fun_http_get;
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    uecom_default_delay_ms = (fun_uecom_default_delay_ms)info.fun_uecom_default_delay_ms;
+    gnss_init = (fun_gnss_init)info.fun_gnss_init;
+    gnss_get_time = (fun_gnss_get_time)info.fun_gnss_get_time;
+    80ea:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:284
+    gnss_get_speed = (fun_gnss_get_speed)info.fun_gnss_get_speed;
+    80ec:	4b48      	ldr	r3, [pc, #288]	; (8210 <funPointerInit+0x40c>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:285
+    gnss_get_location = (fun_gnss_get_location)info.fun_gnss_get_location;
+    80ee:	9939      	ldr	r1, [sp, #228]	; 0xe4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:284
+    http_get = (fun_http_get)info.fun_http_get;
+    uecom_interrupt = (fun_uecom_interrupt)info.fun_uecom_interrupt;
+    uecom_default_delay_ms = (fun_uecom_default_delay_ms)info.fun_uecom_default_delay_ms;
+    gnss_init = (fun_gnss_init)info.fun_gnss_init;
+    gnss_get_time = (fun_gnss_get_time)info.fun_gnss_get_time;
+    gnss_get_speed = (fun_gnss_get_speed)info.fun_gnss_get_speed;
+    80f0:	6018      	str	r0, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:285
+    gnss_get_location = (fun_gnss_get_location)info.fun_gnss_get_location;
+    80f2:	4b48      	ldr	r3, [pc, #288]	; (8214 <funPointerInit+0x410>)
+    80f4:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:286
+    gnss_get_attitude = (fun_gnss_get_attitude)info.fun_gnss_get_attitude;
+    80f6:	4b48      	ldr	r3, [pc, #288]	; (8218 <funPointerInit+0x414>)
+    80f8:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:288
+
+}
+    80fa:	b03b      	add	sp, #236	; 0xec
+    80fc:	bc3c      	pop	{r2, r3, r4, r5}
+    80fe:	4690      	mov	r8, r2
+    8100:	4699      	mov	r9, r3
+    8102:	46a2      	mov	sl, r4
+    8104:	46ab      	mov	fp, r5
+    8106:	bdf0      	pop	{r4, r5, r6, r7, pc}
+    8108:	200008e4 	.word	0x200008e4
+    810c:	20000938 	.word	0x20000938
+    8110:	200008d0 	.word	0x200008d0
+    8114:	200008c0 	.word	0x200008c0
+    8118:	200008b8 	.word	0x200008b8
+    811c:	20000974 	.word	0x20000974
+    8120:	20000884 	.word	0x20000884
+    8124:	20000910 	.word	0x20000910
+    8128:	2000088c 	.word	0x2000088c
+    812c:	200008ac 	.word	0x200008ac
+    8130:	20000944 	.word	0x20000944
+    8134:	20000960 	.word	0x20000960
+    8138:	200008f0 	.word	0x200008f0
+    813c:	20000968 	.word	0x20000968
+    8140:	2000094c 	.word	0x2000094c
+    8144:	20000948 	.word	0x20000948
+    8148:	20000908 	.word	0x20000908
+    814c:	20000888 	.word	0x20000888
+    8150:	20000920 	.word	0x20000920
+    8154:	200008b0 	.word	0x200008b0
+    8158:	20000890 	.word	0x20000890
+    815c:	20000900 	.word	0x20000900
+    8160:	20000928 	.word	0x20000928
+    8164:	200008c4 	.word	0x200008c4
+    8168:	200008a0 	.word	0x200008a0
+    816c:	20000990 	.word	0x20000990
+    8170:	2000098c 	.word	0x2000098c
+    8174:	2000097c 	.word	0x2000097c
+    8178:	20000984 	.word	0x20000984
+    817c:	20000988 	.word	0x20000988
+    8180:	20000994 	.word	0x20000994
+    8184:	20000980 	.word	0x20000980
+    8188:	20000940 	.word	0x20000940
+    818c:	200008ec 	.word	0x200008ec
+    8190:	200008b4 	.word	0x200008b4
+    8194:	2000092c 	.word	0x2000092c
+    8198:	200008fc 	.word	0x200008fc
+    819c:	200008cc 	.word	0x200008cc
+    81a0:	200008e8 	.word	0x200008e8
+    81a4:	20000958 	.word	0x20000958
+    81a8:	2000089c 	.word	0x2000089c
+    81ac:	200008e0 	.word	0x200008e0
+    81b0:	20000914 	.word	0x20000914
+    81b4:	200008d8 	.word	0x200008d8
+    81b8:	200008a4 	.word	0x200008a4
+    81bc:	200008bc 	.word	0x200008bc
+    81c0:	200008d4 	.word	0x200008d4
+    81c4:	200008f4 	.word	0x200008f4
+    81c8:	20000970 	.word	0x20000970
+    81cc:	2000095c 	.word	0x2000095c
+    81d0:	20000934 	.word	0x20000934
+    81d4:	20000950 	.word	0x20000950
+    81d8:	20000904 	.word	0x20000904
+    81dc:	20000918 	.word	0x20000918
+    81e0:	20000978 	.word	0x20000978
+    81e4:	2000096c 	.word	0x2000096c
+    81e8:	20000898 	.word	0x20000898
+    81ec:	20000964 	.word	0x20000964
+    81f0:	20000930 	.word	0x20000930
+    81f4:	20000894 	.word	0x20000894
+    81f8:	200008c8 	.word	0x200008c8
+    81fc:	200008f8 	.word	0x200008f8
+    8200:	2000093c 	.word	0x2000093c
+    8204:	20000954 	.word	0x20000954
+    8208:	200008dc 	.word	0x200008dc
+    820c:	200008a8 	.word	0x200008a8
+    8210:	20000924 	.word	0x20000924
+    8214:	2000090c 	.word	0x2000090c
+    8218:	2000091c 	.word	0x2000091c
+
+0000821c <cpy_nvic>:
+cpy_nvic():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:301
+void cpy_nvic(void)
+{
+    #define NVIC_NUM_VECTORS        (16 + 32)     // CORE + MCU Peripherals
+	#define NVIC_RAM_VECTOR_ADDRESS 0x20000800    //用户程序RAM起始地址
+
+    uint32_t *old_vectors = (uint32_t *)SCB->VTOR;    //取得系统控制块中VTOR①寄存器的值
+    821c:	4b06      	ldr	r3, [pc, #24]	; (8238 <cpy_nvic+0x1c>)
+    821e:	6899      	ldr	r1, [r3, #8]
+    8220:	2300      	movs	r3, #0
+    8222:	4806      	ldr	r0, [pc, #24]	; (823c <cpy_nvic+0x20>)
+    8224:	181a      	adds	r2, r3, r0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:304 (discriminator 2)
+    uint32_t *vectors = (uint32_t*)NVIC_RAM_VECTOR_ADDRESS;
+    for (int i = 0; i < NVIC_NUM_VECTORS; i++) {    //将48个中断向量拷贝到内存地址中
+        vectors[i] = old_vectors[i];
+    8226:	5858      	ldr	r0, [r3, r1]
+    8228:	3304      	adds	r3, #4
+    822a:	6010      	str	r0, [r2, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:303 (discriminator 2)
+    #define NVIC_NUM_VECTORS        (16 + 32)     // CORE + MCU Peripherals
+	#define NVIC_RAM_VECTOR_ADDRESS 0x20000800    //用户程序RAM起始地址
+
+    uint32_t *old_vectors = (uint32_t *)SCB->VTOR;    //取得系统控制块中VTOR①寄存器的值
+    uint32_t *vectors = (uint32_t*)NVIC_RAM_VECTOR_ADDRESS;
+    for (int i = 0; i < NVIC_NUM_VECTORS; i++) {    //将48个中断向量拷贝到内存地址中
+    822c:	2bc0      	cmp	r3, #192	; 0xc0
+    822e:	d1f8      	bne.n	8222 <cpy_nvic+0x6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:306
+        vectors[i] = old_vectors[i];
+    }
+    SCB->VTOR = (uint32_t)NVIC_RAM_VECTOR_ADDRESS;    //设置VTOR寄存器指向新的地址
+    8230:	4a02      	ldr	r2, [pc, #8]	; (823c <cpy_nvic+0x20>)
+    8232:	4b01      	ldr	r3, [pc, #4]	; (8238 <cpy_nvic+0x1c>)
+    8234:	609a      	str	r2, [r3, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../05_SoftComponent/common/common.c:307
+}
+    8236:	4770      	bx	lr
+    8238:	e000ed00 	.word	0xe000ed00
+    823c:	20000800 	.word	0x20000800
+
+00008240 <SystemInit>:
+SystemInit():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:104
+   -- SystemInit()
+   ---------------------------------------------------------------------------- */
+
+//
+
+void SystemInit (void) {
+    8240:	b508      	push	{r3, lr}
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:112
+    //【不变】根据ENABLE_WDOG决定是否开启看门狗。【看门狗】
+    //看门狗默认为开启，而且复位之后只能开启或关闭看门狗一次
+    if(ENABLE_WDOG)
+    	wdog_start(3);
+    else
+    	wdog_stop();
+    8242:	f000 f861 	bl	8308 <wdog_stop>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:115
+    /* System clock initialization */
+    /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=3,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x03)); /* Set the system prescalers to safe value */
+    8246:	4b26      	ldr	r3, [pc, #152]	; (82e0 <SystemInit+0xa0>)
+    8248:	4a26      	ldr	r2, [pc, #152]	; (82e4 <SystemInit+0xa4>)
+    824a:	21c0      	movs	r1, #192	; 0xc0
+    824c:	0289      	lsls	r1, r1, #10
+    824e:	5099      	str	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:117
+    /* SIM_SCGC5: PORTA=1 */
+    SIM_SCGC5 |= SIM_SCGC5_PORTA_MASK;   /* Enable clock gate for ports to enable pin routing */
+    8250:	4a25      	ldr	r2, [pc, #148]	; (82e8 <SystemInit+0xa8>)
+    8252:	2180      	movs	r1, #128	; 0x80
+    8254:	5898      	ldr	r0, [r3, r2]
+    8256:	0089      	lsls	r1, r1, #2
+    8258:	4301      	orrs	r1, r0
+    825a:	5099      	str	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:118
+    if ((PMC_REGSC & PMC_REGSC_ACKISO_MASK) != 0x0U) {
+    825c:	4b23      	ldr	r3, [pc, #140]	; (82ec <SystemInit+0xac>)
+    825e:	789a      	ldrb	r2, [r3, #2]
+    8260:	0711      	lsls	r1, r2, #28
+    8262:	d504      	bpl.n	826e <SystemInit+0x2e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:120
+        /* PMC_REGSC: ACKISO=1 */
+        PMC_REGSC |= PMC_REGSC_ACKISO_MASK; /* Release IO pads after wakeup from VLLS mode. */
+    8264:	7899      	ldrb	r1, [r3, #2]
+    8266:	2208      	movs	r2, #8
+    8268:	430a      	orrs	r2, r1
+    826a:	b2d2      	uxtb	r2, r2
+    826c:	709a      	strb	r2, [r3, #2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:123
+    }
+    /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x01)); /* Update system prescalers */
+    826e:	4b1c      	ldr	r3, [pc, #112]	; (82e0 <SystemInit+0xa0>)
+    8270:	4a1c      	ldr	r2, [pc, #112]	; (82e4 <SystemInit+0xa4>)
+    8272:	2180      	movs	r1, #128	; 0x80
+    8274:	0249      	lsls	r1, r1, #9
+    8276:	5099      	str	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:125
+    /* SIM_SOPT2: ??=0,PLLFLLSEL=0 */
+    SIM_SOPT2 &= (uint32_t)~(uint32_t)((SIM_SOPT2_PLLFLLSEL_MASK | 0x00020000U)); /* Select FLL as a clock source for various peripherals */
+    8278:	4a1d      	ldr	r2, [pc, #116]	; (82f0 <SystemInit+0xb0>)
+    827a:	491e      	ldr	r1, [pc, #120]	; (82f4 <SystemInit+0xb4>)
+    827c:	5898      	ldr	r0, [r3, r2]
+    827e:	4001      	ands	r1, r0
+    8280:	5099      	str	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:127
+    /* SIM_SOPT1: OSC32KSEL=0 */
+    SIM_SOPT1 &= (uint32_t)~(uint32_t)(SIM_SOPT1_OSC32KSEL(0x03)); /* System oscillator drives 32 kHz clock for various peripherals */
+    8282:	6818      	ldr	r0, [r3, #0]
+    8284:	491c      	ldr	r1, [pc, #112]	; (82f8 <SystemInit+0xb8>)
+    8286:	4001      	ands	r1, r0
+    8288:	6019      	str	r1, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:129
+    /* SIM_SOPT2: TPMSRC=1 */
+    SIM_SOPT2 = (uint32_t)((SIM_SOPT2 & (uint32_t)~(uint32_t)(
+    828a:	5898      	ldr	r0, [r3, r2]
+    828c:	491b      	ldr	r1, [pc, #108]	; (82fc <SystemInit+0xbc>)
+    828e:	4001      	ands	r1, r0
+    8290:	2080      	movs	r0, #128	; 0x80
+    8292:	0440      	lsls	r0, r0, #17
+    8294:	4301      	orrs	r1, r0
+    8296:	5099      	str	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:136
+    )) | (uint32_t)(
+            SIM_SOPT2_TPMSRC(0x01)
+    ));                      /* Set the TPM clock */
+    /* Switch to FEI Mode */
+    /* MCG_C1: CLKS=0,FRDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
+    MCG_C1 = MCG_C1_CLKS(0x00) |
+    8298:	4919      	ldr	r1, [pc, #100]	; (8300 <SystemInit+0xc0>)
+    829a:	2306      	movs	r3, #6
+    829c:	700b      	strb	r3, [r1, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:141
+            MCG_C1_FRDIV(0x00) |
+            MCG_C1_IREFS_MASK |
+            MCG_C1_IRCLKEN_MASK;
+    /* MCG_C2: LOCRE0=0,RANGE0=0,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    MCG_C2 &= (uint8_t)~(uint8_t)(
+    829e:	784b      	ldrb	r3, [r1, #1]
+    82a0:	2240      	movs	r2, #64	; 0x40
+    82a2:	4013      	ands	r3, r2
+    82a4:	704b      	strb	r3, [r1, #1]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:150
+            MCG_C2_EREFS0_MASK |
+            MCG_C2_LP_MASK |
+            MCG_C2_IRCS_MASK
+    );
+    /* MCG_C4: DMX32=1,DRST_DRS=1 */
+    MCG_C4 = (uint8_t)((MCG_C4 & (uint8_t)~(uint8_t)(
+    82a6:	78cb      	ldrb	r3, [r1, #3]
+    82a8:	221f      	movs	r2, #31
+    82aa:	4013      	ands	r3, r2
+    82ac:	22a0      	movs	r2, #160	; 0xa0
+    82ae:	4313      	orrs	r3, r2
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:157
+    )) | (uint8_t)(
+            MCG_C4_DMX32_MASK |
+            MCG_C4_DRST_DRS(0x01)
+    ));
+    /* OSC0_CR: ERCLKEN=0,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    OSC0_CR = 0x00U;
+    82b0:	4a14      	ldr	r2, [pc, #80]	; (8304 <SystemInit+0xc4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:150
+            MCG_C2_EREFS0_MASK |
+            MCG_C2_LP_MASK |
+            MCG_C2_IRCS_MASK
+    );
+    /* MCG_C4: DMX32=1,DRST_DRS=1 */
+    MCG_C4 = (uint8_t)((MCG_C4 & (uint8_t)~(uint8_t)(
+    82b2:	70cb      	strb	r3, [r1, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:157
+    )) | (uint8_t)(
+            MCG_C4_DMX32_MASK |
+            MCG_C4_DRST_DRS(0x01)
+    ));
+    /* OSC0_CR: ERCLKEN=0,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    OSC0_CR = 0x00U;
+    82b4:	2300      	movs	r3, #0
+    82b6:	7013      	strb	r3, [r2, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:159
+    /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    MCG_C5 = MCG_C5_PRDIV0(0x00);
+    82b8:	710b      	strb	r3, [r1, #4]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:162
+    /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    MCG_C6 = MCG_C6_VDIV0(0x00);
+    while((MCG_S & MCG_S_IREFST_MASK) == 0x00U) { /* Check that the source of the FLL reference clock is the internal reference clock. */
+    82ba:	2210      	movs	r2, #16
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:161
+    /* OSC0_CR: ERCLKEN=0,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    OSC0_CR = 0x00U;
+    /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    MCG_C5 = MCG_C5_PRDIV0(0x00);
+    /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    MCG_C6 = MCG_C6_VDIV0(0x00);
+    82bc:	714b      	strb	r3, [r1, #5]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:162 (discriminator 1)
+    while((MCG_S & MCG_S_IREFST_MASK) == 0x00U) { /* Check that the source of the FLL reference clock is the internal reference clock. */
+    82be:	798b      	ldrb	r3, [r1, #6]
+    82c0:	421a      	tst	r2, r3
+    82c2:	d0fc      	beq.n	82be <SystemInit+0x7e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:164
+    }
+    while((MCG_S & 0x0CU) != 0x00U) {    /* Wait until output of the FLL is selected */
+    82c4:	490e      	ldr	r1, [pc, #56]	; (8300 <SystemInit+0xc0>)
+    82c6:	220c      	movs	r2, #12
+    82c8:	798b      	ldrb	r3, [r1, #6]
+    82ca:	421a      	tst	r2, r3
+    82cc:	d1fc      	bne.n	82c8 <SystemInit+0x88>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:237
+    //        if (((MCG_S & MCG_S_CLKST_MASK) >> MCG_S_CLKST_SHIFT) == 0x3) break;
+    //    }
+    //    //4.现在处于PEE模式
+
+    //开启PORT模块时钟
+    SIM->SCGC5 |= SIM_SCGC5_PORTA_MASK
+    82ce:	4a04      	ldr	r2, [pc, #16]	; (82e0 <SystemInit+0xa0>)
+    82d0:	4b05      	ldr	r3, [pc, #20]	; (82e8 <SystemInit+0xa8>)
+    82d2:	21f8      	movs	r1, #248	; 0xf8
+    82d4:	58d0      	ldr	r0, [r2, r3]
+    82d6:	0189      	lsls	r1, r1, #6
+    82d8:	4301      	orrs	r1, r0
+    82da:	50d1      	str	r1, [r2, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/startup/system_MKL36Z4.c:243
+            | SIM_SCGC5_PORTB_MASK
+            | SIM_SCGC5_PORTC_MASK
+            | SIM_SCGC5_PORTD_MASK
+            | SIM_SCGC5_PORTE_MASK;
+
+}
+    82dc:	bd08      	pop	{r3, pc}
+    82de:	46c0      	nop			; (mov r8, r8)
+    82e0:	40047000 	.word	0x40047000
+    82e4:	00001044 	.word	0x00001044
+    82e8:	00001038 	.word	0x00001038
+    82ec:	4007d000 	.word	0x4007d000
+    82f0:	00001004 	.word	0x00001004
+    82f4:	fffcffff 	.word	0xfffcffff
+    82f8:	fff3ffff 	.word	0xfff3ffff
+    82fc:	fcffffff 	.word	0xfcffffff
+    8300:	40064000 	.word	0x40064000
+    8304:	40065000 	.word	0x40065000
+
+00008308 <wdog_stop>:
+wdog_stop():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/MCU_drivers/wdog/wdog.c:42
+//参数说明：无
+//函数返回：无
+//=========================================================================
+void wdog_stop()
+{
+    SIM_COPC &= ~SIM_COPC_COPT_MASK;
+    8308:	4a03      	ldr	r2, [pc, #12]	; (8318 <wdog_stop+0x10>)
+    830a:	2388      	movs	r3, #136	; 0x88
+    830c:	015b      	lsls	r3, r3, #5
+    830e:	58d1      	ldr	r1, [r2, r3]
+    8310:	200c      	movs	r0, #12
+    8312:	4381      	bics	r1, r0
+    8314:	50d1      	str	r1, [r2, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\04_UpdateSoftware-180628\02_UEUser\KL36_Update-180627\Debug/../03_MCU/MCU_drivers/wdog/wdog.c:43
+}
+    8316:	4770      	bx	lr
+    8318:	40047000 	.word	0x40047000
+
+0000831c <exit>:
+exit():
+    831c:	4b08      	ldr	r3, [pc, #32]	; (8340 <exit+0x24>)
+    831e:	b510      	push	{r4, lr}
+    8320:	1c04      	adds	r4, r0, #0
+    8322:	2b00      	cmp	r3, #0
+    8324:	d002      	beq.n	832c <exit+0x10>
+    8326:	2100      	movs	r1, #0
+    8328:	e000      	b.n	832c <exit+0x10>
+    832a:	bf00      	nop
+    832c:	4b05      	ldr	r3, [pc, #20]	; (8344 <exit+0x28>)
+    832e:	6818      	ldr	r0, [r3, #0]
+    8330:	6a83      	ldr	r3, [r0, #40]	; 0x28
+    8332:	2b00      	cmp	r3, #0
+    8334:	d000      	beq.n	8338 <exit+0x1c>
+    8336:	4798      	blx	r3
+    8338:	1c20      	adds	r0, r4, #0
+    833a:	f000 f833 	bl	83a4 <_exit>
+    833e:	46c0      	nop			; (mov r8, r8)
+    8340:	00000000 	.word	0x00000000
+    8344:	000083b4 	.word	0x000083b4
+
+00008348 <__libc_init_array>:
+__libc_init_array():
+    8348:	b570      	push	{r4, r5, r6, lr}
+    834a:	4b0e      	ldr	r3, [pc, #56]	; (8384 <__libc_init_array+0x3c>)
+    834c:	4d0e      	ldr	r5, [pc, #56]	; (8388 <__libc_init_array+0x40>)
+    834e:	2400      	movs	r4, #0
+    8350:	1aed      	subs	r5, r5, r3
+    8352:	10ad      	asrs	r5, r5, #2
+    8354:	1c1e      	adds	r6, r3, #0
+    8356:	42ac      	cmp	r4, r5
+    8358:	d004      	beq.n	8364 <__libc_init_array+0x1c>
+    835a:	00a3      	lsls	r3, r4, #2
+    835c:	58f3      	ldr	r3, [r6, r3]
+    835e:	4798      	blx	r3
+    8360:	3401      	adds	r4, #1
+    8362:	e7f8      	b.n	8356 <__libc_init_array+0xe>
+    8364:	f000 f828 	bl	83b8 <_init>
+    8368:	4b08      	ldr	r3, [pc, #32]	; (838c <__libc_init_array+0x44>)
+    836a:	4d09      	ldr	r5, [pc, #36]	; (8390 <__libc_init_array+0x48>)
+    836c:	2400      	movs	r4, #0
+    836e:	1aed      	subs	r5, r5, r3
+    8370:	10ad      	asrs	r5, r5, #2
+    8372:	1c1e      	adds	r6, r3, #0
+    8374:	42ac      	cmp	r4, r5
+    8376:	d004      	beq.n	8382 <__libc_init_array+0x3a>
+    8378:	00a3      	lsls	r3, r4, #2
+    837a:	58f3      	ldr	r3, [r6, r3]
+    837c:	4798      	blx	r3
+    837e:	3401      	adds	r4, #1
+    8380:	e7f8      	b.n	8374 <__libc_init_array+0x2c>
+    8382:	bd70      	pop	{r4, r5, r6, pc}
+    8384:	000083d8 	.word	0x000083d8
+    8388:	000083d8 	.word	0x000083d8
+    838c:	000083d8 	.word	0x000083d8
+    8390:	000083dc 	.word	0x000083dc
+
+00008394 <memset>:
+memset():
+    8394:	1c03      	adds	r3, r0, #0
+    8396:	1882      	adds	r2, r0, r2
+    8398:	4293      	cmp	r3, r2
+    839a:	d002      	beq.n	83a2 <memset+0xe>
+    839c:	7019      	strb	r1, [r3, #0]
+    839e:	3301      	adds	r3, #1
+    83a0:	e7fa      	b.n	8398 <memset+0x4>
+    83a2:	4770      	bx	lr
+
+000083a4 <_exit>:
+_exit():
+    83a4:	e7fe      	b.n	83a4 <_exit>
+    83a6:	46c0      	nop			; (mov r8, r8)
+$d():
+    83a8:	65544343 	.word	0x65544343
+    83ac:	000a7473 	.word	0x000a7473
+    83b0:	00000043 	.word	0x00000043
+
+000083b4 <_global_impure_ptr>:
+    83b4:	20000800                                ... 
+
+000083b8 <_init>:
+$t():
+    83b8:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+    83ba:	46c0      	nop			; (mov r8, r8)
+    83bc:	bcf8      	pop	{r3, r4, r5, r6, r7}
+    83be:	bc08      	pop	{r3}
+    83c0:	469e      	mov	lr, r3
+    83c2:	4770      	bx	lr
+
+000083c4 <_fini>:
+    83c4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+    83c6:	46c0      	nop			; (mov r8, r8)
+    83c8:	bcf8      	pop	{r3, r4, r5, r6, r7}
+    83ca:	bc08      	pop	{r3}
+    83cc:	469e      	mov	lr, r3
+    83ce:	4770      	bx	lr
