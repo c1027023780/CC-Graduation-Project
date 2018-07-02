@@ -1,0 +1,2857 @@
+
+KL36_Update.elf:     file format elf32-littlearm
+KL36_Update.elf
+architecture: arm, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00007cd1
+
+Program Header:
+    LOAD off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**16
+         filesz 0x000078c0 memsz 0x000078c0 flags r--
+    LOAD off    0x00007c00 vaddr 0x00007c00 paddr 0x00007c00 align 2**16
+         filesz 0x00000010 memsz 0x00000010 flags r--
+    LOAD off    0x00007c10 vaddr 0x00007c10 paddr 0x00007c10 align 2**16
+         filesz 0x00000d24 memsz 0x00000d24 flags rwx
+    LOAD off    0x00010400 vaddr 0x20000400 paddr 0x00008934 align 2**16
+         filesz 0x0000006c memsz 0x000009b8 flags rw-
+private flags = 5000200: [Version5 EABI] [soft-float ABI]
+
+Sections:
+Idx Name            Size      VMA       LMA       File off  Algn  Flags
+  0 .interrupts     000000c0  00007800  00007800  00007800  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .flash_config   00000010  00007c00  00007c00  00007c00  2**0  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .text           00000d14  00007c10  00007c10  00007c10  2**2  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .ARM            00000008  00008924  00008924  00008924  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .init_array     00000004  0000892c  0000892c  0000892c  2**2  CONTENTS, ALLOC, LOAD, DATA
+  5 .fini_array     00000004  00008930  00008930  00008930  2**2  CONTENTS, ALLOC, LOAD, DATA
+  6 .mtb            00000000  20000400  20000400  0001046c  2**0  CONTENTS
+  7 .data           0000006c  20000400  00008934  00010400  2**2  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss            0000064c  2000046c  000089a0  0001046c  2**2  ALLOC
+  9 .heap           00000200  20000ab8  00008fec  0001046c  2**0  ALLOC
+ 10 .stack          00000100  20000cb8  000091ec  0001046c  2**0  ALLOC
+ 11 .ARM.attributes 00000028  00000000  00000000  0001046c  2**0  CONTENTS, READONLY
+ 12 .debug_info     000056ce  00000000  00000000  00010494  2**0  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_abbrev   00000f61  00000000  00000000  00015b62  2**0  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_aranges  00000290  00000000  00000000  00016ac8  2**3  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_ranges   00000200  00000000  00000000  00016d58  2**0  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_macro    0000ecbe  00000000  00000000  00016f58  2**0  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_line     00003b8d  00000000  00000000  00025c16  2**0  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_str      0004ec7a  00000000  00000000  000297a3  2**0  CONTENTS, READONLY, DEBUGGING
+ 19 .comment        0000007e  00000000  00000000  0007841d  2**0  CONTENTS, READONLY
+ 20 .debug_frame    00000848  00000000  00000000  0007849c  2**2  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+00007800 l    d  .interrupts	00000000 .interrupts
+00007c00 l    d  .flash_config	00000000 .flash_config
+00007c10 l    d  .text	00000000 .text
+00008924 l    d  .ARM	00000000 .ARM
+0000892c l    d  .init_array	00000000 .init_array
+00008930 l    d  .fini_array	00000000 .fini_array
+20000400 l    d  .mtb	00000000 .mtb
+20000400 l    d  .data	00000000 .data
+2000046c l    d  .bss	00000000 .bss
+20000ab8 l    d  .heap	00000000 .heap
+20000cb8 l    d  .stack	00000000 .stack
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 ./03_MCU/startup/startup_MKL36Z4.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+0000890c l     O .text	00000000 __EH_FRAME_BEGIN__
+00007c10 l     F .text	00000000 __do_global_dtors_aux
+2000046c l       .bss	00000001 completed.8654
+00008930 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+00007c38 l     F .text	00000000 frame_dummy
+20000470 l       .bss	00000018 object.8659
+0000892c l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+00000000 l    df *ABS*	00000000 isr.c
+20000488 l     O .bss	00000001 count.5373
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 uecom.c
+2000048c l     O .bss	00000200 AT_reBuf
+2000068c l     O .bss	00000001 AT_reFlag
+2000068d l     O .bss	00000001 AT_reLength
+20000690 l     O .bss	00000064 curATCommand
+20000400 l     O .data	00000002 frameHead
+20000404 l     O .data	00000002 frameTail
+200006f6 l     O .bss	00000002 index.5525
+200006f8 l     O .bss	00000002 length.5526
+00000000 l    df *ABS*	00000000 system_MKL36Z4.c
+00000000 l    df *ABS*	00000000 wdog.c
+00000000 l    df *ABS*	00000000 uart.c
+00008490 l     F .text	0000002c NVIC_EnableIRQ
+000084bc l     F .text	00000030 NVIC_DisableIRQ
+00008900 l     O .text	00000008 UART_ARR
+20000408 l     O .data	00000003 table_irq_uart
+00000000 l    df *ABS*	00000000 flash.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 memcpy-stub.c
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 impure.c
+2000040c l     O .data	00000060 impure_data
+00000000 l    df *ABS*	00000000 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+00000000 l    df *ABS*	00000000 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+00000000 l    df *ABS*	00000000 
+00008930 l       .init_array	00000000 __init_array_end
+0000892c l       .init_array	00000000 __preinit_array_end
+0000892c l       .init_array	00000000 __init_array_start
+0000892c l       .init_array	00000000 __preinit_array_start
+20000ab8 g       .heap	00000000 __HeapBase
+200006fc g     O .bss	00000004 gpio_get_int
+20000700 g     O .bss	00000004 gpio_drive_strength
+20000400 g       .data	00000000 __data_start__
+00000100 g       *ABS*	00000000 STACK_SIZE
+00007cfc  w    F .text	00000004 I2C0_IRQHandler
+00007cfc  w    F .text	00000004 HardFault_Handler
+00007d04 g     F .text	0000000a SysTick_Handler
+20000704 g     O .bss	00000004 light_init
+00007cfc  w    F .text	00000004 PendSV_Handler
+00007cfc  w    F .text	00000004 NMI_Handler
+0000892c g       .ARM	00000000 __exidx_end
+00007cfc  w    F .text	00000004 PORTC_PORTD_IRQHandler
+00007cfc  w    F .text	00000004 I2C1_IRQHandler
+00007f78 g     F .text	0000000e UART1_IRQHandler
+00008934 g       .fini_array	00000000 __etext
+00007cfc  w    F .text	00000004 DMA2_IRQHandler
+00008650 g     F .text	0000007c uart_enable_re_int
+00007cfc  w    F .text	00000004 TPM0_IRQHandler
+00007cfc  w    F .text	00000004 I2S0_IRQHandler
+00007cfc  w    F .text	00000004 LLWU_IRQHandler
+00007d50 g     F .text	00000040 TSI0_IRQHandler
+00007d90 g     F .text	00000040 UART0_IRQHandler
+000088d8 g     F .text	00000012 memcpy
+0000892c g       .init_array	00000000 __DTOR_END__
+20000708 g     O .bss	00000004 gpio_clear_allint
+00007cfc  w    F .text	00000004 ADC0_IRQHandler
+2000046c g       .bss	00000000 __START_BSS
+00008218 g     F .text	000000d0 uecom_ATret
+20000cb8 g       .heap	00000000 __HeapLimit
+2000046c g       .bss	00000000 __bss_start__
+00007cfc  w    F .text	00000004 SPI1_IRQHandler
+20000860 g     O .bss	00000258 gRecvBuf
+00007cfc  w    F .text	00000004 DefaultISR
+000086cc g     F .text	0000007c uart_disable_re_int
+00008924 g       .ARM	00000000 __exidx_start
+00008908 g     O .text	00000004 _global_impure_ptr
+00008890 g     F .text	00000048 __libc_init_array
+00008830 g     F .text	00000034 flash_init
+00007c58 g     F .text	00000000 _mainCRTStartup
+0000890c g     F .text	00000000 _init
+00007cfc  w    F .text	00000004 TPM2_IRQHandler
+00007cfc  w    F .text	00000004 RTC_IRQHandler
+00007e7c g     F .text	000000fc funPointerInit
+00007cd0  w    F .text	0000002c Reset_Handler
+00007cfc  w    F .text	00000004 LCD_IRQHandler
+00008748 g     F .text	000000c4 uart_get_re_int
+00007cfc  w    F .text	00000004 RTC_Seconds_IRQHandler
+00007cfc  w    F .text	00000004 MCG_IRQHandler
+00007cfc  w    F .text	00000004 UART2_IRQHandler
+2000046c g       .data	00000000 __data_end__
+0000892c g       .init_array	00000000 __CTOR_LIST__
+00000200 g       *ABS*	00000000 HEAP_SIZE
+20000ab8 g       .bss	00000000 __bss_end__
+2000070c g     O .bss	00000004 gpio_get
+00007cfc  w    F .text	00000004 Reserved20_IRQHandler
+20000734 g     O .bss	0000000e gTime
+00007c58 g     F .text	00000000 _start
+00007f88 g     F .text	000000b8 crc16
+20000710 g     O .bss	00000004 gpio_disable_int
+0000858c g     F .text	000000c4 uart_re1
+20000744 g     O .bss	00000004 getTime
+20000714 g     O .bss	00000004 gpio_clear_int
+20000718 g     O .bss	00000004 light_change
+000088ea g     F .text	00000010 memset
+00007800 g       .interrupts	000000c0 __isr_vector
+00007dd0 g     F .text	00000060 main
+00007e30 g     F .text	0000004c cpy_nvic
+00007cfc  w    F .text	00000004 PIT_IRQHandler
+00007cfc  w    F .text	00000004 SVC_Handler
+20000400 g       .data	00000000 __DATA_RAM
+20000ab8 g       .heap	00000000 __end__
+0000892c g       .init_array	00000000 __CTOR_END__
+00007cfc  w    F .text	00000004 DMA3_IRQHandler
+00008040 g     F .text	000001d8 uecom_recv
+0000892c g       .init_array	00000000 __DTOR_LIST__
+20000ab8 g       .bss	00000000 __END_BSS
+00008348 g     F .text	00000124 SystemInit
+00007cfc  w    F .text	00000004 DMA0_IRQHandler
+00008918 g     F .text	00000000 _fini
+00007cfc  w    F .text	00000004 DAC0_IRQHandler
+20001800 g       .stack	00000000 __StackTop
+000082e8 g     F .text	00000060 uecom_interrupt
+20000400 g       .mtb	00000000 _mtb_end
+000089a0 g       *ABS*	00000000 __DATA_END
+2000071c g     O .bss	00000004 gpio_enable_int
+00007cfc  w    F .text	00000004 TPM1_IRQHandler
+20000720 g     O .bss	00000004 light_control
+20001800 g       *ABS*	00000000 __stack
+00007cfc  w    F .text	00000004 LVD_LVW_IRQHandler
+20000724 g     O .bss	00000004 gpio_pull
+00007cfc  w    F .text	00000004 SPI0_IRQHandler
+00007cfc  w    F .text	00000004 PORTA_IRQHandler
+00007800 g       .interrupts	00000000 __VECTOR_TABLE
+00008934 g       .fini_array	00000000 __DATA_ROM
+20001700 g       *ABS*	00000000 __StackLimit
+00008864 g     F .text	0000002c exit
+00007cfc  w    F .text	00000004 FTFA_IRQHandler
+20000400 g       .mtb	00000000 _mtb_start
+00007cfc  w    F .text	00000004 Reserved40_IRQHandler
+000088fc g     F .text	00000002 _exit
+00007d10 g     F .text	00000040 LPTMR0_IRQHandler
+20000748 g     O .bss	00000117 gcd
+000084ec g     F .text	000000a0 uart_send1
+0000846c g     F .text	00000024 wdog_stop
+0000880c g     F .text	00000022 uart_is_uartNo
+20000728 g     O .bss	00000004 gpio_set
+2000072c g     O .bss	00000004 gpio_reverse
+20000730 g     O .bss	00000004 gpio_init
+2000085f g     O .bss	00000001 gTflag
+00007cfc  w    F .text	00000004 CMP0_IRQHandler
+200006f4 g     O .bss	00000002 gRecvLength
+00007cfc  w    F .text	00000004 DMA1_IRQHandler
+
+
+
+Disassembly of section .text:
+
+00007c10 <__do_global_dtors_aux>:
+__do_global_dtors_aux():
+    7c10:	b510      	push	{r4, lr}
+    7c12:	4c06      	ldr	r4, [pc, #24]	; (7c2c <__do_global_dtors_aux+0x1c>)
+    7c14:	7823      	ldrb	r3, [r4, #0]
+    7c16:	2b00      	cmp	r3, #0
+    7c18:	d107      	bne.n	7c2a <__do_global_dtors_aux+0x1a>
+    7c1a:	4b05      	ldr	r3, [pc, #20]	; (7c30 <__do_global_dtors_aux+0x20>)
+    7c1c:	2b00      	cmp	r3, #0
+    7c1e:	d002      	beq.n	7c26 <__do_global_dtors_aux+0x16>
+    7c20:	4804      	ldr	r0, [pc, #16]	; (7c34 <__do_global_dtors_aux+0x24>)
+    7c22:	e000      	b.n	7c26 <__do_global_dtors_aux+0x16>
+    7c24:	bf00      	nop
+    7c26:	2301      	movs	r3, #1
+    7c28:	7023      	strb	r3, [r4, #0]
+    7c2a:	bd10      	pop	{r4, pc}
+    7c2c:	2000046c 	.word	0x2000046c
+    7c30:	00000000 	.word	0x00000000
+    7c34:	0000890c 	.word	0x0000890c
+
+00007c38 <frame_dummy>:
+frame_dummy():
+    7c38:	4b04      	ldr	r3, [pc, #16]	; (7c4c <frame_dummy+0x14>)
+    7c3a:	b510      	push	{r4, lr}
+    7c3c:	2b00      	cmp	r3, #0
+    7c3e:	d003      	beq.n	7c48 <frame_dummy+0x10>
+    7c40:	4903      	ldr	r1, [pc, #12]	; (7c50 <frame_dummy+0x18>)
+    7c42:	4804      	ldr	r0, [pc, #16]	; (7c54 <frame_dummy+0x1c>)
+    7c44:	e000      	b.n	7c48 <frame_dummy+0x10>
+    7c46:	bf00      	nop
+    7c48:	bd10      	pop	{r4, pc}
+    7c4a:	46c0      	nop			; (mov r8, r8)
+    7c4c:	00000000 	.word	0x00000000
+    7c50:	20000470 	.word	0x20000470
+    7c54:	0000890c 	.word	0x0000890c
+
+00007c58 <_mainCRTStartup>:
+_start():
+    7c58:	4b16      	ldr	r3, [pc, #88]	; (7cb4 <_mainCRTStartup+0x5c>)
+    7c5a:	2b00      	cmp	r3, #0
+    7c5c:	d100      	bne.n	7c60 <_mainCRTStartup+0x8>
+    7c5e:	4b14      	ldr	r3, [pc, #80]	; (7cb0 <_mainCRTStartup+0x58>)
+    7c60:	469d      	mov	sp, r3
+    7c62:	2240      	movs	r2, #64	; 0x40
+    7c64:	0292      	lsls	r2, r2, #10
+    7c66:	1a9a      	subs	r2, r3, r2
+    7c68:	4692      	mov	sl, r2
+    7c6a:	2100      	movs	r1, #0
+    7c6c:	468b      	mov	fp, r1
+    7c6e:	460f      	mov	r7, r1
+    7c70:	4813      	ldr	r0, [pc, #76]	; (7cc0 <_mainCRTStartup+0x68>)
+    7c72:	4a14      	ldr	r2, [pc, #80]	; (7cc4 <_mainCRTStartup+0x6c>)
+    7c74:	1a12      	subs	r2, r2, r0
+    7c76:	f000 fe38 	bl	88ea <memset>
+    7c7a:	4b0f      	ldr	r3, [pc, #60]	; (7cb8 <_mainCRTStartup+0x60>)
+    7c7c:	2b00      	cmp	r3, #0
+    7c7e:	d000      	beq.n	7c82 <_mainCRTStartup+0x2a>
+    7c80:	4798      	blx	r3
+    7c82:	4b0e      	ldr	r3, [pc, #56]	; (7cbc <_mainCRTStartup+0x64>)
+    7c84:	2b00      	cmp	r3, #0
+    7c86:	d000      	beq.n	7c8a <_mainCRTStartup+0x32>
+    7c88:	4798      	blx	r3
+    7c8a:	2000      	movs	r0, #0
+    7c8c:	2100      	movs	r1, #0
+    7c8e:	0004      	movs	r4, r0
+    7c90:	000d      	movs	r5, r1
+    7c92:	480d      	ldr	r0, [pc, #52]	; (7cc8 <_mainCRTStartup+0x70>)
+    7c94:	2800      	cmp	r0, #0
+    7c96:	d002      	beq.n	7c9e <_mainCRTStartup+0x46>
+    7c98:	480c      	ldr	r0, [pc, #48]	; (7ccc <_mainCRTStartup+0x74>)
+    7c9a:	e000      	b.n	7c9e <_mainCRTStartup+0x46>
+    7c9c:	bf00      	nop
+    7c9e:	f000 fdf7 	bl	8890 <__libc_init_array>
+    7ca2:	0020      	movs	r0, r4
+    7ca4:	0029      	movs	r1, r5
+    7ca6:	f000 f893 	bl	7dd0 <main>
+    7caa:	f000 fddb 	bl	8864 <exit>
+    7cae:	46c0      	nop			; (mov r8, r8)
+    7cb0:	00080000 	.word	0x00080000
+    7cb4:	20001800 	.word	0x20001800
+	...
+    7cc0:	2000046c 	.word	0x2000046c
+    7cc4:	20000ab8 	.word	0x20000ab8
+	...
+
+00007cd0 <Reset_Handler>:
+Reset_Handler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:118
+    .align 2
+    .globl   Reset_Handler
+    .weak    Reset_Handler
+    .type    Reset_Handler, %function
+Reset_Handler:
+    cpsid   i               /* Mask interrupts */
+    7cd0:	b672      	cpsid	i
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:120
+#ifndef __NO_SYSTEM_INIT
+    bl SystemInit
+    7cd2:	f000 fb39 	bl	8348 <SystemInit>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:122
+#endif
+    cpsie   i               /* Unmask interrupts */
+    7cd6:	b662      	cpsie	i
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:130
+ *      linker script.
+ *      __etext: End of code section, i.e., begin of data sections to copy from.
+ *      __data_start__/__data_end__: RAM address range that data should be
+ *      copied to. Both must be aligned to 4 bytes boundary.  */
+
+    ldr    r1, =__etext
+    7cd8:	4905      	ldr	r1, [pc, #20]	; (7cf0 <Reset_Handler+0x20>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:131
+    ldr    r2, =__data_start__
+    7cda:	4a06      	ldr	r2, [pc, #24]	; (7cf4 <Reset_Handler+0x24>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:132
+    ldr    r3, =__data_end__
+    7cdc:	4b06      	ldr	r3, [pc, #24]	; (7cf8 <Reset_Handler+0x28>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:134
+
+    subs    r3, r2
+    7cde:	1a9b      	subs	r3, r3, r2
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:135
+    ble     .LC0
+    7ce0:	dd03      	ble.n	7cea <Reset_Handler+0x1a>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:138
+
+.LC1:
+    subs    r3, 4
+    7ce2:	3b04      	subs	r3, #4
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:139
+    ldr    r0, [r1,r3]
+    7ce4:	58c8      	ldr	r0, [r1, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:140
+    str    r0, [r2,r3]
+    7ce6:	50d0      	str	r0, [r2, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:141
+    bgt    .LC1
+    7ce8:	dcfb      	bgt.n	7ce2 <Reset_Handler+0x12>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:169
+.LC3:
+#endif
+#ifndef __START
+#define __START _start
+#endif
+    bl    __START
+    7cea:	f7ff ffb5 	bl	7c58 <_mainCRTStartup>
+    7cee:	0000      	.short	0x0000
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:130
+    ldr    r1, =__etext
+    7cf0:	00008934 	.word	0x00008934
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:131
+    ldr    r2, =__data_start__
+    7cf4:	20000400 	.word	0x20000400
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:132
+    ldr    r3, =__data_end__
+    7cf8:	2000046c 	.word	0x2000046c
+
+00007cfc <ADC0_IRQHandler>:
+DMA1_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:178
+    .align    1
+    .thumb_func
+    .weak DefaultISR
+    .type DefaultISR, %function
+DefaultISR:
+    ldr    r0, =DefaultISR
+    7cfc:	4800      	ldr	r0, [pc, #0]	; (7d00 <ADC0_IRQHandler+0x4>)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:179
+    bx r0
+    7cfe:	4700      	bx	r0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/startup_MKL36Z4.S:178
+    ldr    r0, =DefaultISR
+    7d00:	00007cfd 	.word	0x00007cfd
+
+00007d04 <SysTick_Handler>:
+SysTick_Handler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:12
+#include "includes.h"
+
+//========================中断函数服务例程===============================
+
+void SysTick_Handler(void)
+{
+    7d04:	b580      	push	{r7, lr}
+    7d06:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:14
+	//light_change(LIGHT_RED);
+}
+    7d08:	46c0      	nop			; (mov r8, r8)
+    7d0a:	46bd      	mov	sp, r7
+    7d0c:	bd80      	pop	{r7, pc}
+	...
+
+00007d10 <LPTMR0_IRQHandler>:
+LPTMR0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:24
+//         即秒+1（全局变量gcd.currentTime++）；
+//         全局变量（年月日时分秒)gTime[14]跟随改变
+//修改日期：2017.8.11（WYH）
+//======================================================================
+void LPTMR0_IRQHandler(void)
+{
+    7d10:	b580      	push	{r7, lr}
+    7d12:	af00      	add	r7, sp, #0
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:344
+  This function disables IRQ interrupts by setting the I-bit in the CPSR.
+  Can only be executed in Privileged modes.
+ */
+__attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
+{
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d14:	b672      	cpsid	i
+LPTMR0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:27
+	static uint_8 count = 0;
+	DISABLE_INTERRUPTS;        //关总中断
+	CLEAR_LPTMR_FLAG;          //清中断标志标志
+    7d16:	4b0b      	ldr	r3, [pc, #44]	; (7d44 <LPTMR0_IRQHandler+0x34>)
+    7d18:	681a      	ldr	r2, [r3, #0]
+    7d1a:	4b0a      	ldr	r3, [pc, #40]	; (7d44 <LPTMR0_IRQHandler+0x34>)
+    7d1c:	2180      	movs	r1, #128	; 0x80
+    7d1e:	430a      	orrs	r2, r1
+    7d20:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:29
+	//--------------------------------
+	count++;
+    7d22:	4b09      	ldr	r3, [pc, #36]	; (7d48 <LPTMR0_IRQHandler+0x38>)
+    7d24:	781b      	ldrb	r3, [r3, #0]
+    7d26:	3301      	adds	r3, #1
+    7d28:	b2da      	uxtb	r2, r3
+    7d2a:	4b07      	ldr	r3, [pc, #28]	; (7d48 <LPTMR0_IRQHandler+0x38>)
+    7d2c:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:35
+//	wdog_feed();
+	if(count >= 2)
+	{
+
+	}
+	BSET(TSI_GENCS_TSIEN_SHIFT,TSI0_GENCS);
+    7d2e:	4b07      	ldr	r3, [pc, #28]	; (7d4c <LPTMR0_IRQHandler+0x3c>)
+    7d30:	681a      	ldr	r2, [r3, #0]
+    7d32:	4b06      	ldr	r3, [pc, #24]	; (7d4c <LPTMR0_IRQHandler+0x3c>)
+    7d34:	2180      	movs	r1, #128	; 0x80
+    7d36:	430a      	orrs	r2, r1
+    7d38:	601a      	str	r2, [r3, #0]
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:333
+  __ASM volatile ("cpsie i" : : : "memory");
+    7d3a:	b662      	cpsie	i
+LPTMR0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:38
+    //--------------------------------
+    ENABLE_INTERRUPTS;       //开总中断
+}
+    7d3c:	46c0      	nop			; (mov r8, r8)
+    7d3e:	46bd      	mov	sp, r7
+    7d40:	bd80      	pop	{r7, pc}
+    7d42:	46c0      	nop			; (mov r8, r8)
+    7d44:	40040000 	.word	0x40040000
+    7d48:	20000488 	.word	0x20000488
+    7d4c:	40045000 	.word	0x40045000
+
+00007d50 <TSI0_IRQHandler>:
+TSI0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:48
+//参数说明：无
+//函数返回：无
+//功能概要：TSI中断服务例程。清中断标志，并完成TSI触摸功能
+//======================================================================
+void TSI0_IRQHandler(void)
+{
+    7d50:	b580      	push	{r7, lr}
+    7d52:	b082      	sub	sp, #8
+    7d54:	af00      	add	r7, sp, #0
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:344
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d56:	b672      	cpsid	i
+TSI0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:56
+//	static uint_64 j = 0;
+	uint_8 touchNum[5];
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+
+	if(TSI0_GENCS & TSI_GENCS_OUTRGF_MASK)//为超值中断
+    7d58:	4b0c      	ldr	r3, [pc, #48]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d5a:	681b      	ldr	r3, [r3, #0]
+    7d5c:	2b00      	cmp	r3, #0
+    7d5e:	da03      	bge.n	7d68 <TSI0_IRQHandler+0x18>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:60
+	{
+		//获取计数值
+//		i = tsi_get_value16();
+		i = (TSI0_DATA & TSI_DATA_TSICNT_MASK);      //读取计数寄存器中的值;
+    7d60:	4b0a      	ldr	r3, [pc, #40]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d62:	685a      	ldr	r2, [r3, #4]
+    7d64:	1dbb      	adds	r3, r7, #6
+    7d66:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:67
+		{
+
+		}
+	}
+	//写1清溢出中断位
+	TSI0_GENCS |=  TSI_GENCS_OUTRGF_MASK;//写1清楚该位
+    7d68:	4b08      	ldr	r3, [pc, #32]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d6a:	681a      	ldr	r2, [r3, #0]
+    7d6c:	4b07      	ldr	r3, [pc, #28]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d6e:	2180      	movs	r1, #128	; 0x80
+    7d70:	0609      	lsls	r1, r1, #24
+    7d72:	430a      	orrs	r2, r1
+    7d74:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:68
+	BCLR(TSI_GENCS_TSIEN_SHIFT,TSI0_GENCS);
+    7d76:	4b05      	ldr	r3, [pc, #20]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d78:	681a      	ldr	r2, [r3, #0]
+    7d7a:	4b04      	ldr	r3, [pc, #16]	; (7d8c <TSI0_IRQHandler+0x3c>)
+    7d7c:	2180      	movs	r1, #128	; 0x80
+    7d7e:	438a      	bics	r2, r1
+    7d80:	601a      	str	r2, [r3, #0]
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:333
+  __ASM volatile ("cpsie i" : : : "memory");
+    7d82:	b662      	cpsie	i
+TSI0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:71
+	//-------------------------------
+	ENABLE_INTERRUPTS;       //开总中断
+}
+    7d84:	46c0      	nop			; (mov r8, r8)
+    7d86:	46bd      	mov	sp, r7
+    7d88:	b002      	add	sp, #8
+    7d8a:	bd80      	pop	{r7, pc}
+    7d8c:	40045000 	.word	0x40045000
+
+00007d90 <UART0_IRQHandler>:
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:82
+//参数说明：无
+//函数返回：无
+//功能概要：串口0接收中断服务例程
+//======================================================================
+void UART0_IRQHandler(void)
+{
+    7d90:	b590      	push	{r4, r7, lr}
+    7d92:	b083      	sub	sp, #12
+    7d94:	af00      	add	r7, sp, #0
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:344
+  __ASM volatile ("cpsid i" : : : "memory");
+    7d96:	b672      	cpsid	i
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:87
+	uint_8 ch;
+	uint_8 flag;
+	DISABLE_INTERRUPTS;      //关总中断
+	//-------------------------------
+	if(uart_get_re_int(UART_0))
+    7d98:	2000      	movs	r0, #0
+    7d9a:	f000 fcd5 	bl	8748 <uart_get_re_int>
+    7d9e:	1e03      	subs	r3, r0, #0
+    7da0:	d011      	beq.n	7dc6 <UART0_IRQHandler+0x36>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:89
+	{
+		ch = uart_re1 (UART_0, &flag);    //调用接收一个字节的函数，清接收中断位
+    7da2:	1dfc      	adds	r4, r7, #7
+    7da4:	1dbb      	adds	r3, r7, #6
+    7da6:	0019      	movs	r1, r3
+    7da8:	2000      	movs	r0, #0
+    7daa:	f000 fbef 	bl	858c <uart_re1>
+    7dae:	0003      	movs	r3, r0
+    7db0:	7023      	strb	r3, [r4, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:90
+		if(flag)
+    7db2:	1dbb      	adds	r3, r7, #6
+    7db4:	781b      	ldrb	r3, [r3, #0]
+    7db6:	2b00      	cmp	r3, #0
+    7db8:	d005      	beq.n	7dc6 <UART0_IRQHandler+0x36>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:92
+		{
+			uart_send1(UART_0, ch);     //向原串口发回一个字节
+    7dba:	1dfb      	adds	r3, r7, #7
+    7dbc:	781b      	ldrb	r3, [r3, #0]
+    7dbe:	0019      	movs	r1, r3
+    7dc0:	2000      	movs	r0, #0
+    7dc2:	f000 fb93 	bl	84ec <uart_send1>
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:333
+  __ASM volatile ("cpsie i" : : : "memory");
+    7dc6:	b662      	cpsie	i
+UART0_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/isr.c:97
+		}
+	}
+	//-------------------------------
+	ENABLE_INTERRUPTS;       //开总中断
+}
+    7dc8:	46c0      	nop			; (mov r8, r8)
+    7dca:	46bd      	mov	sp, r7
+    7dcc:	b003      	add	sp, #12
+    7dce:	bd90      	pop	{r4, r7, pc}
+
+00007dd0 <main>:
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:18
+typedef  uint_64 (*fun_getTime)(void);
+volatile fun_getTime getTime;
+
+//主函数，一般情况下可以认为程序从此开始运行（实际上有启动过程见书稿）
+int main(void)
+{
+    7dd0:	b590      	push	{r4, r7, lr}
+    7dd2:	b085      	sub	sp, #20
+    7dd4:	af00      	add	r7, sp, #0
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:344
+  __ASM volatile ("cpsid i" : : : "memory");
+    7dd6:	b672      	cpsid	i
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:26
+	uint_64 ct;
+
+    //（2）【不动】 关总中断
+    DISABLE_INTERRUPTS;
+
+    cpy_nvic();
+    7dd8:	f000 f82a 	bl	7e30 <cpy_nvic>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:27
+    funPointerInit();
+    7ddc:	f000 f84e 	bl	7e7c <funPointerInit>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:29
+
+    gpio_init(LIGHT_RED,GPIO_OUTPUT,LIGHT_OFF);
+    7de0:	4b0f      	ldr	r3, [pc, #60]	; (7e20 <main+0x50>)
+    7de2:	681b      	ldr	r3, [r3, #0]
+    7de4:	2201      	movs	r2, #1
+    7de6:	2101      	movs	r1, #1
+    7de8:	2005      	movs	r0, #5
+    7dea:	4798      	blx	r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:30
+    flash_init();
+    7dec:	f000 fd20 	bl	8830 <flash_init>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:33
+
+    //（3） 【根据实际需要增删】给有关变量赋初值
+	mCount = 0;
+    7df0:	2300      	movs	r3, #0
+    7df2:	60fb      	str	r3, [r7, #12]
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:333
+  __ASM volatile ("cpsie i" : : : "memory");
+    7df4:	b662      	cpsie	i
+main():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:46
+    //（8）获得LCD需要显示的数据并显示
+
+    //主循环开始======================================================
+    for(;;)
+    {
+		mCount++;
+    7df6:	68fb      	ldr	r3, [r7, #12]
+    7df8:	3301      	adds	r3, #1
+    7dfa:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:47
+		if(mCount > 0xfffff)
+    7dfc:	68fb      	ldr	r3, [r7, #12]
+    7dfe:	4a09      	ldr	r2, [pc, #36]	; (7e24 <main+0x54>)
+    7e00:	4293      	cmp	r3, r2
+    7e02:	d9f8      	bls.n	7df6 <main+0x26>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:49
+		{
+			mCount = 0;
+    7e04:	2300      	movs	r3, #0
+    7e06:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:50
+			gpio_reverse(LIGHT_RED);
+    7e08:	4b07      	ldr	r3, [pc, #28]	; (7e28 <main+0x58>)
+    7e0a:	681b      	ldr	r3, [r3, #0]
+    7e0c:	2005      	movs	r0, #5
+    7e0e:	4798      	blx	r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:53
+			//light_change(LIGHT_RED);
+
+			ct = getTime();
+    7e10:	4b06      	ldr	r3, [pc, #24]	; (7e2c <main+0x5c>)
+    7e12:	681b      	ldr	r3, [r3, #0]
+    7e14:	4798      	blx	r3
+    7e16:	0003      	movs	r3, r0
+    7e18:	000c      	movs	r4, r1
+    7e1a:	603b      	str	r3, [r7, #0]
+    7e1c:	607c      	str	r4, [r7, #4]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:46
+		mCount++;
+    7e1e:	e7ea      	b.n	7df6 <main+0x26>
+    7e20:	20000730 	.word	0x20000730
+    7e24:	000fffff 	.word	0x000fffff
+    7e28:	2000072c 	.word	0x2000072c
+    7e2c:	20000744 	.word	0x20000744
+
+00007e30 <cpy_nvic>:
+cpy_nvic():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:60
+        //主循环结束======================================================
+    }
+}
+
+void cpy_nvic(void)
+{
+    7e30:	b580      	push	{r7, lr}
+    7e32:	b084      	sub	sp, #16
+    7e34:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:64
+    #define NVIC_NUM_VECTORS        (16 + 32)     // CORE + MCU Peripherals
+	#define NVIC_RAM_VECTOR_ADDRESS 0x20000400
+
+    uint32_t *old_vectors = (uint32_t *)SCB->VTOR;    //取得系统控制块中VTOR①寄存器的值
+    7e36:	4b0f      	ldr	r3, [pc, #60]	; (7e74 <cpy_nvic+0x44>)
+    7e38:	689b      	ldr	r3, [r3, #8]
+    7e3a:	60bb      	str	r3, [r7, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:65
+    uint32_t *vectors = (uint32_t*)NVIC_RAM_VECTOR_ADDRESS;   //②内存地址起始地址：0x1FFFF000
+    7e3c:	4b0e      	ldr	r3, [pc, #56]	; (7e78 <cpy_nvic+0x48>)
+    7e3e:	607b      	str	r3, [r7, #4]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:66
+    for (int i = 0; i < NVIC_NUM_VECTORS; i++) {    //将48个中断向量拷贝到内存地址中
+    7e40:	2300      	movs	r3, #0
+    7e42:	60fb      	str	r3, [r7, #12]
+    7e44:	e00c      	b.n	7e60 <cpy_nvic+0x30>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:67 (discriminator 3)
+        vectors[i] = old_vectors[i];
+    7e46:	68fb      	ldr	r3, [r7, #12]
+    7e48:	009b      	lsls	r3, r3, #2
+    7e4a:	68ba      	ldr	r2, [r7, #8]
+    7e4c:	18d2      	adds	r2, r2, r3
+    7e4e:	68fb      	ldr	r3, [r7, #12]
+    7e50:	009b      	lsls	r3, r3, #2
+    7e52:	6879      	ldr	r1, [r7, #4]
+    7e54:	18cb      	adds	r3, r1, r3
+    7e56:	6812      	ldr	r2, [r2, #0]
+    7e58:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:66 (discriminator 3)
+    for (int i = 0; i < NVIC_NUM_VECTORS; i++) {    //将48个中断向量拷贝到内存地址中
+    7e5a:	68fb      	ldr	r3, [r7, #12]
+    7e5c:	3301      	adds	r3, #1
+    7e5e:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:66 (discriminator 1)
+    7e60:	68fb      	ldr	r3, [r7, #12]
+    7e62:	2b2f      	cmp	r3, #47	; 0x2f
+    7e64:	ddef      	ble.n	7e46 <cpy_nvic+0x16>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:69
+    }
+    SCB->VTOR = (uint32_t)NVIC_RAM_VECTOR_ADDRESS;    //设置VTOR寄存器指向新的地址
+    7e66:	4b03      	ldr	r3, [pc, #12]	; (7e74 <cpy_nvic+0x44>)
+    7e68:	4a03      	ldr	r2, [pc, #12]	; (7e78 <cpy_nvic+0x48>)
+    7e6a:	609a      	str	r2, [r3, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:70
+}
+    7e6c:	46c0      	nop			; (mov r8, r8)
+    7e6e:	46bd      	mov	sp, r7
+    7e70:	b004      	add	sp, #16
+    7e72:	bd80      	pop	{r7, pc}
+    7e74:	e000ed00 	.word	0xe000ed00
+    7e78:	20000400 	.word	0x20000400
+
+00007e7c <funPointerInit>:
+funPointerInit():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:81
+
+	vectors[(int32_t)IRQn + NVIC_USER_IRQ_OFFSET] = vector;
+}
+
+void funPointerInit()
+{
+    7e7c:	b580      	push	{r7, lr}
+    7e7e:	b0a2      	sub	sp, #136	; 0x88
+    7e80:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:87
+	//（1）变量声明
+	uint_8 *src;
+	struct funInfo info;
+
+	//（2）获取flash29扇区指针数据
+    src=(uint_8 *)(29*1024);
+    7e82:	23e8      	movs	r3, #232	; 0xe8
+    7e84:	01db      	lsls	r3, r3, #7
+    7e86:	2184      	movs	r1, #132	; 0x84
+    7e88:	187a      	adds	r2, r7, r1
+    7e8a:	6013      	str	r3, [r2, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:88
+    memcpy((uint_8*)&info,src,sizeof(struct funInfo));
+    7e8c:	1d3a      	adds	r2, r7, #4
+    7e8e:	187b      	adds	r3, r7, r1
+    7e90:	681b      	ldr	r3, [r3, #0]
+    7e92:	0010      	movs	r0, r2
+    7e94:	0019      	movs	r1, r3
+    7e96:	2380      	movs	r3, #128	; 0x80
+    7e98:	001a      	movs	r2, r3
+    7e9a:	f000 fd1d 	bl	88d8 <memcpy>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:91
+    //（3）指针函数赋值
+    //（3.1）gpio构件
+    gpio_init = (fun_gpio_init)info.fun_gpio_init;
+    7e9e:	1d3b      	adds	r3, r7, #4
+    7ea0:	681b      	ldr	r3, [r3, #0]
+    7ea2:	001a      	movs	r2, r3
+    7ea4:	4b25      	ldr	r3, [pc, #148]	; (7f3c <funPointerInit+0xc0>)
+    7ea6:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:92
+    gpio_set = (fun_gpio_set)info.fun_gpio_set;
+    7ea8:	1d3b      	adds	r3, r7, #4
+    7eaa:	685b      	ldr	r3, [r3, #4]
+    7eac:	001a      	movs	r2, r3
+    7eae:	4b24      	ldr	r3, [pc, #144]	; (7f40 <funPointerInit+0xc4>)
+    7eb0:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:93
+    gpio_get = (fun_gpio_get)info.fun_gpio_get;
+    7eb2:	1d3b      	adds	r3, r7, #4
+    7eb4:	689b      	ldr	r3, [r3, #8]
+    7eb6:	001a      	movs	r2, r3
+    7eb8:	4b22      	ldr	r3, [pc, #136]	; (7f44 <funPointerInit+0xc8>)
+    7eba:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:94
+    gpio_reverse = (fun_gpio_reverse)info.fun_gpio_reverse;
+    7ebc:	1d3b      	adds	r3, r7, #4
+    7ebe:	68db      	ldr	r3, [r3, #12]
+    7ec0:	001a      	movs	r2, r3
+    7ec2:	4b21      	ldr	r3, [pc, #132]	; (7f48 <funPointerInit+0xcc>)
+    7ec4:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:95
+    gpio_pull = (fun_gpio_pull)info.fun_gpio_pull;
+    7ec6:	1d3b      	adds	r3, r7, #4
+    7ec8:	691b      	ldr	r3, [r3, #16]
+    7eca:	001a      	movs	r2, r3
+    7ecc:	4b1f      	ldr	r3, [pc, #124]	; (7f4c <funPointerInit+0xd0>)
+    7ece:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:96
+    gpio_enable_int = (fun_gpio_enable_int)info.fun_gpio_enable_int;
+    7ed0:	1d3b      	adds	r3, r7, #4
+    7ed2:	695b      	ldr	r3, [r3, #20]
+    7ed4:	001a      	movs	r2, r3
+    7ed6:	4b1e      	ldr	r3, [pc, #120]	; (7f50 <funPointerInit+0xd4>)
+    7ed8:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:97
+    gpio_disable_int = (fun_gpio_disable_int)info.fun_gpio_disable_int;
+    7eda:	1d3b      	adds	r3, r7, #4
+    7edc:	699b      	ldr	r3, [r3, #24]
+    7ede:	001a      	movs	r2, r3
+    7ee0:	4b1c      	ldr	r3, [pc, #112]	; (7f54 <funPointerInit+0xd8>)
+    7ee2:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:98
+    gpio_get_int = (fun_gpio_get_int)info.fun_gpio_get_int;
+    7ee4:	1d3b      	adds	r3, r7, #4
+    7ee6:	69db      	ldr	r3, [r3, #28]
+    7ee8:	001a      	movs	r2, r3
+    7eea:	4b1b      	ldr	r3, [pc, #108]	; (7f58 <funPointerInit+0xdc>)
+    7eec:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:99
+    gpio_clear_int = (fun_gpio_clear_int)info.fun_gpio_clear_int;
+    7eee:	1d3b      	adds	r3, r7, #4
+    7ef0:	6a1b      	ldr	r3, [r3, #32]
+    7ef2:	001a      	movs	r2, r3
+    7ef4:	4b19      	ldr	r3, [pc, #100]	; (7f5c <funPointerInit+0xe0>)
+    7ef6:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:100
+    gpio_clear_allint = (fun_gpio_clear_allint)info.fun_flash_erase;
+    7ef8:	1d3b      	adds	r3, r7, #4
+    7efa:	6d9b      	ldr	r3, [r3, #88]	; 0x58
+    7efc:	001a      	movs	r2, r3
+    7efe:	4b18      	ldr	r3, [pc, #96]	; (7f60 <funPointerInit+0xe4>)
+    7f00:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:101
+    gpio_drive_strength = (fun_gpio_drive_strength)info.fun_gpio_drive_strength;
+    7f02:	1d3b      	adds	r3, r7, #4
+    7f04:	6a9b      	ldr	r3, [r3, #40]	; 0x28
+    7f06:	001a      	movs	r2, r3
+    7f08:	4b16      	ldr	r3, [pc, #88]	; (7f64 <funPointerInit+0xe8>)
+    7f0a:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:122
+//    flash_read_logic = (fun_flash_read_logic)info.fun_flash_read_logic;
+//    flash_read_physical = (fun_flash_read_physical)info.fun_flash_read_physical;
+//    flash_protect = (fun_flash_protect)info.fun_flash_protect;
+//    flash_isempty = (fun_flash_isempty)info.fun_flash_isempty;
+    //（3.4）light构件
+    light_init = (fun_light_init)info.fun_light_init;
+    7f0c:	1d3b      	adds	r3, r7, #4
+    7f0e:	6f1b      	ldr	r3, [r3, #112]	; 0x70
+    7f10:	001a      	movs	r2, r3
+    7f12:	4b15      	ldr	r3, [pc, #84]	; (7f68 <funPointerInit+0xec>)
+    7f14:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:123
+    light_control = (fun_light_control)info.fun_light_control;
+    7f16:	1d3b      	adds	r3, r7, #4
+    7f18:	6f5b      	ldr	r3, [r3, #116]	; 0x74
+    7f1a:	001a      	movs	r2, r3
+    7f1c:	4b13      	ldr	r3, [pc, #76]	; (7f6c <funPointerInit+0xf0>)
+    7f1e:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:124
+    light_change = (fun_light_change)info.fun_light_change;
+    7f20:	1d3b      	adds	r3, r7, #4
+    7f22:	6f9b      	ldr	r3, [r3, #120]	; 0x78
+    7f24:	001a      	movs	r2, r3
+    7f26:	4b12      	ldr	r3, [pc, #72]	; (7f70 <funPointerInit+0xf4>)
+    7f28:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:126
+
+    getTime = (fun_getTime)info.fun_getTime;
+    7f2a:	1d3b      	adds	r3, r7, #4
+    7f2c:	6fdb      	ldr	r3, [r3, #124]	; 0x7c
+    7f2e:	001a      	movs	r2, r3
+    7f30:	4b10      	ldr	r3, [pc, #64]	; (7f74 <funPointerInit+0xf8>)
+    7f32:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../06_NosPrg/main.c:127
+}
+    7f34:	46c0      	nop			; (mov r8, r8)
+    7f36:	46bd      	mov	sp, r7
+    7f38:	b022      	add	sp, #136	; 0x88
+    7f3a:	bd80      	pop	{r7, pc}
+    7f3c:	20000730 	.word	0x20000730
+    7f40:	20000728 	.word	0x20000728
+    7f44:	2000070c 	.word	0x2000070c
+    7f48:	2000072c 	.word	0x2000072c
+    7f4c:	20000724 	.word	0x20000724
+    7f50:	2000071c 	.word	0x2000071c
+    7f54:	20000710 	.word	0x20000710
+    7f58:	200006fc 	.word	0x200006fc
+    7f5c:	20000714 	.word	0x20000714
+    7f60:	20000708 	.word	0x20000708
+    7f64:	20000700 	.word	0x20000700
+    7f68:	20000704 	.word	0x20000704
+    7f6c:	20000720 	.word	0x20000720
+    7f70:	20000718 	.word	0x20000718
+    7f74:	20000744 	.word	0x20000744
+
+00007f78 <UART1_IRQHandler>:
+UART1_IRQHandler():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:63
+//========================变量声明结束====================================
+
+//根据宏UART_UE决定使用的中断函数
+#if UART_UE == UART_1
+void UART1_IRQHandler(void)
+{
+    7f78:	b580      	push	{r7, lr}
+    7f7a:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:64
+	uecom_interrupt();
+    7f7c:	f000 f9b4 	bl	82e8 <uecom_interrupt>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:65
+}
+    7f80:	46c0      	nop			; (mov r8, r8)
+    7f82:	46bd      	mov	sp, r7
+    7f84:	bd80      	pop	{r7, pc}
+	...
+
+00007f88 <crc16>:
+crc16():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:888
+//参数说明：ptr:需要校验的数据缓存区
+//       len:需要检验的数据长度
+//函数返回：计算得到的校验值
+//===================================================================
+uint_16 crc16(uint_8 *ptr,uint_16 len)
+{
+    7f88:	b590      	push	{r4, r7, lr}
+    7f8a:	b085      	sub	sp, #20
+    7f8c:	af00      	add	r7, sp, #0
+    7f8e:	6078      	str	r0, [r7, #4]
+    7f90:	000a      	movs	r2, r1
+    7f92:	1cbb      	adds	r3, r7, #2
+    7f94:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:891
+    uint_16 i,j,tmp,crc16;
+
+    crc16 = 0xffff;
+    7f96:	230a      	movs	r3, #10
+    7f98:	18fb      	adds	r3, r7, r3
+    7f9a:	2201      	movs	r2, #1
+    7f9c:	4252      	negs	r2, r2
+    7f9e:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:892
+    for(i = 0;i < len;i++)
+    7fa0:	230e      	movs	r3, #14
+    7fa2:	18fb      	adds	r3, r7, r3
+    7fa4:	2200      	movs	r2, #0
+    7fa6:	801a      	strh	r2, [r3, #0]
+    7fa8:	e03a      	b.n	8020 <crc16+0x98>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:894
+    {
+        crc16 = ptr[i]^crc16;
+    7faa:	230e      	movs	r3, #14
+    7fac:	18fb      	adds	r3, r7, r3
+    7fae:	881b      	ldrh	r3, [r3, #0]
+    7fb0:	687a      	ldr	r2, [r7, #4]
+    7fb2:	18d3      	adds	r3, r2, r3
+    7fb4:	781b      	ldrb	r3, [r3, #0]
+    7fb6:	b299      	uxth	r1, r3
+    7fb8:	220a      	movs	r2, #10
+    7fba:	18bb      	adds	r3, r7, r2
+    7fbc:	18ba      	adds	r2, r7, r2
+    7fbe:	8812      	ldrh	r2, [r2, #0]
+    7fc0:	404a      	eors	r2, r1
+    7fc2:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:895
+        for(j = 0;j< 8;j++)
+    7fc4:	230c      	movs	r3, #12
+    7fc6:	18fb      	adds	r3, r7, r3
+    7fc8:	2200      	movs	r2, #0
+    7fca:	801a      	strh	r2, [r3, #0]
+    7fcc:	e01d      	b.n	800a <crc16+0x82>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:897
+        {
+            tmp = crc16 & 0x0001;
+    7fce:	2408      	movs	r4, #8
+    7fd0:	193b      	adds	r3, r7, r4
+    7fd2:	200a      	movs	r0, #10
+    7fd4:	183a      	adds	r2, r7, r0
+    7fd6:	8812      	ldrh	r2, [r2, #0]
+    7fd8:	2101      	movs	r1, #1
+    7fda:	400a      	ands	r2, r1
+    7fdc:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:898
+            crc16 = crc16>>1;
+    7fde:	183b      	adds	r3, r7, r0
+    7fe0:	183a      	adds	r2, r7, r0
+    7fe2:	8812      	ldrh	r2, [r2, #0]
+    7fe4:	0852      	lsrs	r2, r2, #1
+    7fe6:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:899
+            if(tmp)
+    7fe8:	193b      	adds	r3, r7, r4
+    7fea:	881b      	ldrh	r3, [r3, #0]
+    7fec:	2b00      	cmp	r3, #0
+    7fee:	d006      	beq.n	7ffe <crc16+0x76>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:900
+                crc16 = crc16^0xa001;
+    7ff0:	220a      	movs	r2, #10
+    7ff2:	18bb      	adds	r3, r7, r2
+    7ff4:	18ba      	adds	r2, r7, r2
+    7ff6:	8812      	ldrh	r2, [r2, #0]
+    7ff8:	4910      	ldr	r1, [pc, #64]	; (803c <crc16+0xb4>)
+    7ffa:	404a      	eors	r2, r1
+    7ffc:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:895 (discriminator 2)
+        for(j = 0;j< 8;j++)
+    7ffe:	210c      	movs	r1, #12
+    8000:	187b      	adds	r3, r7, r1
+    8002:	881a      	ldrh	r2, [r3, #0]
+    8004:	187b      	adds	r3, r7, r1
+    8006:	3201      	adds	r2, #1
+    8008:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:895 (discriminator 1)
+    800a:	230c      	movs	r3, #12
+    800c:	18fb      	adds	r3, r7, r3
+    800e:	881b      	ldrh	r3, [r3, #0]
+    8010:	2b07      	cmp	r3, #7
+    8012:	d9dc      	bls.n	7fce <crc16+0x46>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:892 (discriminator 2)
+    for(i = 0;i < len;i++)
+    8014:	210e      	movs	r1, #14
+    8016:	187b      	adds	r3, r7, r1
+    8018:	881a      	ldrh	r2, [r3, #0]
+    801a:	187b      	adds	r3, r7, r1
+    801c:	3201      	adds	r2, #1
+    801e:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:892 (discriminator 1)
+    8020:	230e      	movs	r3, #14
+    8022:	18fa      	adds	r2, r7, r3
+    8024:	1cbb      	adds	r3, r7, #2
+    8026:	8812      	ldrh	r2, [r2, #0]
+    8028:	881b      	ldrh	r3, [r3, #0]
+    802a:	429a      	cmp	r2, r3
+    802c:	d3bd      	bcc.n	7faa <crc16+0x22>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:903
+        }
+    }
+    return crc16;
+    802e:	230a      	movs	r3, #10
+    8030:	18fb      	adds	r3, r7, r3
+    8032:	881b      	ldrh	r3, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:904
+}
+    8034:	0018      	movs	r0, r3
+    8036:	46bd      	mov	sp, r7
+    8038:	b005      	add	sp, #20
+    803a:	bd90      	pop	{r4, r7, pc}
+    803c:	ffffa001 	.word	0xffffa001
+
+00008040 <uecom_recv>:
+uecom_recv():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:916
+//功能概要：将接收到的数据进行解帧，并将有效数据存入data数组之中，由串口的uart中断调用。
+//内部调用：uart_init，uart_disable_re_int,uart_re1，
+//修改日期：2017.08.11,QHJ,CC；2017.09.25，WB；
+//====================================================================
+uint_8 uecom_recv(uint_8 ch,uint_16 *dataLen, uint_8 *data)
+{
+    8040:	b5b0      	push	{r4, r5, r7, lr}
+    8042:	b086      	sub	sp, #24
+    8044:	af00      	add	r7, sp, #0
+    8046:	60b9      	str	r1, [r7, #8]
+    8048:	607a      	str	r2, [r7, #4]
+    804a:	230f      	movs	r3, #15
+    804c:	18fb      	adds	r3, r7, r3
+    804e:	1c02      	adds	r2, r0, #0
+    8050:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:923
+    static uint_16 length = 0;
+    uint_8 ret_val;
+    uint_16 i;
+    uint_8 CRC[2];
+    uint_16 crc;
+    if((index == 0 && ch != frameHead[0]) ||
+    8052:	4b6d      	ldr	r3, [pc, #436]	; (8208 <uecom_recv+0x1c8>)
+    8054:	881b      	ldrh	r3, [r3, #0]
+    8056:	2b00      	cmp	r3, #0
+    8058:	d106      	bne.n	8068 <uecom_recv+0x28>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:923 (discriminator 1)
+    805a:	4b6c      	ldr	r3, [pc, #432]	; (820c <uecom_recv+0x1cc>)
+    805c:	781b      	ldrb	r3, [r3, #0]
+    805e:	220f      	movs	r2, #15
+    8060:	18ba      	adds	r2, r7, r2
+    8062:	7812      	ldrb	r2, [r2, #0]
+    8064:	429a      	cmp	r2, r3
+    8066:	d10a      	bne.n	807e <uecom_recv+0x3e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:924 (discriminator 3)
+      (index == 1 && ch != frameHead[1]))  //未接收到数据或者未遇到帧头
+    8068:	4b67      	ldr	r3, [pc, #412]	; (8208 <uecom_recv+0x1c8>)
+    806a:	881b      	ldrh	r3, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:923 (discriminator 3)
+    if((index == 0 && ch != frameHead[0]) ||
+    806c:	2b01      	cmp	r3, #1
+    806e:	d111      	bne.n	8094 <uecom_recv+0x54>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:924
+      (index == 1 && ch != frameHead[1]))  //未接收到数据或者未遇到帧头
+    8070:	4b66      	ldr	r3, [pc, #408]	; (820c <uecom_recv+0x1cc>)
+    8072:	785b      	ldrb	r3, [r3, #1]
+    8074:	220f      	movs	r2, #15
+    8076:	18ba      	adds	r2, r7, r2
+    8078:	7812      	ldrb	r2, [r2, #0]
+    807a:	429a      	cmp	r2, r3
+    807c:	d00a      	beq.n	8094 <uecom_recv+0x54>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:926
+    {
+        index = 0;
+    807e:	4b62      	ldr	r3, [pc, #392]	; (8208 <uecom_recv+0x1c8>)
+    8080:	2200      	movs	r2, #0
+    8082:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:927
+        length = 0;
+    8084:	4b62      	ldr	r3, [pc, #392]	; (8210 <uecom_recv+0x1d0>)
+    8086:	2200      	movs	r2, #0
+    8088:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:928
+        ret_val = 2;     //接收数据错误
+    808a:	2317      	movs	r3, #23
+    808c:	18fb      	adds	r3, r7, r3
+    808e:	2202      	movs	r2, #2
+    8090:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:929
+        goto uecom_recv_exit;
+    8092:	e0b1      	b.n	81f8 <uecom_recv+0x1b8>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:931
+    }
+    data[index++] = ch;//存入数据
+    8094:	4b5c      	ldr	r3, [pc, #368]	; (8208 <uecom_recv+0x1c8>)
+    8096:	881b      	ldrh	r3, [r3, #0]
+    8098:	1c5a      	adds	r2, r3, #1
+    809a:	b291      	uxth	r1, r2
+    809c:	4a5a      	ldr	r2, [pc, #360]	; (8208 <uecom_recv+0x1c8>)
+    809e:	8011      	strh	r1, [r2, #0]
+    80a0:	001a      	movs	r2, r3
+    80a2:	687b      	ldr	r3, [r7, #4]
+    80a4:	189b      	adds	r3, r3, r2
+    80a6:	220f      	movs	r2, #15
+    80a8:	18ba      	adds	r2, r7, r2
+    80aa:	7812      	ldrb	r2, [r2, #0]
+    80ac:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:932
+    if(index == 19)//读取有效数据长度
+    80ae:	4b56      	ldr	r3, [pc, #344]	; (8208 <uecom_recv+0x1c8>)
+    80b0:	881b      	ldrh	r3, [r3, #0]
+    80b2:	2b13      	cmp	r3, #19
+    80b4:	d10d      	bne.n	80d2 <uecom_recv+0x92>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:934
+    {
+        length = ((uint_16)data[17]<<8) + data[18];
+    80b6:	687b      	ldr	r3, [r7, #4]
+    80b8:	3311      	adds	r3, #17
+    80ba:	781b      	ldrb	r3, [r3, #0]
+    80bc:	b29b      	uxth	r3, r3
+    80be:	021b      	lsls	r3, r3, #8
+    80c0:	b29a      	uxth	r2, r3
+    80c2:	687b      	ldr	r3, [r7, #4]
+    80c4:	3312      	adds	r3, #18
+    80c6:	781b      	ldrb	r3, [r3, #0]
+    80c8:	b29b      	uxth	r3, r3
+    80ca:	18d3      	adds	r3, r2, r3
+    80cc:	b29a      	uxth	r2, r3
+    80ce:	4b50      	ldr	r3, [pc, #320]	; (8210 <uecom_recv+0x1d0>)
+    80d0:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:937
+    }
+    //接收到的数据达到一帧长度。23为帧头帧尾等长度
+    if(length != 0 && index >= length+23)
+    80d2:	4b4f      	ldr	r3, [pc, #316]	; (8210 <uecom_recv+0x1d0>)
+    80d4:	881b      	ldrh	r3, [r3, #0]
+    80d6:	2b00      	cmp	r3, #0
+    80d8:	d100      	bne.n	80dc <uecom_recv+0x9c>
+    80da:	e086      	b.n	81ea <uecom_recv+0x1aa>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:937 (discriminator 1)
+    80dc:	4b4a      	ldr	r3, [pc, #296]	; (8208 <uecom_recv+0x1c8>)
+    80de:	881b      	ldrh	r3, [r3, #0]
+    80e0:	001a      	movs	r2, r3
+    80e2:	4b4b      	ldr	r3, [pc, #300]	; (8210 <uecom_recv+0x1d0>)
+    80e4:	881b      	ldrh	r3, [r3, #0]
+    80e6:	3317      	adds	r3, #23
+    80e8:	429a      	cmp	r2, r3
+    80ea:	da00      	bge.n	80ee <uecom_recv+0xae>
+    80ec:	e07d      	b.n	81ea <uecom_recv+0x1aa>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:940
+    {
+        //CRC校验
+        crc = crc16(data+2,length+17);
+    80ee:	687b      	ldr	r3, [r7, #4]
+    80f0:	1c9a      	adds	r2, r3, #2
+    80f2:	4b47      	ldr	r3, [pc, #284]	; (8210 <uecom_recv+0x1d0>)
+    80f4:	881b      	ldrh	r3, [r3, #0]
+    80f6:	3311      	adds	r3, #17
+    80f8:	b29b      	uxth	r3, r3
+    80fa:	2112      	movs	r1, #18
+    80fc:	000d      	movs	r5, r1
+    80fe:	187c      	adds	r4, r7, r1
+    8100:	0019      	movs	r1, r3
+    8102:	0010      	movs	r0, r2
+    8104:	f7ff ff40 	bl	7f88 <crc16>
+    8108:	0003      	movs	r3, r0
+    810a:	8023      	strh	r3, [r4, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:941
+        CRC[0] = (crc>>8)&0xff;
+    810c:	0029      	movs	r1, r5
+    810e:	187b      	adds	r3, r7, r1
+    8110:	881b      	ldrh	r3, [r3, #0]
+    8112:	0a1b      	lsrs	r3, r3, #8
+    8114:	b29b      	uxth	r3, r3
+    8116:	b2da      	uxtb	r2, r3
+    8118:	2010      	movs	r0, #16
+    811a:	183b      	adds	r3, r7, r0
+    811c:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:942
+        CRC[1] = crc&0xff;
+    811e:	187b      	adds	r3, r7, r1
+    8120:	881b      	ldrh	r3, [r3, #0]
+    8122:	b2da      	uxtb	r2, r3
+    8124:	183b      	adds	r3, r7, r0
+    8126:	705a      	strb	r2, [r3, #1]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:944
+
+        if(data[index-2]!=frameTail[0] ||
+    8128:	4b37      	ldr	r3, [pc, #220]	; (8208 <uecom_recv+0x1c8>)
+    812a:	881b      	ldrh	r3, [r3, #0]
+    812c:	3b02      	subs	r3, #2
+    812e:	687a      	ldr	r2, [r7, #4]
+    8130:	18d3      	adds	r3, r2, r3
+    8132:	781a      	ldrb	r2, [r3, #0]
+    8134:	4b37      	ldr	r3, [pc, #220]	; (8214 <uecom_recv+0x1d4>)
+    8136:	781b      	ldrb	r3, [r3, #0]
+    8138:	429a      	cmp	r2, r3
+    813a:	d11f      	bne.n	817c <uecom_recv+0x13c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:945 (discriminator 1)
+        		data[index-1]!= frameTail[1]  //未遇到帧尾
+    813c:	4b32      	ldr	r3, [pc, #200]	; (8208 <uecom_recv+0x1c8>)
+    813e:	881b      	ldrh	r3, [r3, #0]
+    8140:	3b01      	subs	r3, #1
+    8142:	687a      	ldr	r2, [r7, #4]
+    8144:	18d3      	adds	r3, r2, r3
+    8146:	781a      	ldrb	r2, [r3, #0]
+    8148:	4b32      	ldr	r3, [pc, #200]	; (8214 <uecom_recv+0x1d4>)
+    814a:	785b      	ldrb	r3, [r3, #1]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:944 (discriminator 1)
+        if(data[index-2]!=frameTail[0] ||
+    814c:	429a      	cmp	r2, r3
+    814e:	d115      	bne.n	817c <uecom_recv+0x13c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:946
+            || CRC[0] != data[length+19] ||
+    8150:	2310      	movs	r3, #16
+    8152:	18fb      	adds	r3, r7, r3
+    8154:	781a      	ldrb	r2, [r3, #0]
+    8156:	4b2e      	ldr	r3, [pc, #184]	; (8210 <uecom_recv+0x1d0>)
+    8158:	881b      	ldrh	r3, [r3, #0]
+    815a:	3313      	adds	r3, #19
+    815c:	6879      	ldr	r1, [r7, #4]
+    815e:	18cb      	adds	r3, r1, r3
+    8160:	781b      	ldrb	r3, [r3, #0]
+    8162:	429a      	cmp	r2, r3
+    8164:	d10a      	bne.n	817c <uecom_recv+0x13c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:947 (discriminator 1)
+			CRC[1] != data[length+20])        //CRC检验错误
+    8166:	2310      	movs	r3, #16
+    8168:	18fb      	adds	r3, r7, r3
+    816a:	785a      	ldrb	r2, [r3, #1]
+    816c:	4b28      	ldr	r3, [pc, #160]	; (8210 <uecom_recv+0x1d0>)
+    816e:	881b      	ldrh	r3, [r3, #0]
+    8170:	3314      	adds	r3, #20
+    8172:	6879      	ldr	r1, [r7, #4]
+    8174:	18cb      	adds	r3, r1, r3
+    8176:	781b      	ldrb	r3, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:946 (discriminator 1)
+            || CRC[0] != data[length+19] ||
+    8178:	429a      	cmp	r2, r3
+    817a:	d00a      	beq.n	8192 <uecom_recv+0x152>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:949
+        {
+            index = 0;
+    817c:	4b22      	ldr	r3, [pc, #136]	; (8208 <uecom_recv+0x1c8>)
+    817e:	2200      	movs	r2, #0
+    8180:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:950
+            length = 0;
+    8182:	4b23      	ldr	r3, [pc, #140]	; (8210 <uecom_recv+0x1d0>)
+    8184:	2200      	movs	r2, #0
+    8186:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:951
+            ret_val = 2;
+    8188:	2317      	movs	r3, #23
+    818a:	18fb      	adds	r3, r7, r3
+    818c:	2202      	movs	r2, #2
+    818e:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:952
+            goto uecom_recv_exit;
+    8190:	e032      	b.n	81f8 <uecom_recv+0x1b8>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:955
+        }
+
+        for(i=0;i<length;i++)
+    8192:	2314      	movs	r3, #20
+    8194:	18fb      	adds	r3, r7, r3
+    8196:	2200      	movs	r2, #0
+    8198:	801a      	strh	r2, [r3, #0]
+    819a:	e010      	b.n	81be <uecom_recv+0x17e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:957 (discriminator 3)
+        {
+            data[i] = data[i+19];//19为有效字节前的数据长度
+    819c:	2014      	movs	r0, #20
+    819e:	183b      	adds	r3, r7, r0
+    81a0:	881b      	ldrh	r3, [r3, #0]
+    81a2:	3313      	adds	r3, #19
+    81a4:	687a      	ldr	r2, [r7, #4]
+    81a6:	18d2      	adds	r2, r2, r3
+    81a8:	183b      	adds	r3, r7, r0
+    81aa:	881b      	ldrh	r3, [r3, #0]
+    81ac:	6879      	ldr	r1, [r7, #4]
+    81ae:	18cb      	adds	r3, r1, r3
+    81b0:	7812      	ldrb	r2, [r2, #0]
+    81b2:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:955 (discriminator 3)
+        for(i=0;i<length;i++)
+    81b4:	183b      	adds	r3, r7, r0
+    81b6:	881a      	ldrh	r2, [r3, #0]
+    81b8:	183b      	adds	r3, r7, r0
+    81ba:	3201      	adds	r2, #1
+    81bc:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:955 (discriminator 1)
+    81be:	4b14      	ldr	r3, [pc, #80]	; (8210 <uecom_recv+0x1d0>)
+    81c0:	881b      	ldrh	r3, [r3, #0]
+    81c2:	2214      	movs	r2, #20
+    81c4:	18ba      	adds	r2, r7, r2
+    81c6:	8812      	ldrh	r2, [r2, #0]
+    81c8:	429a      	cmp	r2, r3
+    81ca:	d3e7      	bcc.n	819c <uecom_recv+0x15c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:959
+        }
+        *dataLen = length;
+    81cc:	4b10      	ldr	r3, [pc, #64]	; (8210 <uecom_recv+0x1d0>)
+    81ce:	881a      	ldrh	r2, [r3, #0]
+    81d0:	68bb      	ldr	r3, [r7, #8]
+    81d2:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:960
+        index = 0;
+    81d4:	4b0c      	ldr	r3, [pc, #48]	; (8208 <uecom_recv+0x1c8>)
+    81d6:	2200      	movs	r2, #0
+    81d8:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:961
+        length = 0;
+    81da:	4b0d      	ldr	r3, [pc, #52]	; (8210 <uecom_recv+0x1d0>)
+    81dc:	2200      	movs	r2, #0
+    81de:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:962
+        ret_val = 0;
+    81e0:	2317      	movs	r3, #23
+    81e2:	18fb      	adds	r3, r7, r3
+    81e4:	2200      	movs	r2, #0
+    81e6:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:963
+        goto uecom_recv_exit;
+    81e8:	e006      	b.n	81f8 <uecom_recv+0x1b8>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:965
+    }
+    *dataLen = 0;//正在组帧
+    81ea:	68bb      	ldr	r3, [r7, #8]
+    81ec:	2200      	movs	r2, #0
+    81ee:	801a      	strh	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:966
+    ret_val = 1;
+    81f0:	2317      	movs	r3, #23
+    81f2:	18fb      	adds	r3, r7, r3
+    81f4:	2201      	movs	r2, #1
+    81f6:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:968
+uecom_recv_exit:
+    return ret_val;
+    81f8:	2317      	movs	r3, #23
+    81fa:	18fb      	adds	r3, r7, r3
+    81fc:	781b      	ldrb	r3, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:969
+}
+    81fe:	0018      	movs	r0, r3
+    8200:	46bd      	mov	sp, r7
+    8202:	b006      	add	sp, #24
+    8204:	bdb0      	pop	{r4, r5, r7, pc}
+    8206:	46c0      	nop			; (mov r8, r8)
+    8208:	200006f6 	.word	0x200006f6
+    820c:	20000400 	.word	0x20000400
+    8210:	200006f8 	.word	0x200006f8
+    8214:	20000404 	.word	0x20000404
+
+00008218 <uecom_ATret>:
+uecom_ATret():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:979
+//参数说明：ch：串口接收到的数据
+//函数返回：无
+//===================================================================
+//处理AT返回
+void uecom_ATret(uint_8 ch)
+{
+    8218:	b580      	push	{r7, lr}
+    821a:	b082      	sub	sp, #8
+    821c:	af00      	add	r7, sp, #0
+    821e:	0002      	movs	r2, r0
+    8220:	1dfb      	adds	r3, r7, #7
+    8222:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:981
+    //（1）变量声明和赋初值
+	if(curATCommand[0] == 0)       //若当前不是AT命令发送模式
+    8224:	4b2c      	ldr	r3, [pc, #176]	; (82d8 <uecom_ATret+0xc0>)
+    8226:	781b      	ldrb	r3, [r3, #0]
+    8228:	2b00      	cmp	r3, #0
+    822a:	d04e      	beq.n	82ca <uecom_ATret+0xb2>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:989
+	}
+	if(AT_reLength >= 510)             //若接收到的数据超过510个，则重新接收
+	{
+		AT_reLength = 0;
+	}
+	AT_reBuf[AT_reLength++] = ch;    //存储接收到的数据到缓冲区AT_reBuf中
+    822c:	4b2b      	ldr	r3, [pc, #172]	; (82dc <uecom_ATret+0xc4>)
+    822e:	781b      	ldrb	r3, [r3, #0]
+    8230:	1c5a      	adds	r2, r3, #1
+    8232:	b2d1      	uxtb	r1, r2
+    8234:	4a29      	ldr	r2, [pc, #164]	; (82dc <uecom_ATret+0xc4>)
+    8236:	7011      	strb	r1, [r2, #0]
+    8238:	0019      	movs	r1, r3
+    823a:	4b29      	ldr	r3, [pc, #164]	; (82e0 <uecom_ATret+0xc8>)
+    823c:	1dfa      	adds	r2, r7, #7
+    823e:	7812      	ldrb	r2, [r2, #0]
+    8240:	545a      	strb	r2, [r3, r1]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:990
+	AT_reBuf[AT_reLength] = 0;
+    8242:	4b26      	ldr	r3, [pc, #152]	; (82dc <uecom_ATret+0xc4>)
+    8244:	781b      	ldrb	r3, [r3, #0]
+    8246:	001a      	movs	r2, r3
+    8248:	4b25      	ldr	r3, [pc, #148]	; (82e0 <uecom_ATret+0xc8>)
+    824a:	2100      	movs	r1, #0
+    824c:	5499      	strb	r1, [r3, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:992
+	//若缓冲区AT_reBuf中接收到OK或者ERROR
+	if( (AT_reBuf[AT_reLength-2]=='O' && AT_reBuf[AT_reLength-1]=='K')
+    824e:	4b23      	ldr	r3, [pc, #140]	; (82dc <uecom_ATret+0xc4>)
+    8250:	781b      	ldrb	r3, [r3, #0]
+    8252:	3b02      	subs	r3, #2
+    8254:	4a22      	ldr	r2, [pc, #136]	; (82e0 <uecom_ATret+0xc8>)
+    8256:	5cd3      	ldrb	r3, [r2, r3]
+    8258:	2b4f      	cmp	r3, #79	; 0x4f
+    825a:	d106      	bne.n	826a <uecom_ATret+0x52>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:992 (discriminator 1)
+    825c:	4b1f      	ldr	r3, [pc, #124]	; (82dc <uecom_ATret+0xc4>)
+    825e:	781b      	ldrb	r3, [r3, #0]
+    8260:	3b01      	subs	r3, #1
+    8262:	4a1f      	ldr	r2, [pc, #124]	; (82e0 <uecom_ATret+0xc8>)
+    8264:	5cd3      	ldrb	r3, [r2, r3]
+    8266:	2b4b      	cmp	r3, #75	; 0x4b
+    8268:	d026      	beq.n	82b8 <uecom_ATret+0xa0>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:993
+			|| (AT_reLength > 4 && AT_reBuf[AT_reLength-5]=='E'
+    826a:	4b1c      	ldr	r3, [pc, #112]	; (82dc <uecom_ATret+0xc4>)
+    826c:	781b      	ldrb	r3, [r3, #0]
+    826e:	2b04      	cmp	r3, #4
+    8270:	d92d      	bls.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:993 (discriminator 1)
+    8272:	4b1a      	ldr	r3, [pc, #104]	; (82dc <uecom_ATret+0xc4>)
+    8274:	781b      	ldrb	r3, [r3, #0]
+    8276:	3b05      	subs	r3, #5
+    8278:	4a19      	ldr	r2, [pc, #100]	; (82e0 <uecom_ATret+0xc8>)
+    827a:	5cd3      	ldrb	r3, [r2, r3]
+    827c:	2b45      	cmp	r3, #69	; 0x45
+    827e:	d126      	bne.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:994
+			&&  AT_reBuf[AT_reLength-4]=='R'  &&  AT_reBuf[AT_reLength-3]=='R'
+    8280:	4b16      	ldr	r3, [pc, #88]	; (82dc <uecom_ATret+0xc4>)
+    8282:	781b      	ldrb	r3, [r3, #0]
+    8284:	3b04      	subs	r3, #4
+    8286:	4a16      	ldr	r2, [pc, #88]	; (82e0 <uecom_ATret+0xc8>)
+    8288:	5cd3      	ldrb	r3, [r2, r3]
+    828a:	2b52      	cmp	r3, #82	; 0x52
+    828c:	d11f      	bne.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:994 (discriminator 1)
+    828e:	4b13      	ldr	r3, [pc, #76]	; (82dc <uecom_ATret+0xc4>)
+    8290:	781b      	ldrb	r3, [r3, #0]
+    8292:	3b03      	subs	r3, #3
+    8294:	4a12      	ldr	r2, [pc, #72]	; (82e0 <uecom_ATret+0xc8>)
+    8296:	5cd3      	ldrb	r3, [r2, r3]
+    8298:	2b52      	cmp	r3, #82	; 0x52
+    829a:	d118      	bne.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:995
+			&&  AT_reBuf[AT_reLength-2]=='O' &&  AT_reBuf[AT_reLength-1]=='R'))
+    829c:	4b0f      	ldr	r3, [pc, #60]	; (82dc <uecom_ATret+0xc4>)
+    829e:	781b      	ldrb	r3, [r3, #0]
+    82a0:	3b02      	subs	r3, #2
+    82a2:	4a0f      	ldr	r2, [pc, #60]	; (82e0 <uecom_ATret+0xc8>)
+    82a4:	5cd3      	ldrb	r3, [r2, r3]
+    82a6:	2b4f      	cmp	r3, #79	; 0x4f
+    82a8:	d111      	bne.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:995 (discriminator 1)
+    82aa:	4b0c      	ldr	r3, [pc, #48]	; (82dc <uecom_ATret+0xc4>)
+    82ac:	781b      	ldrb	r3, [r3, #0]
+    82ae:	3b01      	subs	r3, #1
+    82b0:	4a0b      	ldr	r2, [pc, #44]	; (82e0 <uecom_ATret+0xc8>)
+    82b2:	5cd3      	ldrb	r3, [r2, r3]
+    82b4:	2b52      	cmp	r3, #82	; 0x52
+    82b6:	d10a      	bne.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:997
+	{
+		curATCommand[0] = 0;         //结束AT接收
+    82b8:	4b07      	ldr	r3, [pc, #28]	; (82d8 <uecom_ATret+0xc0>)
+    82ba:	2200      	movs	r2, #0
+    82bc:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:998
+		AT_reFlag = AT_reLength;      //标志已经接收到数据
+    82be:	4b07      	ldr	r3, [pc, #28]	; (82dc <uecom_ATret+0xc4>)
+    82c0:	781a      	ldrb	r2, [r3, #0]
+    82c2:	4b08      	ldr	r3, [pc, #32]	; (82e4 <uecom_ATret+0xcc>)
+    82c4:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1000
+	}
+	return ;
+    82c6:	46c0      	nop			; (mov r8, r8)
+    82c8:	e001      	b.n	82ce <uecom_ATret+0xb6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:983
+		return;
+    82ca:	46c0      	nop			; (mov r8, r8)
+    82cc:	e000      	b.n	82d0 <uecom_ATret+0xb8>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1000
+	return ;
+    82ce:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1001
+}
+    82d0:	46bd      	mov	sp, r7
+    82d2:	b002      	add	sp, #8
+    82d4:	bd80      	pop	{r7, pc}
+    82d6:	46c0      	nop			; (mov r8, r8)
+    82d8:	20000690 	.word	0x20000690
+    82dc:	2000068d 	.word	0x2000068d
+    82e0:	2000048c 	.word	0x2000048c
+    82e4:	2000068c 	.word	0x2000068c
+
+000082e8 <uecom_interrupt>:
+uecom_interrupt():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1009
+//功能概要：在中断中应处理的操作
+//参数说明：无
+//函数返回：无
+//===================================================================
+void uecom_interrupt(void)
+{
+    82e8:	b590      	push	{r4, r7, lr}
+    82ea:	b083      	sub	sp, #12
+    82ec:	af00      	add	r7, sp, #0
+__disable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:344
+  __ASM volatile ("cpsid i" : : : "memory");
+    82ee:	b672      	cpsid	i
+uecom_interrupt():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1012
+	uint_8 ch,flag;
+	 DISABLE_INTERRUPTS;
+	if(uart_get_re_int(UART_UE))
+    82f0:	2001      	movs	r0, #1
+    82f2:	f000 fa29 	bl	8748 <uart_get_re_int>
+    82f6:	1e03      	subs	r3, r0, #0
+    82f8:	d01d      	beq.n	8336 <uecom_interrupt+0x4e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1014
+	{
+		uart_disable_re_int(UART_UE);    //关串口总中断
+    82fa:	2001      	movs	r0, #1
+    82fc:	f000 f9e6 	bl	86cc <uart_disable_re_int>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1015
+		ch = uart_re1 (UART_UE, &flag);    //调用接收一个字节的函数，清接收中断位
+    8300:	1dfc      	adds	r4, r7, #7
+    8302:	1dbb      	adds	r3, r7, #6
+    8304:	0019      	movs	r1, r3
+    8306:	2001      	movs	r0, #1
+    8308:	f000 f940 	bl	858c <uart_re1>
+    830c:	0003      	movs	r3, r0
+    830e:	7023      	strb	r3, [r4, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1016
+		if(flag)
+    8310:	1dbb      	adds	r3, r7, #6
+    8312:	781b      	ldrb	r3, [r3, #0]
+    8314:	2b00      	cmp	r3, #0
+    8316:	d00b      	beq.n	8330 <uecom_interrupt+0x48>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1019
+		{
+//			uart_send1(UART_2,ch);
+			uecom_ATret(ch);                               //处理AT命令返回的数据
+    8318:	1dfb      	adds	r3, r7, #7
+    831a:	781b      	ldrb	r3, [r3, #0]
+    831c:	0018      	movs	r0, r3
+    831e:	f7ff ff7b 	bl	8218 <uecom_ATret>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1020
+			uecom_recv(ch,&gRecvLength,gRecvBuf); //处理GPRS接收到的数据
+    8322:	4a07      	ldr	r2, [pc, #28]	; (8340 <uecom_interrupt+0x58>)
+    8324:	4907      	ldr	r1, [pc, #28]	; (8344 <uecom_interrupt+0x5c>)
+    8326:	1dfb      	adds	r3, r7, #7
+    8328:	781b      	ldrb	r3, [r3, #0]
+    832a:	0018      	movs	r0, r3
+    832c:	f7ff fe88 	bl	8040 <uecom_recv>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1022
+		}
+		uart_enable_re_int(UART_UE);    //开串口总中断
+    8330:	2001      	movs	r0, #1
+    8332:	f000 f98d 	bl	8650 <uart_enable_re_int>
+__enable_irq():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cmFunc.h:333
+  __ASM volatile ("cpsie i" : : : "memory");
+    8336:	b662      	cpsie	i
+uecom_interrupt():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../04_UserBoard/uecom/uecom.c:1025
+	}
+    ENABLE_INTERRUPTS;
+}
+    8338:	46c0      	nop			; (mov r8, r8)
+    833a:	46bd      	mov	sp, r7
+    833c:	b003      	add	sp, #12
+    833e:	bd90      	pop	{r4, r7, pc}
+    8340:	20000860 	.word	0x20000860
+    8344:	200006f4 	.word	0x200006f4
+
+00008348 <SystemInit>:
+SystemInit():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:104
+   -- SystemInit()
+   ---------------------------------------------------------------------------- */
+
+//
+
+void SystemInit (void) {
+    8348:	b580      	push	{r7, lr}
+    834a:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:112
+    //【不变】根据ENABLE_WDOG决定是否开启看门狗。【看门狗】
+    //看门狗默认为开启，而且复位之后只能开启或关闭看门狗一次
+    if(ENABLE_WDOG)
+    	wdog_start(3);
+    else
+    	wdog_stop();
+    834c:	f000 f88e 	bl	846c <wdog_stop>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:115
+    /* System clock initialization */
+    /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=3,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x03)); /* Set the system prescalers to safe value */
+    8350:	493c      	ldr	r1, [pc, #240]	; (8444 <SystemInit+0xfc>)
+    8352:	4a3d      	ldr	r2, [pc, #244]	; (8448 <SystemInit+0x100>)
+    8354:	23c0      	movs	r3, #192	; 0xc0
+    8356:	029b      	lsls	r3, r3, #10
+    8358:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:117
+    /* SIM_SCGC5: PORTA=1 */
+    SIM_SCGC5 |= SIM_SCGC5_PORTA_MASK;   /* Enable clock gate for ports to enable pin routing */
+    835a:	4a3a      	ldr	r2, [pc, #232]	; (8444 <SystemInit+0xfc>)
+    835c:	4b3b      	ldr	r3, [pc, #236]	; (844c <SystemInit+0x104>)
+    835e:	58d3      	ldr	r3, [r2, r3]
+    8360:	4938      	ldr	r1, [pc, #224]	; (8444 <SystemInit+0xfc>)
+    8362:	2280      	movs	r2, #128	; 0x80
+    8364:	0092      	lsls	r2, r2, #2
+    8366:	4313      	orrs	r3, r2
+    8368:	4a38      	ldr	r2, [pc, #224]	; (844c <SystemInit+0x104>)
+    836a:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:118
+    if ((PMC_REGSC & PMC_REGSC_ACKISO_MASK) != 0x0U) {
+    836c:	4b38      	ldr	r3, [pc, #224]	; (8450 <SystemInit+0x108>)
+    836e:	789b      	ldrb	r3, [r3, #2]
+    8370:	b2db      	uxtb	r3, r3
+    8372:	001a      	movs	r2, r3
+    8374:	2308      	movs	r3, #8
+    8376:	4013      	ands	r3, r2
+    8378:	d007      	beq.n	838a <SystemInit+0x42>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:120
+        /* PMC_REGSC: ACKISO=1 */
+        PMC_REGSC |= PMC_REGSC_ACKISO_MASK; /* Release IO pads after wakeup from VLLS mode. */
+    837a:	4b35      	ldr	r3, [pc, #212]	; (8450 <SystemInit+0x108>)
+    837c:	789b      	ldrb	r3, [r3, #2]
+    837e:	b2db      	uxtb	r3, r3
+    8380:	4a33      	ldr	r2, [pc, #204]	; (8450 <SystemInit+0x108>)
+    8382:	2108      	movs	r1, #8
+    8384:	430b      	orrs	r3, r1
+    8386:	b2db      	uxtb	r3, r3
+    8388:	7093      	strb	r3, [r2, #2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:123
+    }
+    /* SIM_CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+    SIM_CLKDIV1 = (SIM_CLKDIV1_OUTDIV1(0x00) | SIM_CLKDIV1_OUTDIV4(0x01)); /* Update system prescalers */
+    838a:	492e      	ldr	r1, [pc, #184]	; (8444 <SystemInit+0xfc>)
+    838c:	4a2e      	ldr	r2, [pc, #184]	; (8448 <SystemInit+0x100>)
+    838e:	2380      	movs	r3, #128	; 0x80
+    8390:	025b      	lsls	r3, r3, #9
+    8392:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:125
+    /* SIM_SOPT2: ??=0,PLLFLLSEL=0 */
+    SIM_SOPT2 &= (uint32_t)~(uint32_t)((SIM_SOPT2_PLLFLLSEL_MASK | 0x00020000U)); /* Select FLL as a clock source for various peripherals */
+    8394:	4a2b      	ldr	r2, [pc, #172]	; (8444 <SystemInit+0xfc>)
+    8396:	4b2f      	ldr	r3, [pc, #188]	; (8454 <SystemInit+0x10c>)
+    8398:	58d3      	ldr	r3, [r2, r3]
+    839a:	492a      	ldr	r1, [pc, #168]	; (8444 <SystemInit+0xfc>)
+    839c:	4a2e      	ldr	r2, [pc, #184]	; (8458 <SystemInit+0x110>)
+    839e:	4013      	ands	r3, r2
+    83a0:	4a2c      	ldr	r2, [pc, #176]	; (8454 <SystemInit+0x10c>)
+    83a2:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:127
+    /* SIM_SOPT1: OSC32KSEL=0 */
+    SIM_SOPT1 &= (uint32_t)~(uint32_t)(SIM_SOPT1_OSC32KSEL(0x03)); /* System oscillator drives 32 kHz clock for various peripherals */
+    83a4:	4b27      	ldr	r3, [pc, #156]	; (8444 <SystemInit+0xfc>)
+    83a6:	681a      	ldr	r2, [r3, #0]
+    83a8:	4b26      	ldr	r3, [pc, #152]	; (8444 <SystemInit+0xfc>)
+    83aa:	492c      	ldr	r1, [pc, #176]	; (845c <SystemInit+0x114>)
+    83ac:	400a      	ands	r2, r1
+    83ae:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:129
+    /* SIM_SOPT2: TPMSRC=1 */
+    SIM_SOPT2 = (uint32_t)((SIM_SOPT2 & (uint32_t)~(uint32_t)(
+    83b0:	4a24      	ldr	r2, [pc, #144]	; (8444 <SystemInit+0xfc>)
+    83b2:	4b28      	ldr	r3, [pc, #160]	; (8454 <SystemInit+0x10c>)
+    83b4:	58d3      	ldr	r3, [r2, r3]
+    83b6:	4a2a      	ldr	r2, [pc, #168]	; (8460 <SystemInit+0x118>)
+    83b8:	4013      	ands	r3, r2
+    83ba:	4922      	ldr	r1, [pc, #136]	; (8444 <SystemInit+0xfc>)
+    83bc:	2280      	movs	r2, #128	; 0x80
+    83be:	0452      	lsls	r2, r2, #17
+    83c0:	4313      	orrs	r3, r2
+    83c2:	4a24      	ldr	r2, [pc, #144]	; (8454 <SystemInit+0x10c>)
+    83c4:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:136
+    )) | (uint32_t)(
+            SIM_SOPT2_TPMSRC(0x01)
+    ));                      /* Set the TPM clock */
+    /* Switch to FEI Mode */
+    /* MCG_C1: CLKS=0,FRDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
+    MCG_C1 = MCG_C1_CLKS(0x00) |
+    83c6:	4b27      	ldr	r3, [pc, #156]	; (8464 <SystemInit+0x11c>)
+    83c8:	2206      	movs	r2, #6
+    83ca:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:141
+            MCG_C1_FRDIV(0x00) |
+            MCG_C1_IREFS_MASK |
+            MCG_C1_IRCLKEN_MASK;
+    /* MCG_C2: LOCRE0=0,RANGE0=0,HGO0=0,EREFS0=0,LP=0,IRCS=0 */
+    MCG_C2 &= (uint8_t)~(uint8_t)(
+    83cc:	4b25      	ldr	r3, [pc, #148]	; (8464 <SystemInit+0x11c>)
+    83ce:	785b      	ldrb	r3, [r3, #1]
+    83d0:	b2db      	uxtb	r3, r3
+    83d2:	4a24      	ldr	r2, [pc, #144]	; (8464 <SystemInit+0x11c>)
+    83d4:	2140      	movs	r1, #64	; 0x40
+    83d6:	400b      	ands	r3, r1
+    83d8:	b2db      	uxtb	r3, r3
+    83da:	7053      	strb	r3, [r2, #1]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:150
+            MCG_C2_EREFS0_MASK |
+            MCG_C2_LP_MASK |
+            MCG_C2_IRCS_MASK
+    );
+    /* MCG_C4: DMX32=1,DRST_DRS=1 */
+    MCG_C4 = (uint8_t)((MCG_C4 & (uint8_t)~(uint8_t)(
+    83dc:	4b21      	ldr	r3, [pc, #132]	; (8464 <SystemInit+0x11c>)
+    83de:	78db      	ldrb	r3, [r3, #3]
+    83e0:	b2db      	uxtb	r3, r3
+    83e2:	b25b      	sxtb	r3, r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:152
+            MCG_C4_DRST_DRS(0x02)
+    )) | (uint8_t)(
+    83e4:	221f      	movs	r2, #31
+    83e6:	4013      	ands	r3, r2
+    83e8:	b25b      	sxtb	r3, r3
+    83ea:	2260      	movs	r2, #96	; 0x60
+    83ec:	4252      	negs	r2, r2
+    83ee:	4313      	orrs	r3, r2
+    83f0:	b25a      	sxtb	r2, r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:150
+    MCG_C4 = (uint8_t)((MCG_C4 & (uint8_t)~(uint8_t)(
+    83f2:	4b1c      	ldr	r3, [pc, #112]	; (8464 <SystemInit+0x11c>)
+    83f4:	b2d2      	uxtb	r2, r2
+    83f6:	70da      	strb	r2, [r3, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:157
+            MCG_C4_DMX32_MASK |
+            MCG_C4_DRST_DRS(0x01)
+    ));
+    /* OSC0_CR: ERCLKEN=0,??=0,EREFSTEN=0,??=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
+    OSC0_CR = 0x00U;
+    83f8:	4b1b      	ldr	r3, [pc, #108]	; (8468 <SystemInit+0x120>)
+    83fa:	2200      	movs	r2, #0
+    83fc:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:159
+    /* MCG_C5: ??=0,PLLCLKEN0=0,PLLSTEN0=0,PRDIV0=0 */
+    MCG_C5 = MCG_C5_PRDIV0(0x00);
+    83fe:	4b19      	ldr	r3, [pc, #100]	; (8464 <SystemInit+0x11c>)
+    8400:	2200      	movs	r2, #0
+    8402:	711a      	strb	r2, [r3, #4]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:161
+    /* MCG_C6: LOLIE0=0,PLLS=0,CME0=0,VDIV0=0 */
+    MCG_C6 = MCG_C6_VDIV0(0x00);
+    8404:	4b17      	ldr	r3, [pc, #92]	; (8464 <SystemInit+0x11c>)
+    8406:	2200      	movs	r2, #0
+    8408:	715a      	strb	r2, [r3, #5]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:162
+    while((MCG_S & MCG_S_IREFST_MASK) == 0x00U) { /* Check that the source of the FLL reference clock is the internal reference clock. */
+    840a:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:162 (discriminator 1)
+    840c:	4b15      	ldr	r3, [pc, #84]	; (8464 <SystemInit+0x11c>)
+    840e:	799b      	ldrb	r3, [r3, #6]
+    8410:	b2db      	uxtb	r3, r3
+    8412:	001a      	movs	r2, r3
+    8414:	2310      	movs	r3, #16
+    8416:	4013      	ands	r3, r2
+    8418:	d0f8      	beq.n	840c <SystemInit+0xc4>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:164
+    }
+    while((MCG_S & 0x0CU) != 0x00U) {    /* Wait until output of the FLL is selected */
+    841a:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:164 (discriminator 1)
+    841c:	4b11      	ldr	r3, [pc, #68]	; (8464 <SystemInit+0x11c>)
+    841e:	799b      	ldrb	r3, [r3, #6]
+    8420:	b2db      	uxtb	r3, r3
+    8422:	001a      	movs	r2, r3
+    8424:	230c      	movs	r3, #12
+    8426:	4013      	ands	r3, r2
+    8428:	d1f8      	bne.n	841c <SystemInit+0xd4>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:237
+    //        if (((MCG_S & MCG_S_CLKST_MASK) >> MCG_S_CLKST_SHIFT) == 0x3) break;
+    //    }
+    //    //4.现在处于PEE模式
+
+    //开启PORT模块时钟
+    SIM->SCGC5 |= SIM_SCGC5_PORTA_MASK
+    842a:	4a06      	ldr	r2, [pc, #24]	; (8444 <SystemInit+0xfc>)
+    842c:	4b07      	ldr	r3, [pc, #28]	; (844c <SystemInit+0x104>)
+    842e:	58d3      	ldr	r3, [r2, r3]
+    8430:	4904      	ldr	r1, [pc, #16]	; (8444 <SystemInit+0xfc>)
+    8432:	22f8      	movs	r2, #248	; 0xf8
+    8434:	0192      	lsls	r2, r2, #6
+    8436:	4313      	orrs	r3, r2
+    8438:	4a04      	ldr	r2, [pc, #16]	; (844c <SystemInit+0x104>)
+    843a:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/startup/system_MKL36Z4.c:243
+            | SIM_SCGC5_PORTB_MASK
+            | SIM_SCGC5_PORTC_MASK
+            | SIM_SCGC5_PORTD_MASK
+            | SIM_SCGC5_PORTE_MASK;
+
+}
+    843c:	46c0      	nop			; (mov r8, r8)
+    843e:	46bd      	mov	sp, r7
+    8440:	bd80      	pop	{r7, pc}
+    8442:	46c0      	nop			; (mov r8, r8)
+    8444:	40047000 	.word	0x40047000
+    8448:	00001044 	.word	0x00001044
+    844c:	00001038 	.word	0x00001038
+    8450:	4007d000 	.word	0x4007d000
+    8454:	00001004 	.word	0x00001004
+    8458:	fffcffff 	.word	0xfffcffff
+    845c:	fff3ffff 	.word	0xfff3ffff
+    8460:	fcffffff 	.word	0xfcffffff
+    8464:	40064000 	.word	0x40064000
+    8468:	40065000 	.word	0x40065000
+
+0000846c <wdog_stop>:
+wdog_stop():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/wdog/wdog.c:41
+//功能概要：禁用看门狗模块
+//参数说明：无
+//函数返回：无
+//=========================================================================
+void wdog_stop()
+{
+    846c:	b580      	push	{r7, lr}
+    846e:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/wdog/wdog.c:42
+    SIM_COPC &= ~SIM_COPC_COPT_MASK;
+    8470:	4a06      	ldr	r2, [pc, #24]	; (848c <wdog_stop+0x20>)
+    8472:	2388      	movs	r3, #136	; 0x88
+    8474:	015b      	lsls	r3, r3, #5
+    8476:	58d3      	ldr	r3, [r2, r3]
+    8478:	4904      	ldr	r1, [pc, #16]	; (848c <wdog_stop+0x20>)
+    847a:	220c      	movs	r2, #12
+    847c:	4393      	bics	r3, r2
+    847e:	001a      	movs	r2, r3
+    8480:	2388      	movs	r3, #136	; 0x88
+    8482:	015b      	lsls	r3, r3, #5
+    8484:	50ca      	str	r2, [r1, r3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/wdog/wdog.c:43
+}
+    8486:	46c0      	nop			; (mov r8, r8)
+    8488:	46bd      	mov	sp, r7
+    848a:	bd80      	pop	{r7, pc}
+    848c:	40047000 	.word	0x40047000
+
+00008490 <NVIC_EnableIRQ>:
+NVIC_EnableIRQ():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:684
+    The function enables a device-specific interrupt in the NVIC interrupt controller.
+
+    \param [in]      IRQn  External interrupt number. Value cannot be negative.
+ */
+__STATIC_INLINE void NVIC_EnableIRQ(IRQn_Type IRQn)
+{
+    8490:	b580      	push	{r7, lr}
+    8492:	b082      	sub	sp, #8
+    8494:	af00      	add	r7, sp, #0
+    8496:	0002      	movs	r2, r0
+    8498:	1dfb      	adds	r3, r7, #7
+    849a:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:685
+  NVIC->ISER[0] = (uint32_t)(1UL << (((uint32_t)(int32_t)IRQn) & 0x1FUL));
+    849c:	1dfb      	adds	r3, r7, #7
+    849e:	781b      	ldrb	r3, [r3, #0]
+    84a0:	001a      	movs	r2, r3
+    84a2:	231f      	movs	r3, #31
+    84a4:	401a      	ands	r2, r3
+    84a6:	4b04      	ldr	r3, [pc, #16]	; (84b8 <NVIC_EnableIRQ+0x28>)
+    84a8:	2101      	movs	r1, #1
+    84aa:	4091      	lsls	r1, r2
+    84ac:	000a      	movs	r2, r1
+    84ae:	601a      	str	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:686
+}
+    84b0:	46c0      	nop			; (mov r8, r8)
+    84b2:	46bd      	mov	sp, r7
+    84b4:	b002      	add	sp, #8
+    84b6:	bd80      	pop	{r7, pc}
+    84b8:	e000e100 	.word	0xe000e100
+
+000084bc <NVIC_DisableIRQ>:
+NVIC_DisableIRQ():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:696
+    The function disables a device-specific interrupt in the NVIC interrupt controller.
+
+    \param [in]      IRQn  External interrupt number. Value cannot be negative.
+ */
+__STATIC_INLINE void NVIC_DisableIRQ(IRQn_Type IRQn)
+{
+    84bc:	b580      	push	{r7, lr}
+    84be:	b082      	sub	sp, #8
+    84c0:	af00      	add	r7, sp, #0
+    84c2:	0002      	movs	r2, r0
+    84c4:	1dfb      	adds	r3, r7, #7
+    84c6:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:697
+  NVIC->ICER[0] = (uint32_t)(1UL << (((uint32_t)(int32_t)IRQn) & 0x1FUL));
+    84c8:	1dfb      	adds	r3, r7, #7
+    84ca:	781b      	ldrb	r3, [r3, #0]
+    84cc:	001a      	movs	r2, r3
+    84ce:	231f      	movs	r3, #31
+    84d0:	4013      	ands	r3, r2
+    84d2:	4905      	ldr	r1, [pc, #20]	; (84e8 <NVIC_DisableIRQ+0x2c>)
+    84d4:	2201      	movs	r2, #1
+    84d6:	409a      	lsls	r2, r3
+    84d8:	0013      	movs	r3, r2
+    84da:	2280      	movs	r2, #128	; 0x80
+    84dc:	508b      	str	r3, [r1, r2]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\02_Core/core_cm0plus.h:698
+}
+    84de:	46c0      	nop			; (mov r8, r8)
+    84e0:	46bd      	mov	sp, r7
+    84e2:	b002      	add	sp, #8
+    84e4:	bd80      	pop	{r7, pc}
+    84e6:	46c0      	nop			; (mov r8, r8)
+    84e8:	e000e100 	.word	0xe000e100
+
+000084ec <uart_send1>:
+uart_send1():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:174
+//          ch:要发送的字节
+//函数返回：函数执行状态：1=发送成功；0=发送失败。
+//功能概要：串行发送1个字节
+//======================================================================
+uint_8 uart_send1(uint_8 uartNo, uint_8 ch)
+{
+    84ec:	b580      	push	{r7, lr}
+    84ee:	b086      	sub	sp, #24
+    84f0:	af00      	add	r7, sp, #0
+    84f2:	0002      	movs	r2, r0
+    84f4:	1dfb      	adds	r3, r7, #7
+    84f6:	701a      	strb	r2, [r3, #0]
+    84f8:	1dbb      	adds	r3, r7, #6
+    84fa:	1c0a      	adds	r2, r1, #0
+    84fc:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:176
+    uint_32 t;
+    UART0_MemMapPtr uartch_0=UART0_BASE_PTR; //获取UART0基地址
+    84fe:	4b20      	ldr	r3, [pc, #128]	; (8580 <uart_send1+0x94>)
+    8500:	613b      	str	r3, [r7, #16]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:177
+    UART_MemMapPtr uartch_1_2 = UART_ARR[uartNo-1]; //获取UART1或者2基地址
+    8502:	1dfb      	adds	r3, r7, #7
+    8504:	781b      	ldrb	r3, [r3, #0]
+    8506:	1e5a      	subs	r2, r3, #1
+    8508:	4b1e      	ldr	r3, [pc, #120]	; (8584 <uart_send1+0x98>)
+    850a:	0092      	lsls	r2, r2, #2
+    850c:	58d3      	ldr	r3, [r2, r3]
+    850e:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:180
+
+    //判断传入串口号参数是否有误，有误直接退出
+    if(!uart_is_uartNo(uartNo))
+    8510:	1dfb      	adds	r3, r7, #7
+    8512:	781b      	ldrb	r3, [r3, #0]
+    8514:	0018      	movs	r0, r3
+    8516:	f000 f979 	bl	880c <uart_is_uartNo>
+    851a:	1e03      	subs	r3, r0, #0
+    851c:	d101      	bne.n	8522 <uart_send1+0x36>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:182
+    {
+        return 0;
+    851e:	2300      	movs	r3, #0
+    8520:	e02a      	b.n	8578 <uart_send1+0x8c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:185
+    }
+
+    for (t = 0; t < 0xFBBB; t++)//查询指定次数
+    8522:	2300      	movs	r3, #0
+    8524:	617b      	str	r3, [r7, #20]
+    8526:	e01c      	b.n	8562 <uart_send1+0x76>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:187
+    {
+        if(0==uartNo)     //判断使用的哪个串口
+    8528:	1dfb      	adds	r3, r7, #7
+    852a:	781b      	ldrb	r3, [r3, #0]
+    852c:	2b00      	cmp	r3, #0
+    852e:	d10a      	bne.n	8546 <uart_send1+0x5a>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:190
+        {
+        	//发送缓冲区为空则发送数据
+            if ( UART0_S1_REG(uartch_0) & UART0_S1_TDRE_MASK )
+    8530:	693b      	ldr	r3, [r7, #16]
+    8532:	791b      	ldrb	r3, [r3, #4]
+    8534:	b2db      	uxtb	r3, r3
+    8536:	b25b      	sxtb	r3, r3
+    8538:	2b00      	cmp	r3, #0
+    853a:	da0f      	bge.n	855c <uart_send1+0x70>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:192
+            {
+                UART0_D_REG(uartch_0) = ch;
+    853c:	693b      	ldr	r3, [r7, #16]
+    853e:	1dba      	adds	r2, r7, #6
+    8540:	7812      	ldrb	r2, [r2, #0]
+    8542:	71da      	strb	r2, [r3, #7]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:193
+                break;
+    8544:	e011      	b.n	856a <uart_send1+0x7e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:199
+            }
+        }
+        else
+        {
+        	//发送缓冲区为空则发送数据
+            if (UART_S1_REG(uartch_1_2) & UART_S1_TDRE_MASK )
+    8546:	68fb      	ldr	r3, [r7, #12]
+    8548:	791b      	ldrb	r3, [r3, #4]
+    854a:	b2db      	uxtb	r3, r3
+    854c:	b25b      	sxtb	r3, r3
+    854e:	2b00      	cmp	r3, #0
+    8550:	da04      	bge.n	855c <uart_send1+0x70>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:201
+            {
+                UART_D_REG(uartch_1_2) = ch;
+    8552:	68fb      	ldr	r3, [r7, #12]
+    8554:	1dba      	adds	r2, r7, #6
+    8556:	7812      	ldrb	r2, [r2, #0]
+    8558:	71da      	strb	r2, [r3, #7]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:202
+                break;
+    855a:	e006      	b.n	856a <uart_send1+0x7e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:185 (discriminator 2)
+    for (t = 0; t < 0xFBBB; t++)//查询指定次数
+    855c:	697b      	ldr	r3, [r7, #20]
+    855e:	3301      	adds	r3, #1
+    8560:	617b      	str	r3, [r7, #20]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:185 (discriminator 1)
+    8562:	697b      	ldr	r3, [r7, #20]
+    8564:	4a08      	ldr	r2, [pc, #32]	; (8588 <uart_send1+0x9c>)
+    8566:	4293      	cmp	r3, r2
+    8568:	d9de      	bls.n	8528 <uart_send1+0x3c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:206
+            }
+        }
+    }//end for
+    if (t >= 0xFBBB)
+    856a:	697b      	ldr	r3, [r7, #20]
+    856c:	4a06      	ldr	r2, [pc, #24]	; (8588 <uart_send1+0x9c>)
+    856e:	4293      	cmp	r3, r2
+    8570:	d901      	bls.n	8576 <uart_send1+0x8a>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:207
+        return 0; //发送超时，发送失败
+    8572:	2300      	movs	r3, #0
+    8574:	e000      	b.n	8578 <uart_send1+0x8c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:209
+    else
+        return 1; //成功发送
+    8576:	2301      	movs	r3, #1
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:210
+}
+    8578:	0018      	movs	r0, r3
+    857a:	46bd      	mov	sp, r7
+    857c:	b006      	add	sp, #24
+    857e:	bd80      	pop	{r7, pc}
+    8580:	4006a000 	.word	0x4006a000
+    8584:	00008900 	.word	0x00008900
+    8588:	0000fbba 	.word	0x0000fbba
+
+0000858c <uart_re1>:
+uart_re1():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:277
+//        *fp:接收成功标志的指针:*fp=1:接收成功；*fp=0:接收失败
+//函数返回：接收返回字节
+//功能概要：串行接收1个字节
+//======================================================================
+uint_8 uart_re1(uint_8 uartNo,uint_8 *fp)
+{
+    858c:	b580      	push	{r7, lr}
+    858e:	b086      	sub	sp, #24
+    8590:	af00      	add	r7, sp, #0
+    8592:	0002      	movs	r2, r0
+    8594:	6039      	str	r1, [r7, #0]
+    8596:	1dfb      	adds	r3, r7, #7
+    8598:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:280
+    uint_32 t;
+    uint_8  dat;
+    UART0_MemMapPtr uartch_0=UART0_BASE_PTR; //获取UART0基地址
+    859a:	4b2a      	ldr	r3, [pc, #168]	; (8644 <uart_re1+0xb8>)
+    859c:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:281
+    UART_MemMapPtr uartch_1_2 = UART_ARR[uartNo-1]; //获取UART1或者2基地址
+    859e:	1dfb      	adds	r3, r7, #7
+    85a0:	781b      	ldrb	r3, [r3, #0]
+    85a2:	1e5a      	subs	r2, r3, #1
+    85a4:	4b28      	ldr	r3, [pc, #160]	; (8648 <uart_re1+0xbc>)
+    85a6:	0092      	lsls	r2, r2, #2
+    85a8:	58d3      	ldr	r3, [r2, r3]
+    85aa:	60bb      	str	r3, [r7, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:284
+
+    //判断传入串口号参数是否有误，有误直接退出
+    if(!uart_is_uartNo(uartNo))
+    85ac:	1dfb      	adds	r3, r7, #7
+    85ae:	781b      	ldrb	r3, [r3, #0]
+    85b0:	0018      	movs	r0, r3
+    85b2:	f000 f92b 	bl	880c <uart_is_uartNo>
+    85b6:	1e03      	subs	r3, r0, #0
+    85b8:	d104      	bne.n	85c4 <uart_re1+0x38>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:286
+    {
+        *fp=0;
+    85ba:	683b      	ldr	r3, [r7, #0]
+    85bc:	2200      	movs	r2, #0
+    85be:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:287
+        return 0;
+    85c0:	2300      	movs	r3, #0
+    85c2:	e03b      	b.n	863c <uart_re1+0xb0>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:290
+    }
+
+    for (t = 0; t < 0xFBBB; t++)//查询指定次数
+    85c4:	2300      	movs	r3, #0
+    85c6:	617b      	str	r3, [r7, #20]
+    85c8:	e026      	b.n	8618 <uart_re1+0x8c>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:292
+    {
+        if(0==uartNo)  //判断使用的哪个串口
+    85ca:	1dfb      	adds	r3, r7, #7
+    85cc:	781b      	ldrb	r3, [r3, #0]
+    85ce:	2b00      	cmp	r3, #0
+    85d0:	d10f      	bne.n	85f2 <uart_re1+0x66>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:295
+        {
+        //判断接收缓冲区是否满
+        if (UART0_S1_REG(uartch_0) & UART0_S1_RDRF_MASK)
+    85d2:	68fb      	ldr	r3, [r7, #12]
+    85d4:	791b      	ldrb	r3, [r3, #4]
+    85d6:	b2db      	uxtb	r3, r3
+    85d8:	001a      	movs	r2, r3
+    85da:	2320      	movs	r3, #32
+    85dc:	4013      	ands	r3, r2
+    85de:	d018      	beq.n	8612 <uart_re1+0x86>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:297
+            {
+                dat=UART0_D_REG(uartch_0);    //获取数据,清接收中断位
+    85e0:	2313      	movs	r3, #19
+    85e2:	18fb      	adds	r3, r7, r3
+    85e4:	68fa      	ldr	r2, [r7, #12]
+    85e6:	79d2      	ldrb	r2, [r2, #7]
+    85e8:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:298
+                *fp = 1;  //接收成功
+    85ea:	683b      	ldr	r3, [r7, #0]
+    85ec:	2201      	movs	r2, #1
+    85ee:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:299
+                break;
+    85f0:	e016      	b.n	8620 <uart_re1+0x94>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:305
+            }
+        }
+        else
+        {
+            //判断接收缓冲区是否满
+            if(UART_S1_REG(uartch_1_2) & UART_S1_RDRF_MASK)
+    85f2:	68bb      	ldr	r3, [r7, #8]
+    85f4:	791b      	ldrb	r3, [r3, #4]
+    85f6:	b2db      	uxtb	r3, r3
+    85f8:	001a      	movs	r2, r3
+    85fa:	2320      	movs	r3, #32
+    85fc:	4013      	ands	r3, r2
+    85fe:	d008      	beq.n	8612 <uart_re1+0x86>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:307
+            {
+                dat=UART_D_REG(uartch_1_2);    //获取数据,清接收中断位
+    8600:	2313      	movs	r3, #19
+    8602:	18fb      	adds	r3, r7, r3
+    8604:	68ba      	ldr	r2, [r7, #8]
+    8606:	79d2      	ldrb	r2, [r2, #7]
+    8608:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:308
+                *fp= 1;  //接收成功
+    860a:	683b      	ldr	r3, [r7, #0]
+    860c:	2201      	movs	r2, #1
+    860e:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:309
+                break;
+    8610:	e006      	b.n	8620 <uart_re1+0x94>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:290 (discriminator 2)
+    for (t = 0; t < 0xFBBB; t++)//查询指定次数
+    8612:	697b      	ldr	r3, [r7, #20]
+    8614:	3301      	adds	r3, #1
+    8616:	617b      	str	r3, [r7, #20]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:290 (discriminator 1)
+    8618:	697b      	ldr	r3, [r7, #20]
+    861a:	4a0c      	ldr	r2, [pc, #48]	; (864c <uart_re1+0xc0>)
+    861c:	4293      	cmp	r3, r2
+    861e:	d9d4      	bls.n	85ca <uart_re1+0x3e>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:313
+            }
+        }
+    }//end for
+    if(t >= 0xFBBB) 
+    8620:	697b      	ldr	r3, [r7, #20]
+    8622:	4a0a      	ldr	r2, [pc, #40]	; (864c <uart_re1+0xc0>)
+    8624:	4293      	cmp	r3, r2
+    8626:	d906      	bls.n	8636 <uart_re1+0xaa>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:315
+    {
+        dat = 0xFF; 
+    8628:	2313      	movs	r3, #19
+    862a:	18fb      	adds	r3, r7, r3
+    862c:	22ff      	movs	r2, #255	; 0xff
+    862e:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:316
+        *fp = 0;    //未收到数据
+    8630:	683b      	ldr	r3, [r7, #0]
+    8632:	2200      	movs	r2, #0
+    8634:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:318
+    }
+    return dat;    //返回接收到的数据
+    8636:	2313      	movs	r3, #19
+    8638:	18fb      	adds	r3, r7, r3
+    863a:	781b      	ldrb	r3, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:319
+}
+    863c:	0018      	movs	r0, r3
+    863e:	46bd      	mov	sp, r7
+    8640:	b006      	add	sp, #24
+    8642:	bd80      	pop	{r7, pc}
+    8644:	4006a000 	.word	0x4006a000
+    8648:	00008900 	.word	0x00008900
+    864c:	0000fbba 	.word	0x0000fbba
+
+00008650 <uart_enable_re_int>:
+uart_enable_re_int():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:358
+//参数说明：uartNo: 串口号:UART_0、UART_1、UART_2 
+//函数返回：无
+//功能概要：开串口接收中断
+//======================================================================
+void uart_enable_re_int(uint_8 uartNo)
+{
+    8650:	b580      	push	{r7, lr}
+    8652:	b084      	sub	sp, #16
+    8654:	af00      	add	r7, sp, #0
+    8656:	0002      	movs	r2, r0
+    8658:	1dfb      	adds	r3, r7, #7
+    865a:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:359
+    UART0_MemMapPtr uartch_0=UART0_BASE_PTR; //获取UART0基地址
+    865c:	4b18      	ldr	r3, [pc, #96]	; (86c0 <uart_enable_re_int+0x70>)
+    865e:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:360
+    UART_MemMapPtr uartch_1_2 = UART_ARR[uartNo-1]; //获取UART1或者2基地址
+    8660:	1dfb      	adds	r3, r7, #7
+    8662:	781b      	ldrb	r3, [r3, #0]
+    8664:	1e5a      	subs	r2, r3, #1
+    8666:	4b17      	ldr	r3, [pc, #92]	; (86c4 <uart_enable_re_int+0x74>)
+    8668:	0092      	lsls	r2, r2, #2
+    866a:	58d3      	ldr	r3, [r2, r3]
+    866c:	60bb      	str	r3, [r7, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:363
+
+    //判断传入串口号参数是否有误，有误直接退出
+    if(!uart_is_uartNo(uartNo))
+    866e:	1dfb      	adds	r3, r7, #7
+    8670:	781b      	ldrb	r3, [r3, #0]
+    8672:	0018      	movs	r0, r3
+    8674:	f000 f8ca 	bl	880c <uart_is_uartNo>
+    8678:	1e03      	subs	r3, r0, #0
+    867a:	d01c      	beq.n	86b6 <uart_enable_re_int+0x66>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:368
+    {
+        return;
+    }
+
+    if(0 == uartNo)
+    867c:	1dfb      	adds	r3, r7, #7
+    867e:	781b      	ldrb	r3, [r3, #0]
+    8680:	2b00      	cmp	r3, #0
+    8682:	d108      	bne.n	8696 <uart_enable_re_int+0x46>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:369
+        UART0_C2_REG(uartch_0) |= UART0_C2_RIE_MASK;    //开放UART接收中断
+    8684:	68fb      	ldr	r3, [r7, #12]
+    8686:	78db      	ldrb	r3, [r3, #3]
+    8688:	b2db      	uxtb	r3, r3
+    868a:	2220      	movs	r2, #32
+    868c:	4313      	orrs	r3, r2
+    868e:	b2da      	uxtb	r2, r3
+    8690:	68fb      	ldr	r3, [r7, #12]
+    8692:	70da      	strb	r2, [r3, #3]
+    8694:	e007      	b.n	86a6 <uart_enable_re_int+0x56>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:371
+    else 
+        UART_C2_REG(uartch_1_2) |= UART_C2_RIE_MASK;    //开放UART接收中断
+    8696:	68bb      	ldr	r3, [r7, #8]
+    8698:	78db      	ldrb	r3, [r3, #3]
+    869a:	b2db      	uxtb	r3, r3
+    869c:	2220      	movs	r2, #32
+    869e:	4313      	orrs	r3, r2
+    86a0:	b2da      	uxtb	r2, r3
+    86a2:	68bb      	ldr	r3, [r7, #8]
+    86a4:	70da      	strb	r2, [r3, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:372
+    NVIC_EnableIRQ(table_irq_uart[uartNo]);    //开中断控制器IRQ中断
+    86a6:	1dfb      	adds	r3, r7, #7
+    86a8:	781b      	ldrb	r3, [r3, #0]
+    86aa:	4a07      	ldr	r2, [pc, #28]	; (86c8 <uart_enable_re_int+0x78>)
+    86ac:	56d3      	ldrsb	r3, [r2, r3]
+    86ae:	0018      	movs	r0, r3
+    86b0:	f7ff feee 	bl	8490 <NVIC_EnableIRQ>
+    86b4:	e000      	b.n	86b8 <uart_enable_re_int+0x68>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:365
+        return;
+    86b6:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:373
+}
+    86b8:	46bd      	mov	sp, r7
+    86ba:	b004      	add	sp, #16
+    86bc:	bd80      	pop	{r7, pc}
+    86be:	46c0      	nop			; (mov r8, r8)
+    86c0:	4006a000 	.word	0x4006a000
+    86c4:	00008900 	.word	0x00008900
+    86c8:	20000408 	.word	0x20000408
+
+000086cc <uart_disable_re_int>:
+uart_disable_re_int():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:382
+//参数说明：uartNo: 串口号 :UART_0、UART_1、UART_2 
+//函数返回：无
+//功能概要：关串口接收中断
+//======================================================================
+void uart_disable_re_int(uint_8 uartNo)
+{
+    86cc:	b580      	push	{r7, lr}
+    86ce:	b084      	sub	sp, #16
+    86d0:	af00      	add	r7, sp, #0
+    86d2:	0002      	movs	r2, r0
+    86d4:	1dfb      	adds	r3, r7, #7
+    86d6:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:383
+    UART0_MemMapPtr uartch_0 = UART0_BASE_PTR; //获取UART0基地址
+    86d8:	4b18      	ldr	r3, [pc, #96]	; (873c <uart_disable_re_int+0x70>)
+    86da:	60fb      	str	r3, [r7, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:384
+    UART_MemMapPtr uartch_1_2 = UART_ARR[uartNo-1]; //获取UART1或者2基地址
+    86dc:	1dfb      	adds	r3, r7, #7
+    86de:	781b      	ldrb	r3, [r3, #0]
+    86e0:	1e5a      	subs	r2, r3, #1
+    86e2:	4b17      	ldr	r3, [pc, #92]	; (8740 <uart_disable_re_int+0x74>)
+    86e4:	0092      	lsls	r2, r2, #2
+    86e6:	58d3      	ldr	r3, [r2, r3]
+    86e8:	60bb      	str	r3, [r7, #8]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:387
+
+    //判断传入串口号参数是否有误，有误直接退出
+    if(!uart_is_uartNo(uartNo))
+    86ea:	1dfb      	adds	r3, r7, #7
+    86ec:	781b      	ldrb	r3, [r3, #0]
+    86ee:	0018      	movs	r0, r3
+    86f0:	f000 f88c 	bl	880c <uart_is_uartNo>
+    86f4:	1e03      	subs	r3, r0, #0
+    86f6:	d01c      	beq.n	8732 <uart_disable_re_int+0x66>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:392
+    {
+        return;
+    }
+
+    if(0==uartNo)
+    86f8:	1dfb      	adds	r3, r7, #7
+    86fa:	781b      	ldrb	r3, [r3, #0]
+    86fc:	2b00      	cmp	r3, #0
+    86fe:	d108      	bne.n	8712 <uart_disable_re_int+0x46>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:393
+        UART0_C2_REG(uartch_0) &= ~UART0_C2_RIE_MASK;    //禁止UART接收中断
+    8700:	68fb      	ldr	r3, [r7, #12]
+    8702:	78db      	ldrb	r3, [r3, #3]
+    8704:	b2db      	uxtb	r3, r3
+    8706:	2220      	movs	r2, #32
+    8708:	4393      	bics	r3, r2
+    870a:	b2da      	uxtb	r2, r3
+    870c:	68fb      	ldr	r3, [r7, #12]
+    870e:	70da      	strb	r2, [r3, #3]
+    8710:	e007      	b.n	8722 <uart_disable_re_int+0x56>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:395
+    else
+        UART_C2_REG(uartch_1_2) &= ~UART_C2_RIE_MASK;    //禁止UART接收中断
+    8712:	68bb      	ldr	r3, [r7, #8]
+    8714:	78db      	ldrb	r3, [r3, #3]
+    8716:	b2db      	uxtb	r3, r3
+    8718:	2220      	movs	r2, #32
+    871a:	4393      	bics	r3, r2
+    871c:	b2da      	uxtb	r2, r3
+    871e:	68bb      	ldr	r3, [r7, #8]
+    8720:	70da      	strb	r2, [r3, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:396
+    NVIC_DisableIRQ(table_irq_uart[uartNo]);
+    8722:	1dfb      	adds	r3, r7, #7
+    8724:	781b      	ldrb	r3, [r3, #0]
+    8726:	4a07      	ldr	r2, [pc, #28]	; (8744 <uart_disable_re_int+0x78>)
+    8728:	56d3      	ldrsb	r3, [r2, r3]
+    872a:	0018      	movs	r0, r3
+    872c:	f7ff fec6 	bl	84bc <NVIC_DisableIRQ>
+    8730:	e000      	b.n	8734 <uart_disable_re_int+0x68>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:389
+        return;
+    8732:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:397
+}
+    8734:	46bd      	mov	sp, r7
+    8736:	b004      	add	sp, #16
+    8738:	bd80      	pop	{r7, pc}
+    873a:	46c0      	nop			; (mov r8, r8)
+    873c:	4006a000 	.word	0x4006a000
+    8740:	00008900 	.word	0x00008900
+    8744:	20000408 	.word	0x20000408
+
+00008748 <uart_get_re_int>:
+uart_get_re_int():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:406
+//参数说明：uartNo: 串口号 :UART_0、UART_1、UART_2
+//函数返回：接收中断标志 1=有接收中断;0=无接收中断
+//功能概要：获取串口接收中断标志,同时禁用发送中断
+//======================================================================
+uint_8 uart_get_re_int(uint_8 uartNo)
+{
+    8748:	b580      	push	{r7, lr}
+    874a:	b086      	sub	sp, #24
+    874c:	af00      	add	r7, sp, #0
+    874e:	0002      	movs	r2, r0
+    8750:	1dfb      	adds	r3, r7, #7
+    8752:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:408
+    uint_8 flag;
+    UART0_MemMapPtr uartch_0=UART0_BASE_PTR; //获取UART0基地址
+    8754:	4b2b      	ldr	r3, [pc, #172]	; (8804 <uart_get_re_int+0xbc>)
+    8756:	617b      	str	r3, [r7, #20]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:409
+    UART_MemMapPtr uartch_1_2 = UART_ARR[uartNo-1]; //获取UART1或者2基地址
+    8758:	1dfb      	adds	r3, r7, #7
+    875a:	781b      	ldrb	r3, [r3, #0]
+    875c:	1e5a      	subs	r2, r3, #1
+    875e:	4b2a      	ldr	r3, [pc, #168]	; (8808 <uart_get_re_int+0xc0>)
+    8760:	0092      	lsls	r2, r2, #2
+    8762:	58d3      	ldr	r3, [r2, r3]
+    8764:	613b      	str	r3, [r7, #16]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:412
+
+    //判断传入串口号参数是否有误，有误直接退出
+    if(!uart_is_uartNo(uartNo))
+    8766:	1dfb      	adds	r3, r7, #7
+    8768:	781b      	ldrb	r3, [r3, #0]
+    876a:	0018      	movs	r0, r3
+    876c:	f000 f84e 	bl	880c <uart_is_uartNo>
+    8770:	1e03      	subs	r3, r0, #0
+    8772:	d101      	bne.n	8778 <uart_get_re_int+0x30>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:414
+    {
+        return 0;
+    8774:	2300      	movs	r3, #0
+    8776:	e040      	b.n	87fa <uart_get_re_int+0xb2>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:417
+    }
+
+    if(0==uartNo)
+    8778:	1dfb      	adds	r3, r7, #7
+    877a:	781b      	ldrb	r3, [r3, #0]
+    877c:	2b00      	cmp	r3, #0
+    877e:	d11e      	bne.n	87be <uart_get_re_int+0x76>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:420
+    {
+        //禁用串口发送中断，防止误中断
+        UART0_C2_REG(uartch_0) &= (~UART0_C2_TIE_MASK);
+    8780:	697b      	ldr	r3, [r7, #20]
+    8782:	78db      	ldrb	r3, [r3, #3]
+    8784:	b2db      	uxtb	r3, r3
+    8786:	227f      	movs	r2, #127	; 0x7f
+    8788:	4013      	ands	r3, r2
+    878a:	b2da      	uxtb	r2, r3
+    878c:	697b      	ldr	r3, [r7, #20]
+    878e:	70da      	strb	r2, [r3, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:422
+        //获取接收中断标志，需同时判断RDRF和RIE
+        flag= UART0_S1_REG(uartch_0) & (UART0_S1_RDRF_MASK);
+    8790:	697b      	ldr	r3, [r7, #20]
+    8792:	791b      	ldrb	r3, [r3, #4]
+    8794:	b2da      	uxtb	r2, r3
+    8796:	200f      	movs	r0, #15
+    8798:	183b      	adds	r3, r7, r0
+    879a:	2120      	movs	r1, #32
+    879c:	400a      	ands	r2, r1
+    879e:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:424
+        return(BGET(UART0_S1_RDRF_SHIFT,flag)
+                & BGET(UART0_C2_RIE_SHIFT,UART0_C2_REG(uartch_0)));
+    87a0:	183b      	adds	r3, r7, r0
+    87a2:	781b      	ldrb	r3, [r3, #0]
+    87a4:	095b      	lsrs	r3, r3, #5
+    87a6:	b2db      	uxtb	r3, r3
+    87a8:	697a      	ldr	r2, [r7, #20]
+    87aa:	78d2      	ldrb	r2, [r2, #3]
+    87ac:	b2d2      	uxtb	r2, r2
+    87ae:	0952      	lsrs	r2, r2, #5
+    87b0:	b2d2      	uxtb	r2, r2
+    87b2:	4013      	ands	r3, r2
+    87b4:	b2db      	uxtb	r3, r3
+    87b6:	2201      	movs	r2, #1
+    87b8:	4013      	ands	r3, r2
+    87ba:	b2db      	uxtb	r3, r3
+    87bc:	e01d      	b.n	87fa <uart_get_re_int+0xb2>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:429
+    }
+    else
+    {
+        //禁用串口发送中断，防止误中断
+        UART_C2_REG(uartch_1_2) &= (~UART_C2_TIE_MASK);
+    87be:	693b      	ldr	r3, [r7, #16]
+    87c0:	78db      	ldrb	r3, [r3, #3]
+    87c2:	b2db      	uxtb	r3, r3
+    87c4:	227f      	movs	r2, #127	; 0x7f
+    87c6:	4013      	ands	r3, r2
+    87c8:	b2da      	uxtb	r2, r3
+    87ca:	693b      	ldr	r3, [r7, #16]
+    87cc:	70da      	strb	r2, [r3, #3]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:431
+        //获取接收中断标志，需同时判断RDRF和RIE
+        flag= UART_S1_REG(uartch_1_2) & (UART_S1_RDRF_MASK);
+    87ce:	693b      	ldr	r3, [r7, #16]
+    87d0:	791b      	ldrb	r3, [r3, #4]
+    87d2:	b2da      	uxtb	r2, r3
+    87d4:	200f      	movs	r0, #15
+    87d6:	183b      	adds	r3, r7, r0
+    87d8:	2120      	movs	r1, #32
+    87da:	400a      	ands	r2, r1
+    87dc:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:433
+        return(BGET(UART_S1_RDRF_SHIFT,flag)
+                & BGET(UART_C2_RIE_SHIFT,UART_C2_REG(uartch_1_2)));
+    87de:	183b      	adds	r3, r7, r0
+    87e0:	781b      	ldrb	r3, [r3, #0]
+    87e2:	095b      	lsrs	r3, r3, #5
+    87e4:	b2db      	uxtb	r3, r3
+    87e6:	693a      	ldr	r2, [r7, #16]
+    87e8:	78d2      	ldrb	r2, [r2, #3]
+    87ea:	b2d2      	uxtb	r2, r2
+    87ec:	0952      	lsrs	r2, r2, #5
+    87ee:	b2d2      	uxtb	r2, r2
+    87f0:	4013      	ands	r3, r2
+    87f2:	b2db      	uxtb	r3, r3
+    87f4:	2201      	movs	r2, #1
+    87f6:	4013      	ands	r3, r2
+    87f8:	b2db      	uxtb	r3, r3
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:435
+    }
+}
+    87fa:	0018      	movs	r0, r3
+    87fc:	46bd      	mov	sp, r7
+    87fe:	b006      	add	sp, #24
+    8800:	bd80      	pop	{r7, pc}
+    8802:	46c0      	nop			; (mov r8, r8)
+    8804:	4006a000 	.word	0x4006a000
+    8808:	00008900 	.word	0x00008900
+
+0000880c <uart_is_uartNo>:
+uart_is_uartNo():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:530
+//函数返回：1:串口号在合理范围内，0：串口号不合理
+//参数说明：串口号uartNo  :UART_0、UART_1、UART_2
+//功能概要：为程序健壮性而判断uartNo是否在串口数字范围内
+//=====================================================================
+uint_8 uart_is_uartNo(uint_8 uartNo)
+{
+    880c:	b580      	push	{r7, lr}
+    880e:	b082      	sub	sp, #8
+    8810:	af00      	add	r7, sp, #0
+    8812:	0002      	movs	r2, r0
+    8814:	1dfb      	adds	r3, r7, #7
+    8816:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:531
+    if(uartNo < UART_0 || uartNo > UART_2)
+    8818:	1dfb      	adds	r3, r7, #7
+    881a:	781b      	ldrb	r3, [r3, #0]
+    881c:	2b02      	cmp	r3, #2
+    881e:	d901      	bls.n	8824 <uart_is_uartNo+0x18>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:532
+        return 0;
+    8820:	2300      	movs	r3, #0
+    8822:	e000      	b.n	8826 <uart_is_uartNo+0x1a>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:534
+    else
+        return 1;
+    8824:	2301      	movs	r3, #1
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/uart/uart.c:535
+}
+    8826:	0018      	movs	r0, r3
+    8828:	46bd      	mov	sp, r7
+    882a:	b002      	add	sp, #8
+    882c:	bd80      	pop	{r7, pc}
+	...
+
+00008830 <flash_init>:
+flash_init():
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:23
+//函数返回：无
+//参数说明：无
+//功能概要：初始化flash模块
+//======================================================================
+void flash_init(void)
+{   
+    8830:	b580      	push	{r7, lr}
+    8832:	af00      	add	r7, sp, #0
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:25
+    // 等待命令完成
+    while(!(FTFA_FSTAT & CCIF));
+    8834:	46c0      	nop			; (mov r8, r8)
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:25 (discriminator 1)
+    8836:	4b09      	ldr	r3, [pc, #36]	; (885c <flash_init+0x2c>)
+    8838:	781b      	ldrb	r3, [r3, #0]
+    883a:	b2db      	uxtb	r3, r3
+    883c:	b25b      	sxtb	r3, r3
+    883e:	2b00      	cmp	r3, #0
+    8840:	daf9      	bge.n	8836 <flash_init+0x6>
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:28
+    
+  // 清除访问出错标志位
+    FTFA_FSTAT = ACCERR | FPVIOL;
+    8842:	4b06      	ldr	r3, [pc, #24]	; (885c <flash_init+0x2c>)
+    8844:	2230      	movs	r2, #48	; 0x30
+    8846:	701a      	strb	r2, [r3, #0]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:30
+    //置杂项模块中平台控制寄存器的PLACR_ESFC，Flash模块擦写保护
+    BSET(MCM_PLACR_ESFC_SHIFT,MCM_PLACR);
+    8848:	4b05      	ldr	r3, [pc, #20]	; (8860 <flash_init+0x30>)
+    884a:	68da      	ldr	r2, [r3, #12]
+    884c:	4b04      	ldr	r3, [pc, #16]	; (8860 <flash_init+0x30>)
+    884e:	2180      	movs	r1, #128	; 0x80
+    8850:	0249      	lsls	r1, r1, #9
+    8852:	430a      	orrs	r2, r1
+    8854:	60da      	str	r2, [r3, #12]
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\02_UEUser\KL36_Update-180618\Debug/../03_MCU/MCU_drivers/flash/flash.c:35
+    /*
+    //清杂项模块中平台控制寄存器的PLACR_ESFC，Flash模块擦写不保护
+    BCLR(MCM_PLACR_ESFC_SHIFT,MCM_PLACR);   //（实验观察现象用）
+    */
+}
+    8856:	46c0      	nop			; (mov r8, r8)
+    8858:	46bd      	mov	sp, r7
+    885a:	bd80      	pop	{r7, pc}
+    885c:	40020000 	.word	0x40020000
+    8860:	f0003000 	.word	0xf0003000
+
+00008864 <exit>:
+exit():
+    8864:	4b08      	ldr	r3, [pc, #32]	; (8888 <exit+0x24>)
+    8866:	b510      	push	{r4, lr}
+    8868:	0004      	movs	r4, r0
+    886a:	2b00      	cmp	r3, #0
+    886c:	d002      	beq.n	8874 <exit+0x10>
+    886e:	2100      	movs	r1, #0
+    8870:	e000      	b.n	8874 <exit+0x10>
+    8872:	bf00      	nop
+    8874:	4b05      	ldr	r3, [pc, #20]	; (888c <exit+0x28>)
+    8876:	6818      	ldr	r0, [r3, #0]
+    8878:	6a83      	ldr	r3, [r0, #40]	; 0x28
+    887a:	2b00      	cmp	r3, #0
+    887c:	d000      	beq.n	8880 <exit+0x1c>
+    887e:	4798      	blx	r3
+    8880:	0020      	movs	r0, r4
+    8882:	f000 f83b 	bl	88fc <_exit>
+    8886:	46c0      	nop			; (mov r8, r8)
+    8888:	00000000 	.word	0x00000000
+    888c:	00008908 	.word	0x00008908
+
+00008890 <__libc_init_array>:
+__libc_init_array():
+    8890:	b570      	push	{r4, r5, r6, lr}
+    8892:	2600      	movs	r6, #0
+    8894:	4d0c      	ldr	r5, [pc, #48]	; (88c8 <__libc_init_array+0x38>)
+    8896:	4c0d      	ldr	r4, [pc, #52]	; (88cc <__libc_init_array+0x3c>)
+    8898:	1b64      	subs	r4, r4, r5
+    889a:	10a4      	asrs	r4, r4, #2
+    889c:	42a6      	cmp	r6, r4
+    889e:	d109      	bne.n	88b4 <__libc_init_array+0x24>
+    88a0:	2600      	movs	r6, #0
+    88a2:	f000 f833 	bl	890c <_init>
+    88a6:	4d0a      	ldr	r5, [pc, #40]	; (88d0 <__libc_init_array+0x40>)
+    88a8:	4c0a      	ldr	r4, [pc, #40]	; (88d4 <__libc_init_array+0x44>)
+    88aa:	1b64      	subs	r4, r4, r5
+    88ac:	10a4      	asrs	r4, r4, #2
+    88ae:	42a6      	cmp	r6, r4
+    88b0:	d105      	bne.n	88be <__libc_init_array+0x2e>
+    88b2:	bd70      	pop	{r4, r5, r6, pc}
+    88b4:	00b3      	lsls	r3, r6, #2
+    88b6:	58eb      	ldr	r3, [r5, r3]
+    88b8:	4798      	blx	r3
+    88ba:	3601      	adds	r6, #1
+    88bc:	e7ee      	b.n	889c <__libc_init_array+0xc>
+    88be:	00b3      	lsls	r3, r6, #2
+    88c0:	58eb      	ldr	r3, [r5, r3]
+    88c2:	4798      	blx	r3
+    88c4:	3601      	adds	r6, #1
+    88c6:	e7f2      	b.n	88ae <__libc_init_array+0x1e>
+    88c8:	0000892c 	.word	0x0000892c
+    88cc:	0000892c 	.word	0x0000892c
+    88d0:	0000892c 	.word	0x0000892c
+    88d4:	00008930 	.word	0x00008930
+
+000088d8 <memcpy>:
+memcpy():
+    88d8:	2300      	movs	r3, #0
+    88da:	b510      	push	{r4, lr}
+    88dc:	429a      	cmp	r2, r3
+    88de:	d100      	bne.n	88e2 <memcpy+0xa>
+    88e0:	bd10      	pop	{r4, pc}
+    88e2:	5ccc      	ldrb	r4, [r1, r3]
+    88e4:	54c4      	strb	r4, [r0, r3]
+    88e6:	3301      	adds	r3, #1
+    88e8:	e7f8      	b.n	88dc <memcpy+0x4>
+
+000088ea <memset>:
+memset():
+    88ea:	0003      	movs	r3, r0
+    88ec:	1812      	adds	r2, r2, r0
+    88ee:	4293      	cmp	r3, r2
+    88f0:	d100      	bne.n	88f4 <memset+0xa>
+    88f2:	4770      	bx	lr
+    88f4:	7019      	strb	r1, [r3, #0]
+    88f6:	3301      	adds	r3, #1
+    88f8:	e7f9      	b.n	88ee <memset+0x4>
+	...
+
+000088fc <_exit>:
+_exit():
+    88fc:	e7fe      	b.n	88fc <_exit>
+    88fe:	46c0      	nop			; (mov r8, r8)
+
+00008900 <UART_ARR>:
+    8900:	b000 4006 c000 4006                         ...@...@
+
+00008908 <_global_impure_ptr>:
+    8908:	040c 2000                                   ... 
+
+0000890c <_init>:
+_init():
+    890c:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+    890e:	46c0      	nop			; (mov r8, r8)
+    8910:	bcf8      	pop	{r3, r4, r5, r6, r7}
+    8912:	bc08      	pop	{r3}
+    8914:	469e      	mov	lr, r3
+    8916:	4770      	bx	lr
+
+00008918 <_fini>:
+_fini():
+    8918:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+    891a:	46c0      	nop			; (mov r8, r8)
+    891c:	bcf8      	pop	{r3, r4, r5, r6, r7}
+    891e:	bc08      	pop	{r3}
+    8920:	469e      	mov	lr, r3
+    8922:	4770      	bx	lr
