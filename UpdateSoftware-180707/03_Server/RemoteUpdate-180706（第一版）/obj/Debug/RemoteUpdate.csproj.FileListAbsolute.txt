@@ -1,0 +1,88 @@
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.exe
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.Properties.Resources.resources
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.exe
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.frm_main.resources
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\RemoteUpdate\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate-180511(all)\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\02_AllErase\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\RemoteUpdate-180511(all)\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\01_UpdateSoftware-180615\03_Server\RemoteUpdate-180615\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\01_UpdateSoftware-180615\03_Server\RemoteUpdate-180615\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\01_UpdateSoftware-180615\03_Server\RemoteUpdate-180615\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\02_UpdateSoftware-180621\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\04_wangshi\03_UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_UpdateSoftware-180625\UpdateSoftware-180625\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_UpdateSoftware-180625\UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_UpdateSoftware-180625\UpdateSoftware-180625\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_file.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.frm_uart.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180621\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180706\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180706\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180706\obj\Debug\RemoteUpdate.pdb
