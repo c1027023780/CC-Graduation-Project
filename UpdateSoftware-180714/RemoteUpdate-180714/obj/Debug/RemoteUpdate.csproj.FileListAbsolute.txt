@@ -1,0 +1,102 @@
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.Properties.Resources.resources
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.exe
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.exe
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.frm_main.resources
+C:\Users\CC\Desktop\RemoteUpdate\obj\Debug\RemoteUpdate.frm_update.resources
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\Awesomium.Core.dll
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\Awesomium.Windows.Forms.dll
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\Awesomium.Core.xml
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\Awesomium.Windows.Forms.xml
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\en-US.dll
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\AwesomiumProcess
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\Awesomium.dll
+C:\Users\CC\Desktop\RemoteUpdate\bin\Debug\icudt42.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\Awesomium.Core.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\Awesomium.Windows.Forms.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\Awesomium.Core.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\Awesomium.Windows.Forms.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\en-US.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\AwesomiumProcess
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\Awesomium.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\bin\Debug\icudt42.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.frm_update.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\03_UpdateSoftware-180702\03_Server\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+C:\Users\CC\Desktop\UpdateSoftware-180710\RemoteUpdate-180707（第二版）\bin\Debug\RemoteUpdate.exe.config
+C:\Users\CC\Desktop\UpdateSoftware-180710\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.exe
+C:\Users\CC\Desktop\UpdateSoftware-180710\RemoteUpdate-180707（第二版）\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\Awesomium.Core.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\Awesomium.Windows.Forms.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\Awesomium.Core.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\Awesomium.Windows.Forms.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\en-US.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\AwesomiumProcess
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\Awesomium.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\icudt42.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.frm_update.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\04_UpdateSoftware-180710\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180710（第二版）\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\Awesomium.Core.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\Awesomium.Windows.Forms.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\Awesomium.Core.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\Awesomium.Windows.Forms.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\en-US.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\AwesomiumProcess
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\Awesomium.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\bin\Debug\icudt42.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.frm_update.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180712\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\RemoteUpdate.pdb
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\Awesomium.Core.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\Awesomium.Windows.Forms.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\Awesomium.Core.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\Awesomium.Windows.Forms.xml
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\en-US.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\AwesomiumProcess
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\Awesomium.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\bin\Debug\icudt42.dll
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.csprojResolveAssemblyReference.cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.frm_main.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.frm_update.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.Properties.Resources.resources
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\05_UpdateSoftware-180712\03_Server\RemoteUpdate-180713\obj\Debug\RemoteUpdate.csproj.GenerateResource.Cache
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\06_UpdateSoftware-180714\03_Server\RemoteUpdate-180714\bin\Debug\RemoteUpdate.exe.config
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\06_UpdateSoftware-180714\03_Server\RemoteUpdate-180714\obj\Debug\RemoteUpdate.exe
+E:\2017-2018\03_Graduation Project\04_Software\05_Wangshi\02_6220\06_UpdateSoftware-180714\03_Server\RemoteUpdate-180714\obj\Debug\RemoteUpdate.pdb

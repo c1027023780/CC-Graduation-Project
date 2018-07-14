@@ -1,0 +1,2276 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_uidiv)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_idiv)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o)
+                              ./05_SoftComponent/timeStamp/timeStamp.o (__aeabi_ldivmod)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o)
+                              ./05_SoftComponent/timeStamp/timeStamp.o (__aeabi_uldivmod)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+                              ./05_SoftComponent/timeStamp/timeStamp.o (__aeabi_lmul)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_dadd)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_ddiv)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_dmul)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_dsub)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+                              ./04_UserBoard/uecom/uecom.o (__aeabi_i2d)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o) (__clzsi2)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzdi2.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o) (__clzdi2)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o) (__divdi3)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+                              ./05_SoftComponent/timeStamp/timeStamp.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+                              ./04_UserBoard/uecom/uecom.o (strcat)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+                              ./06_NosPrg/main.o (strcmp)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+                              ./04_UserBoard/uecom/uecom.o (strcpy)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strlen.o)
+                              ./04_UserBoard/uecom/uecom.o (strlen)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+                              ./06_NosPrg/isr.o (strncmp)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+                              ./04_UserBoard/uecom/uecom.o (strncpy)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+                              ./04_UserBoard/uecom/uecom.o (strstr)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+gRecvBuf            0x1f4             ./06_NosPrg/main.o
+uFrameNum           0x2               ./04_UserBoard/ueupdate/ueupdate.o
+uCurFrame           0x2               ./04_UserBoard/ueupdate/ueupdate.o
+uSectNo             0x1               ./04_UserBoard/ueupdate/ueupdate.o
+gTime               0x8               ./06_NosPrg/main.o
+gRecvLen            0x2               ./06_NosPrg/main.o
+uMSP                0x4               ./04_UserBoard/ueupdate/ueupdate.o
+uCheck              0x14              ./04_UserBoard/ueupdate/ueupdate.o
+uBackOrder          0x1               ./04_UserBoard/ueupdate/ueupdate.o
+gFunFlag            0x1               ./06_NosPrg/main.o
+ckdata              0x53              ./04_UserBoard/ueupdate/ueupdate.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/isr.o
+ .text          0x00000000        0x0 ./06_NosPrg/isr.o
+ .data          0x00000000        0x0 ./06_NosPrg/isr.o
+ .bss           0x00000000        0x0 ./06_NosPrg/isr.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./06_NosPrg/main.o
+ .text          0x00000000        0x0 ./06_NosPrg/main.o
+ .data          0x00000000        0x0 ./06_NosPrg/main.o
+ .bss           0x00000000        0x0 ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0xa2a ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x22 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x4f ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x51 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0xef ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x6a ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0x1df ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x39 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x3a ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x26 ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0x306 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x10 ./06_NosPrg/main.o
+ .debug_macro   0x00000000     0xc3a9 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x2e ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x3a ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x64 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x52 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x22 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x2e ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x28 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x2e ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x28 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x58 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x17 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x35 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x9c ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x97 ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0x353 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0xf6 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x10 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x58 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x1f ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x43 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x20 ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0x18e ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x10 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0xb6 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000      0x129 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x35 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x22 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x28 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x16 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x10 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x10 ./06_NosPrg/main.o
+ .debug_macro   0x00000000       0x2e ./06_NosPrg/main.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/timeStamp/timeStamp.o
+ .text          0x00000000        0x0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .data          0x00000000        0x0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .bss           0x00000000        0x0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .text.intToString
+                0x00000000       0x4c ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000      0xa2a ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x16 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x22 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x4f ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x51 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0xef ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x6a ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000      0x1df ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x39 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x3a ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x26 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000      0x306 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x10 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000     0xc3a9 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x2e ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x58 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x17 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x35 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x9c ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000      0x353 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x58 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x1f ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x43 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x20 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000      0x18e ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x35 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x10 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x10 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x10 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0xb6 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x00000000       0x2e ./05_SoftComponent/timeStamp/timeStamp.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./05_SoftComponent/common/common.o
+ .text          0x00000000        0x0 ./05_SoftComponent/common/common.o
+ .data          0x00000000        0x0 ./05_SoftComponent/common/common.o
+ .bss           0x00000000        0x0 ./05_SoftComponent/common/common.o
+ .text.init_critical
+                0x00000000       0x10 ./05_SoftComponent/common/common.o
+ .text.enter_critical
+                0x00000000       0x18 ./05_SoftComponent/common/common.o
+ .text.exit_critical
+                0x00000000       0x18 ./05_SoftComponent/common/common.o
+ .text.set_irq_priority
+                0x00000000       0x5c ./05_SoftComponent/common/common.o
+ .text.Delay_us
+                0x00000000       0x10 ./05_SoftComponent/common/common.o
+ .text.SecAdd1  0x00000000       0x34 ./05_SoftComponent/common/common.o
+ .bss.int_disable_level
+                0x00000000        0x4 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000      0xa2a ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x16 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x22 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x4f ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x51 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0xef ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x6a ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000      0x1df ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x39 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x3a ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x26 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000      0x306 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x10 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000     0xc3a9 ./05_SoftComponent/common/common.o
+ .debug_macro   0x00000000       0x2e ./05_SoftComponent/common/common.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/ueupdate/ueupdate.o
+ .text          0x00000000        0x0 ./04_UserBoard/ueupdate/ueupdate.o
+ .data          0x00000000        0x0 ./04_UserBoard/ueupdate/ueupdate.o
+ .bss           0x00000000        0x0 ./04_UserBoard/ueupdate/ueupdate.o
+ .text.updateDecode
+                0x00000000       0x1c ./04_UserBoard/ueupdate/ueupdate.o
+ .text.updatecrc16
+                0x00000000       0x48 ./04_UserBoard/ueupdate/ueupdate.o
+ .text.flagSet  0x00000000       0x14 ./04_UserBoard/ueupdate/ueupdate.o
+ .text.flagGet  0x00000000       0x10 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0xa2a ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x22 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x4f ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x51 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0xef ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x6a ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0x1df ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x39 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x3a ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x26 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0x306 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000     0xc3a9 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x64 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x58 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x17 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x35 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x9c ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0x16d ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x58 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x1f ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x43 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x20 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0x18e ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000      0x353 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x00000000       0x35 ./04_UserBoard/ueupdate/ueupdate.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .text          0x00000000        0x0 ./04_UserBoard/uecom/uecom.o
+ .data          0x00000000        0x0 ./04_UserBoard/uecom/uecom.o
+ .bss           0x00000000        0x0 ./04_UserBoard/uecom/uecom.o
+ .text.crc16    0x00000000       0x48 ./04_UserBoard/uecom/uecom.o
+ .text.uecom_getUEIP
+                0x00000000       0xb8 ./04_UserBoard/uecom/uecom.o
+ .data.ATE_1    0x00000000        0x7 ./04_UserBoard/uecom/uecom.o
+ .data.CIFSR    0x00000000        0xb ./04_UserBoard/uecom/uecom.o
+ .data.CIPSEND  0x00000000        0xd ./04_UserBoard/uecom/uecom.o
+ .data.GPSPOS   0x00000000        0xc ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0xa2a ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x22 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x17 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x35 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x9c ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x97 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0x353 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0xf6 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x58 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x1f ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x43 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x20 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0x18e ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x6a ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0xb6 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0x129 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x35 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x22 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0xef ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0x1df ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x39 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x3a ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x26 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000      0x306 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000     0xc3a9 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x52 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x00000000       0x28 ./04_UserBoard/uecom/uecom.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/light/light.o
+ .text          0x00000000        0x0 ./04_UserBoard/light/light.o
+ .data          0x00000000        0x0 ./04_UserBoard/light/light.o
+ .bss           0x00000000        0x0 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000      0xa2a ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x22 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x4f ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x51 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0xef ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x6a ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000      0x1df ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x39 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x3a ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x26 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000      0x306 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000     0xc3a9 ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/light/light.o
+ .debug_macro   0x00000000       0x52 ./04_UserBoard/light/light.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .group         0x00000000        0xc ./04_UserBoard/bootloader/bootloader.o
+ .text          0x00000000        0x0 ./04_UserBoard/bootloader/bootloader.o
+ .data          0x00000000        0x0 ./04_UserBoard/bootloader/bootloader.o
+ .bss           0x00000000        0x0 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000      0xa2a ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x16 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x22 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x4f ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x51 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0xef ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x6a ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000      0x1df ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x39 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x3a ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x26 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000      0x306 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x10 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000     0xc3a9 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x00000000       0x2e ./04_UserBoard/bootloader/bootloader.o
+ .data          0x00000000        0x0 ./03_MCU/startup/startup_MKL36Z4.o
+ .bss           0x00000000        0x0 ./03_MCU/startup/startup_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/startup/system_MKL36Z4.o
+ .text          0x00000000        0x0 ./03_MCU/startup/system_MKL36Z4.o
+ .data          0x00000000        0x0 ./03_MCU/startup/system_MKL36Z4.o
+ .bss           0x00000000        0x0 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0xef ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/startup/system_MKL36Z4.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/uart/uart.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/uart/uart.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/uart/uart.o
+ .text.uart_is_uartNo
+                0x00000000        0xc ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/uart/uart.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/tsi/tsi.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/tsi/tsi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/systick/systick.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/systick/systick.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/systick/systick.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/systick/systick.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/spi/spi.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/spi/spi.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/spi/spi.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/spi/spi.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/i2c/i2c.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/i2c/i2c.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/gpio/gpio.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .text.gpio_get_port_pin
+                0x00000000        0x8 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/gpio/gpio.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/flash/flash.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/flash/flash.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/flash/flash.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/flash/flash.o
+ .text.flash_cmd_launch
+                0x00000000       0x24 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x58 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x17 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x35 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x9c ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0x16d ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x58 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x1f ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x43 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x20 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0x18e ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000      0x353 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x00000000       0x35 ./03_MCU/MCU_drivers/flash/flash.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .group         0x00000000        0xc ./03_MCU/MCU_drivers/adc/adc.o
+ .text          0x00000000        0x0 ./03_MCU/MCU_drivers/adc/adc.o
+ .data          0x00000000        0x0 ./03_MCU/MCU_drivers/adc/adc.o
+ .bss           0x00000000        0x0 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000      0xa2a ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x16 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x22 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x4f ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x51 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0xef ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x6a ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000      0x1df ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x39 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x3a ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x26 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000      0x306 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x10 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000     0xc3a9 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x00000000       0x2e ./03_MCU/MCU_drivers/adc/adc.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+ .text          0x00000000       0x38 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzdi2.o)
+ .text          0x00000000      0x1b0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divdi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x00005ff0         xr
+m_fun_config     0x00006400         0x00000400         xr
+m_data           0x1ffff800         0x00000bf8         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+LOAD ./06_NosPrg/isr.o
+LOAD ./06_NosPrg/main.o
+LOAD ./05_SoftComponent/timeStamp/timeStamp.o
+LOAD ./05_SoftComponent/common/common.o
+LOAD ./04_UserBoard/ueupdate/ueupdate.o
+LOAD ./04_UserBoard/uecom/uecom.o
+LOAD ./04_UserBoard/light/light.o
+LOAD ./04_UserBoard/bootloader/bootloader.o
+LOAD ./03_MCU/startup/startup_MKL36Z4.o
+LOAD ./03_MCU/startup/system_MKL36Z4.o
+LOAD ./03_MCU/MCU_drivers/uart/uart.o
+LOAD ./03_MCU/MCU_drivers/tsi/tsi.o
+LOAD ./03_MCU/MCU_drivers/systick/systick.o
+LOAD ./03_MCU/MCU_drivers/spi/spi.o
+LOAD ./03_MCU/MCU_drivers/lptmr/lptmr.o
+LOAD ./03_MCU/MCU_drivers/i2c/i2c.o
+LOAD ./03_MCU/MCU_drivers/gpio/gpio.o
+LOAD ./03_MCU/MCU_drivers/flash/flash.o
+LOAD ./03_MCU/MCU_drivers/adc/adc.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x00000200                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x200
+                0x00000100                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x100
+                0x0000001a                __start_sector__ = 0x1a
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./03_MCU/startup/startup_MKL36Z4.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./03_MCU/startup/startup_MKL36Z4.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x5924
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x48 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .text          0x00000458       0x78 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x00000458                _start
+                0x00000458                _mainCRTStartup
+ .text          0x000004d0       0x4c ./03_MCU/startup/startup_MKL36Z4.o
+                0x000004d0                Reset_Handler
+                0x00000514                HardFault_Handler
+                0x00000514                PendSV_Handler
+                0x00000514                NMI_Handler
+                0x00000514                PORTC_PORTD_IRQHandler
+                0x00000514                I2C1_IRQHandler
+                0x00000514                DMA2_IRQHandler
+                0x00000514                TPM0_IRQHandler
+                0x00000514                I2S0_IRQHandler
+                0x00000514                LLWU_IRQHandler
+                0x00000514                TSI0_IRQHandler
+                0x00000514                ADC0_IRQHandler
+                0x00000514                SPI1_IRQHandler
+                0x00000514                DefaultISR
+                0x00000514                TPM2_IRQHandler
+                0x00000514                RTC_IRQHandler
+                0x00000514                I2C0_IRQHandler
+                0x00000514                LCD_IRQHandler
+                0x00000514                RTC_Seconds_IRQHandler
+                0x00000514                MCG_IRQHandler
+                0x00000514                Reserved20_IRQHandler
+                0x00000514                PIT_IRQHandler
+                0x00000514                SVC_Handler
+                0x00000514                DMA3_IRQHandler
+                0x00000514                DMA0_IRQHandler
+                0x00000514                DAC0_IRQHandler
+                0x00000514                TPM1_IRQHandler
+                0x00000514                LVD_LVW_IRQHandler
+                0x00000514                SPI0_IRQHandler
+                0x00000514                PORTA_IRQHandler
+                0x00000514                FTFA_IRQHandler
+                0x00000514                Reserved40_IRQHandler
+                0x00000514                LPTMR0_IRQHandler
+                0x00000514                CMP0_IRQHandler
+                0x00000514                DMA1_IRQHandler
+ .text          0x0000051c      0x114 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x0000051c                __aeabi_uidiv
+                0x0000051c                __udivsi3
+                0x00000628                __aeabi_uidivmod
+ .text          0x00000630      0x1d4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                0x00000630                __divsi3
+                0x00000630                __aeabi_idiv
+                0x000007fc                __aeabi_idivmod
+ .text          0x00000804        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00000804                __aeabi_idiv0
+                0x00000804                __aeabi_ldiv0
+ .text          0x00000808       0x40 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o)
+                0x00000808                __aeabi_uldivmod
+ .text          0x00000848       0x54 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+                0x00000848                __muldi3
+                0x00000848                __aeabi_lmul
+ .text          0x0000089c      0x184 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+                0x0000089c                __udivmoddi4
+ .text          0x00000a20      0x638 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+                0x00000a20                __aeabi_dadd
+ .text          0x00001058      0x604 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+                0x00001058                __aeabi_ddiv
+ .text          0x0000165c      0x4e4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+                0x0000165c                __aeabi_dmul
+ .text          0x00001b40      0x690 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+                0x00001b40                __aeabi_dsub
+ .text          0x000021d0       0x74 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+                0x000021d0                __aeabi_i2d
+ .text          0x00002244       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                0x00002244                __clzsi2
+ .text          0x00002280       0x18 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzdi2.o)
+                0x00002280                __clzdi2
+ .text          0x00002298       0x14 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+                0x00002298                strcmp
+ .text          0x000022ac        0xe c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strlen.o)
+                0x000022ac                strlen
+ *(.text*)
+ *fill*         0x000022ba        0x2 
+ .text.SysTick_Handler
+                0x000022bc       0x1c ./06_NosPrg/isr.o
+                0x000022bc                SysTick_Handler
+ .text.UART0_IRQHandler
+                0x000022d8       0x34 ./06_NosPrg/isr.o
+                0x000022d8                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x0000230c       0x34 ./06_NosPrg/isr.o
+                0x0000230c                UART1_IRQHandler
+ .text.CreateFrame
+                0x00002340       0x9c ./06_NosPrg/isr.o
+                0x00002340                CreateFrame
+ .text.UART2_IRQHandler
+                0x000023dc       0xc8 ./06_NosPrg/isr.o
+                0x000023dc                UART2_IRQHandler
+ .text.systemTimeGet
+                0x000024a4       0x14 ./06_NosPrg/main.o
+                0x000024a4                systemTimeGet
+ .text.systemTimeSet
+                0x000024b8        0xc ./06_NosPrg/main.o
+                0x000024b8                systemTimeSet
+ .text.systemInfoGet
+                0x000024c4       0x10 ./06_NosPrg/main.o
+                0x000024c4                systemInfoGet
+ .text.updateJudge
+                0x000024d4       0x54 ./06_NosPrg/main.o
+                0x000024d4                updateJudge
+ .text.startup.main
+                0x00002528       0xfc ./06_NosPrg/main.o
+                0x00002528                main
+ .text.transformToDate
+                0x00002624      0x4d4 ./05_SoftComponent/timeStamp/timeStamp.o
+                0x00002624                transformToDate
+ .text.transformToDateString
+                0x00002af8      0x16c ./05_SoftComponent/timeStamp/timeStamp.o
+                0x00002af8                transformToDateString
+ .text.timeChange
+                0x00002c64       0x28 ./05_SoftComponent/timeStamp/timeStamp.o
+                0x00002c64                timeChange
+ .text.enable_irq
+                0x00002c8c       0x1c ./05_SoftComponent/common/common.o
+                0x00002c8c                enable_irq
+ .text.disable_irq
+                0x00002ca8       0x1c ./05_SoftComponent/common/common.o
+                0x00002ca8                disable_irq
+ .text.Delay_ms
+                0x00002cc4       0x1c ./05_SoftComponent/common/common.o
+                0x00002cc4                Delay_ms
+ .text.updateDecode.part.0
+                0x00002ce0       0xc0 ./04_UserBoard/ueupdate/ueupdate.o
+ .text.ueupdate_init
+                0x00002da0       0x3c ./04_UserBoard/ueupdate/ueupdate.o
+                0x00002da0                ueupdate_init
+ .text.ueupdate_check
+                0x00002ddc       0x80 ./04_UserBoard/ueupdate/ueupdate.o
+                0x00002ddc                ueupdate_check
+ .text.ueupdate_recv
+                0x00002e5c      0x230 ./04_UserBoard/ueupdate/ueupdate.o
+                0x00002e5c                ueupdate_recv
+ .text.updateEncode
+                0x0000308c       0xa8 ./04_UserBoard/ueupdate/ueupdate.o
+                0x0000308c                updateEncode
+ .text.ueupdate_back
+                0x00003134       0x38 ./04_UserBoard/ueupdate/ueupdate.o
+                0x00003134                ueupdate_back
+ .text.uecom_power.part.0
+                0x0000316c       0x28 ./04_UserBoard/uecom/uecom.o
+ .text.uecom_power
+                0x00003194       0x30 ./04_UserBoard/uecom/uecom.o
+                0x00003194                uecom_power
+ .text.uecom_modelInfo
+                0x000031c4       0x34 ./04_UserBoard/uecom/uecom.o
+                0x000031c4                uecom_modelInfo
+ .text.uecom_sendCmd
+                0x000031f8      0x168 ./04_UserBoard/uecom/uecom.o
+                0x000031f8                uecom_sendCmd
+ .text.uecom_linkBase
+                0x00003360       0x34 ./04_UserBoard/uecom/uecom.o
+                0x00003360                uecom_linkBase
+ .text.uecom_linkCS
+                0x00003394       0xc4 ./04_UserBoard/uecom/uecom.o
+                0x00003394                uecom_linkCS
+ .text.uecom_baseInfo
+                0x00003458      0x11c ./04_UserBoard/uecom/uecom.o
+                0x00003458                uecom_baseInfo
+ .text.uecom_gnssSwitch
+                0x00003574       0x88 ./04_UserBoard/uecom/uecom.o
+                0x00003574                uecom_gnssSwitch
+ .text.uecom_gnssGetInfo
+                0x000035fc      0x584 ./04_UserBoard/uecom/uecom.o
+                0x000035fc                uecom_gnssGetInfo
+ .text.uecom_httpGet
+                0x00003b80      0x158 ./04_UserBoard/uecom/uecom.o
+                0x00003b80                uecom_httpGet
+ .text.uecom_internal_getIMEI
+                0x00003cd8       0x9c ./04_UserBoard/uecom/uecom.o
+                0x00003cd8                uecom_internal_getIMEI
+ .text.uecom_internal_getIMSI
+                0x00003d74       0x90 ./04_UserBoard/uecom/uecom.o
+                0x00003d74                uecom_internal_getIMSI
+ .text.uecom_init
+                0x00003e04       0x80 ./04_UserBoard/uecom/uecom.o
+                0x00003e04                uecom_init
+ .text.uecom_default_delay_ms
+                0x00003e84       0x40 ./04_UserBoard/uecom/uecom.o
+                0x00003e84                uecom_default_delay_ms
+ .text.uint_to_str
+                0x00003ec4       0x70 ./04_UserBoard/uecom/uecom.o
+                0x00003ec4                uint_to_str
+ .text.frameEncode
+                0x00003f34       0xc0 ./04_UserBoard/uecom/uecom.o
+                0x00003f34                frameEncode
+ .text.uecom_send
+                0x00003ff4       0xe0 ./04_UserBoard/uecom/uecom.o
+                0x00003ff4                uecom_send
+ .text.uecom_recv
+                0x000040d4      0x204 ./04_UserBoard/uecom/uecom.o
+                0x000040d4                uecom_recv
+ .text.uecom_interrupt
+                0x000042d8       0x4c ./04_UserBoard/uecom/uecom.o
+                0x000042d8                uecom_interrupt
+ .text.light_init
+                0x00004324        0xc ./04_UserBoard/light/light.o
+                0x00004324                light_init
+ .text.light_control
+                0x00004330        0x8 ./04_UserBoard/light/light.o
+                0x00004330                light_control
+ .text.light_change
+                0x00004338        0x8 ./04_UserBoard/light/light.o
+                0x00004338                light_change
+ .text.bootloader_goToUserApp
+                0x00004340       0x28 ./04_UserBoard/bootloader/bootloader.o
+                0x00004340                bootloader_goToUserApp
+ .text.SystemInit
+                0x00004368       0xc8 ./03_MCU/startup/system_MKL36Z4.o
+                0x00004368                SystemInit
+ .text.uart_init
+                0x00004430      0x150 ./03_MCU/MCU_drivers/uart/uart.o
+                0x00004430                uart_init
+ .text.uart_send1
+                0x00004580       0x4c ./03_MCU/MCU_drivers/uart/uart.o
+                0x00004580                uart_send1
+ .text.uart_sendN
+                0x000045cc       0x50 ./03_MCU/MCU_drivers/uart/uart.o
+                0x000045cc                uart_sendN
+ .text.uart_send_string
+                0x0000461c       0x30 ./03_MCU/MCU_drivers/uart/uart.o
+                0x0000461c                uart_send_string
+ .text.uart_re1
+                0x0000464c       0x5c ./03_MCU/MCU_drivers/uart/uart.o
+                0x0000464c                uart_re1
+ .text.uart_reN
+                0x000046a8       0x10 ./03_MCU/MCU_drivers/uart/uart.o
+                0x000046a8                uart_reN
+ .text.uart_enable_re_int
+                0x000046b8       0x48 ./03_MCU/MCU_drivers/uart/uart.o
+                0x000046b8                uart_enable_re_int
+ .text.uart_disable_re_int
+                0x00004700       0x48 ./03_MCU/MCU_drivers/uart/uart.o
+                0x00004700                uart_disable_re_int
+ .text.uart_get_re_int
+                0x00004748       0x34 ./03_MCU/MCU_drivers/uart/uart.o
+                0x00004748                uart_get_re_int
+ .text.uart_deint
+                0x0000477c       0x68 ./03_MCU/MCU_drivers/uart/uart.o
+                0x0000477c                uart_deint
+ .text.tsi_init
+                0x000047e4       0xb4 ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x000047e4                tsi_init
+ .text.tsi_get_value16
+                0x00004898       0x48 ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x00004898                tsi_get_value16
+ .text.tsi_set_threshold
+                0x000048e0       0x10 ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x000048e0                tsi_set_threshold
+ .text.tsi_enable_re_int
+                0x000048f0       0x20 ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x000048f0                tsi_enable_re_int
+ .text.tsi_disable_re_int
+                0x00004910       0x20 ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x00004910                tsi_disable_re_int
+ .text.tsi_softsearch
+                0x00004930       0x1c ./03_MCU/MCU_drivers/tsi/tsi.o
+                0x00004930                tsi_softsearch
+ .text.systick_init
+                0x0000494c       0x54 ./03_MCU/MCU_drivers/systick/systick.o
+                0x0000494c                systick_init
+ .text.SPI_init
+                0x000049a0      0x194 ./03_MCU/MCU_drivers/spi/spi.o
+                0x000049a0                SPI_init
+ .text.SPI_send1
+                0x00004b34       0x34 ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004b34                SPI_send1
+ .text.SPI_sendN
+                0x00004b68       0x2c ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004b68                SPI_sendN
+ .text.SPI_receive1
+                0x00004b94       0x1c ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004b94                SPI_receive1
+ .text.SPI_receiveN
+                0x00004bb0       0x2c ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004bb0                SPI_receiveN
+ .text.SPI_enable_re_int
+                0x00004bdc        0xc ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004bdc                SPI_enable_re_int
+ .text.SPI_disable_re_int
+                0x00004be8        0xc ./03_MCU/MCU_drivers/spi/spi.o
+                0x00004be8                SPI_disable_re_int
+ .text.lptmr_init
+                0x00004bf4       0x3c ./03_MCU/MCU_drivers/lptmr/lptmr.o
+                0x00004bf4                lptmr_init
+ .text.lptmr_reset
+                0x00004c30       0x10 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+                0x00004c30                lptmr_reset
+ .text.enable_lptmr_int
+                0x00004c40       0x1c ./03_MCU/MCU_drivers/lptmr/lptmr.o
+                0x00004c40                enable_lptmr_int
+ .text.disable_lptmr_int
+                0x00004c5c       0x20 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+                0x00004c5c                disable_lptmr_int
+ .text.I2C_init
+                0x00004c7c       0xb0 ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00004c7c                I2C_init
+ .text.I2C_read1
+                0x00004d2c       0xf0 ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00004d2c                I2C_read1
+ .text.I2C_readN
+                0x00004e1c      0x15c ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00004e1c                I2C_readN
+ .text.I2C_rece1
+                0x00004f78       0x9c ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00004f78                I2C_rece1
+ .text.I2C_receN
+                0x00005014      0x108 ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00005014                I2C_receN
+ .text.I2C_write1
+                0x0000511c       0x7c ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x0000511c                I2C_write1
+ .text.I2C_writeN
+                0x00005198       0x94 ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00005198                I2C_writeN
+ .text.I2C_enable_re_int
+                0x0000522c       0x2c ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x0000522c                I2C_enable_re_int
+ .text.I2C_disable_re_int
+                0x00005258       0x24 ./03_MCU/MCU_drivers/i2c/i2c.o
+                0x00005258                I2C_disable_re_int
+ .text.gpio_init
+                0x0000527c       0x5c ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x0000527c                gpio_init
+ .text.gpio_set
+                0x000052d8       0x28 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x000052d8                gpio_set
+ .text.gpio_get
+                0x00005300       0x18 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005300                gpio_get
+ .text.gpio_reverse
+                0x00005318       0x1c ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005318                gpio_reverse
+ .text.gpio_pull
+                0x00005334       0x38 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005334                gpio_pull
+ .text.gpio_enable_int
+                0x0000536c       0x50 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x0000536c                gpio_enable_int
+ .text.gpio_disable_int
+                0x000053bc       0x48 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x000053bc                gpio_disable_int
+ .text.gpio_get_int
+                0x00005404       0x18 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005404                gpio_get_int
+ .text.gpio_clear_int
+                0x0000541c       0x20 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x0000541c                gpio_clear_int
+ .text.gpio_clear_allint
+                0x0000543c       0x30 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x0000543c                gpio_clear_allint
+ .text.gpio_drive_strength
+                0x0000546c       0x28 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x0000546c                gpio_drive_strength
+ .text.flash_init
+                0x00005494       0x24 ./03_MCU/MCU_drivers/flash/flash.o
+                0x00005494                flash_init
+ .text.flash_erase
+                0x000054b8       0x80 ./03_MCU/MCU_drivers/flash/flash.o
+                0x000054b8                flash_erase
+ .text.flash_write
+                0x00005538       0x78 ./03_MCU/MCU_drivers/flash/flash.o
+                0x00005538                flash_write
+ .text.flash_read_logic
+                0x000055b0       0x10 ./03_MCU/MCU_drivers/flash/flash.o
+                0x000055b0                flash_read_logic
+ .text.flash_read_physical
+                0x000055c0        0x8 ./03_MCU/MCU_drivers/flash/flash.o
+                0x000055c0                flash_read_physical
+ .text.flash_protect
+                0x000055c8       0x58 ./03_MCU/MCU_drivers/flash/flash.o
+                0x000055c8                flash_protect
+ .text.flash_isempty
+                0x00005620       0x2c ./03_MCU/MCU_drivers/flash/flash.o
+                0x00005620                flash_isempty
+ .text.adc_read
+                0x0000564c       0x20 ./03_MCU/MCU_drivers/adc/adc.o
+                0x0000564c                adc_read
+ .text.adc_cal  0x0000566c       0x74 ./03_MCU/MCU_drivers/adc/adc.o
+                0x0000566c                adc_cal
+ .text.adc_init
+                0x000056e0       0xb8 ./03_MCU/MCU_drivers/adc/adc.o
+                0x000056e0                adc_init
+ .text.exit     0x00005798       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+                0x00005798                exit
+ .text.__libc_init_array
+                0x000057c4       0x48 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+                0x000057c4                __libc_init_array
+ .text.memcpy   0x0000580c       0x12 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000580c                memcpy
+ .text.memset   0x0000581e       0x10 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+                0x0000581e                memset
+ .text.strcat   0x0000582e       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+                0x0000582e                strcat
+ .text.strcpy   0x0000584a       0x10 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+                0x0000584a                strcpy
+ .text.strncmp  0x0000585a       0x22 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+                0x0000585a                strncmp
+ .text.strncpy  0x0000587c       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+                0x0000587c                strncpy
+ .text.strstr   0x000058a4       0x32 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+                0x000058a4                strstr
+ *fill*         0x000058d6        0x2 
+ .text._exit    0x000058d8        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                0x000058d8                _exit
+ *(.rodata)
+ .rodata        0x000058dc        0x8 ./06_NosPrg/isr.o
+ *fill*         0x000058e4        0x4 
+ .rodata        0x000058e8       0x68 ./05_SoftComponent/timeStamp/timeStamp.o
+ .rodata        0x00005950      0x1f4 ./04_UserBoard/uecom/uecom.o
+ .rodata        0x00005b44       0x40 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .rodata        0x00005b84       0x40 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+ *(.rodata*)
+ .rodata.UART2_IRQHandler.str1.4
+                0x00005bc4       0x1f ./06_NosPrg/isr.o
+ *fill*         0x00005be3        0x1 
+ .rodata.main.str1.4
+                0x00005be4        0xd ./06_NosPrg/main.o
+ *fill*         0x00005bf1        0x3 
+ .rodata.updateJudge.str1.4
+                0x00005bf4        0x7 ./06_NosPrg/main.o
+ *fill*         0x00005bfb        0x1 
+ .rodata.uecom_recv
+                0x00005bfc       0x2c ./04_UserBoard/uecom/uecom.o
+ .rodata.uecom_baseInfo.str1.4
+                0x00005c28        0xf ./04_UserBoard/uecom/uecom.o
+ *fill*         0x00005c37        0x1 
+ .rodata.uecom_gnssGetInfo.str1.4
+                0x00005c38       0x23 ./04_UserBoard/uecom/uecom.o
+                                 0x27 (size before relaxing)
+ *fill*         0x00005c5b        0x1 
+ .rodata.uecom_httpGet.str1.4
+                0x00005c5c        0xf ./04_UserBoard/uecom/uecom.o
+ *fill*         0x00005c6b        0x1 
+ .rodata.uecom_internal_getIMEI.str1.4
+                0x00005c6c        0x8 ./04_UserBoard/uecom/uecom.o
+ .rodata.uecom_linkCS.str1.4
+                0x00005c74       0x1b ./04_UserBoard/uecom/uecom.o
+ *fill*         0x00005c8f        0x1 
+ .rodata.uecom_send.str1.4
+                0x00005c90        0xc ./04_UserBoard/uecom/uecom.o
+ .rodata.uecom_sendCmd.str1.4
+                0x00005c9c       0x28 ./04_UserBoard/uecom/uecom.o
+                                 0x25 (size before relaxing)
+ .rodata.UART_ARR
+                0x00005cc4        0x8 ./03_MCU/MCU_drivers/uart/uart.o
+                0x00005cc4                UART_ARR
+ .rodata.tsi_init
+                0x00005ccc       0x18 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .rodata.I2C_BASE_TABLE
+                0x00005ce4        0x8 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .rodata.I2C_IRQ_TABLE
+                0x00005cec        0x2 ./03_MCU/MCU_drivers/i2c/i2c.o
+ *fill*         0x00005cee        0x2 
+ .rodata.GPIO_ARR
+                0x00005cf0       0x14 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005cf0                GPIO_ARR
+ .rodata.PORT_ARR
+                0x00005d04       0x14 ./03_MCU/MCU_drivers/gpio/gpio.o
+                0x00005d04                PORT_ARR
+ .rodata._global_impure_ptr
+                0x00005d18        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+                0x00005d18                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00005d1c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00005d1c        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00005d1c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ *(.init)
+ .init          0x00005d1c        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+                0x00005d1c                _init
+ .init          0x00005d20        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ *(.fini)
+ .fini          0x00005d28        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+                0x00005d28                _fini
+ .fini          0x00005d2c        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x00005d34                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00005d34        0x0
+ .vfp11_veneer  0x00005d34        0x0 linker stubs
+
+.v4_bx          0x00005d34        0x0
+ .v4_bx         0x00005d34        0x0 linker stubs
+
+.iplt           0x00005d34        0x0
+ .iplt          0x00005d34        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00005d34        0x8
+                0x00005d34                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00005d34        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.exidx     0x00005d3c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+                                  0x8 (size before relaxing)
+                0x00005d3c                __exidx_end = .
+
+.ctors          0x00005d3c        0x0
+                0x00005d3c                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x00005d3c                __CTOR_END__ = .
+
+.dtors          0x00005d3c        0x0
+                0x00005d3c                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00005d3c                __DTOR_END__ = .
+
+.preinit_array  0x00005d3c        0x0
+                0x00005d3c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00005d3c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00005d3c        0x4
+                0x00005d3c                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00005d3c        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+                0x00005d40                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00005d40        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00005d40        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+
+.fun_config     0x00006400      0x134
+                0x00006400                . = ALIGN (0x4)
+ *(.FunConfig)
+ .FunConfig     0x00006400      0x134 ./03_MCU/startup/startup_MKL36Z4.o
+                0x00006400                FunConfig
+                0x00006534                . = ALIGN (0x4)
+                0x00006534                __etext = .
+                0x00006534                __DATA_ROM = .
+
+.rel.dyn        0x00006534        0x0
+ .rel.iplt      0x00006534        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.mtb            0x1ffff800        0x0
+                0x1ffff800                . = ALIGN (0x8)
+                0x1ffff800                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff800                . = ALIGN (0x8)
+                0x1ffff800                _mtb_end = .
+
+.data           0x1ffff800      0x190 load address 0x00006534
+                0x1ffff800                . = ALIGN (0x4)
+                0x1ffff800                __DATA_RAM = .
+                0x1ffff800                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.AT       0x1ffff800        0x5 ./04_UserBoard/uecom/uecom.o
+                0x1ffff800                AT
+ *fill*         0x1ffff805        0x3 
+ .data.ATE_0    0x1ffff808        0x7 ./04_UserBoard/uecom/uecom.o
+                0x1ffff808                ATE_0
+ *fill*         0x1ffff80f        0x1 
+ .data.CCED_1   0x1ffff810        0xe ./04_UserBoard/uecom/uecom.o
+                0x1ffff810                CCED_1
+ *fill*         0x1ffff81e        0x2 
+ .data.CGACT_1  0x1ffff820        0xf ./04_UserBoard/uecom/uecom.o
+                0x1ffff820                CGACT_1
+ *fill*         0x1ffff82f        0x1 
+ .data.CGDCONT  0x1ffff830       0x1e ./04_UserBoard/uecom/uecom.o
+                0x1ffff830                CGDCONT
+ *fill*         0x1ffff84e        0x2 
+ .data.CGSN     0x1ffff850        0xa ./04_UserBoard/uecom/uecom.o
+                0x1ffff850                CGSN
+ *fill*         0x1ffff85a        0x2 
+ .data.CIMI     0x1ffff85c        0xa ./04_UserBoard/uecom/uecom.o
+                0x1ffff85c                CIMI
+ *fill*         0x1ffff866        0x2 
+ .data.CIPCLOSE
+                0x1ffff868        0xe ./04_UserBoard/uecom/uecom.o
+                0x1ffff868                CIPCLOSE
+ *fill*         0x1ffff876        0x2 
+ .data.CSQ      0x1ffff878        0x9 ./04_UserBoard/uecom/uecom.o
+                0x1ffff878                CSQ
+ *fill*         0x1ffff881        0x3 
+ .data.ERROR    0x1ffff884        0x6 ./04_UserBoard/uecom/uecom.o
+                0x1ffff884                ERROR
+ *fill*         0x1ffff88a        0x2 
+ .data.GPSACT_0
+                0x1ffff88c        0xe ./04_UserBoard/uecom/uecom.o
+                0x1ffff88c                GPSACT_0
+ *fill*         0x1ffff89a        0x2 
+ .data.GPSACT_1
+                0x1ffff89c        0xe ./04_UserBoard/uecom/uecom.o
+                0x1ffff89c                GPSACT_1
+ *fill*         0x1ffff8aa        0x2 
+ .data.GPSRESTART_1
+                0x1ffff8ac       0x12 ./04_UserBoard/uecom/uecom.o
+                0x1ffff8ac                GPSRESTART_1
+ *fill*         0x1ffff8be        0x2 
+ .data.GPSRESTART_2
+                0x1ffff8c0       0x12 ./04_UserBoard/uecom/uecom.o
+                0x1ffff8c0                GPSRESTART_2
+ *fill*         0x1ffff8d2        0x2 
+ .data.GPSRESTART_3
+                0x1ffff8d4       0x12 ./04_UserBoard/uecom/uecom.o
+                0x1ffff8d4                GPSRESTART_3
+ *fill*         0x1ffff8e6        0x2 
+ .data.GPSRMC   0x1ffff8e8        0xc ./04_UserBoard/uecom/uecom.o
+                0x1ffff8e8                GPSRMC
+ .data.HTTPINIT
+                0x1ffff8f4        0xe ./04_UserBoard/uecom/uecom.o
+                0x1ffff8f4                HTTPINIT
+ *fill*         0x1ffff902        0x2 
+ .data.HTTPREAD
+                0x1ffff904        0xf ./04_UserBoard/uecom/uecom.o
+                0x1ffff904                HTTPREAD
+ *fill*         0x1ffff913        0x1 
+ .data.HTTPSEND_0
+                0x1ffff914       0x10 ./04_UserBoard/uecom/uecom.o
+                0x1ffff914                HTTPSEND_0
+ .data.OK       0x1ffff924        0x3 ./04_UserBoard/uecom/uecom.o
+                0x1ffff924                OK
+ *fill*         0x1ffff927        0x1 
+ .data.SystemCoreClock
+                0x1ffff928        0x4 ./03_MCU/startup/system_MKL36Z4.o
+                0x1ffff928                SystemCoreClock
+ .data.table_irq_uart
+                0x1ffff92c        0x3 ./03_MCU/MCU_drivers/uart/uart.o
+                0x1ffff92c                table_irq_uart
+ *fill*         0x1ffff92f        0x1 
+ .data.impure_data
+                0x1ffff930       0x60 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ *(.jcr*)
+                0x1ffff990                . = ALIGN (0x4)
+                0x1ffff990                __data_end__ = .
+                0x000066c4                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x1ffff990        0x0 load address 0x000066c4
+ .igot.plt      0x1ffff990        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.bss            0x1ffff990      0x39c load address 0x000066c8
+                0x1ffff990                . = ALIGN (0x4)
+                0x1ffff990                __START_BSS = .
+                0x1ffff990                __bss_start__ = .
+ *(.bss)
+ .bss           0x1ffff990       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ *(.bss*)
+ .bss.buf.6153  0x1ffff9ac        0x7 ./06_NosPrg/isr.o
+ *fill*         0x1ffff9b3        0x1 
+ .bss.dataLen.6162
+                0x1ffff9b4        0x2 ./06_NosPrg/isr.o
+ .bss.frameLen.6163
+                0x1ffff9b6        0x2 ./06_NosPrg/isr.o
+ .bss.AT_haveCommand
+                0x1ffff9b8        0x1 ./04_UserBoard/uecom/uecom.o
+ *fill*         0x1ffff9b9        0x3 
+ .bss.AT_reBuf  0x1ffff9bc       0xc8 ./04_UserBoard/uecom/uecom.o
+ .bss.AT_reLength
+                0x1ffffa84        0x1 ./04_UserBoard/uecom/uecom.o
+ *fill*         0x1ffffa85        0x3 
+ .bss.IMEI      0x1ffffa88        0xf ./04_UserBoard/uecom/uecom.o
+ *fill*         0x1ffffa97        0x1 
+ .bss.IMSI      0x1ffffa98        0xf ./04_UserBoard/uecom/uecom.o
+ .bss.flag.6216
+                0x1ffffaa7        0x1 ./04_UserBoard/uecom/uecom.o
+ .bss.index.6218
+                0x1ffffaa8        0x2 ./04_UserBoard/uecom/uecom.o
+ .bss.length.6219
+                0x1ffffaaa        0x2 ./04_UserBoard/uecom/uecom.o
+ .bss.recvLength.6217
+                0x1ffffaac        0x2 ./04_UserBoard/uecom/uecom.o
+ *(COMMON)
+ *fill*         0x1ffffaae        0x2 
+ COMMON         0x1ffffab0      0x203 ./06_NosPrg/main.o
+                0x1ffffab0                gRecvBuf
+                0x1ffffca8                gTime
+                0x1ffffcb0                gRecvLen
+                0x1ffffcb2                gFunFlag
+ *fill*         0x1ffffcb3        0x1 
+ COMMON         0x1ffffcb4       0x77 ./04_UserBoard/ueupdate/ueupdate.o
+                0x1ffffcb4                uFrameNum
+                0x1ffffcb6                uCurFrame
+                0x1ffffcb8                uSectNo
+                0x1ffffcbc                uMSP
+                0x1ffffcc0                uCheck
+                0x1ffffcd4                uBackOrder
+                0x1ffffcd8                ckdata
+                0x1ffffd2c                . = ALIGN (0x4)
+ *fill*         0x1ffffd2b        0x1 
+                0x1ffffd2c                __bss_end__ = .
+                0x1ffffd2c                __END_BSS = .
+
+.heap           0x1ffffd2c      0x204 load address 0x00006a64
+                0x1ffffd30                . = ALIGN (0x8)
+ *fill*         0x1ffffd2c        0x4 
+                0x1ffffd30                __end__ = .
+                [!provide]                PROVIDE (end, .)
+                0x1ffffd30                __HeapBase = .
+                0x1fffff30                . = (. + HEAP_SIZE)
+ *fill*         0x1ffffd30      0x200 
+                0x1fffff30                __HeapLimit = .
+
+.stack          0x1fffff30      0x100 load address 0x00006c68
+                0x1fffff30                . = ALIGN (0x8)
+                0x20000030                . = (. + STACK_SIZE)
+ *fill*         0x1fffff30      0x100 
+                0x200003f8                __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
+                0x200002f8                __StackLimit = (__StackTop - STACK_SIZE)
+                0x200003f8                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 ./06_NosPrg/isr.o
+ .ARM.attributes
+                0x00000097       0x32 ./06_NosPrg/main.o
+ .ARM.attributes
+                0x000000c9       0x32 ./05_SoftComponent/timeStamp/timeStamp.o
+ .ARM.attributes
+                0x000000fb       0x32 ./05_SoftComponent/common/common.o
+ .ARM.attributes
+                0x0000012d       0x32 ./04_UserBoard/ueupdate/ueupdate.o
+ .ARM.attributes
+                0x0000015f       0x32 ./04_UserBoard/uecom/uecom.o
+ .ARM.attributes
+                0x00000191       0x32 ./04_UserBoard/light/light.o
+ .ARM.attributes
+                0x000001c3       0x32 ./04_UserBoard/bootloader/bootloader.o
+ .ARM.attributes
+                0x000001f5       0x1b ./03_MCU/startup/startup_MKL36Z4.o
+ .ARM.attributes
+                0x00000210       0x32 ./03_MCU/startup/system_MKL36Z4.o
+ .ARM.attributes
+                0x00000242       0x32 ./03_MCU/MCU_drivers/uart/uart.o
+ .ARM.attributes
+                0x00000274       0x32 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .ARM.attributes
+                0x000002a6       0x32 ./03_MCU/MCU_drivers/systick/systick.o
+ .ARM.attributes
+                0x000002d8       0x32 ./03_MCU/MCU_drivers/spi/spi.o
+ .ARM.attributes
+                0x0000030a       0x32 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .ARM.attributes
+                0x0000033c       0x32 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .ARM.attributes
+                0x0000036e       0x32 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .ARM.attributes
+                0x000003a0       0x32 ./03_MCU/MCU_drivers/flash/flash.o
+ .ARM.attributes
+                0x000003d2       0x32 ./03_MCU/MCU_drivers/adc/adc.o
+ .ARM.attributes
+                0x00000404       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000422       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000440       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000045e       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000047c       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x000004a8       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000004d4       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000500       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x0000052c       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000558       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000584       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x000005b0       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000005ce       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x000005ec       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000618       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000644       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000670       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000069c       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006c8       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x000006f4       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000710       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x0000073c       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000758       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000784       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x000007b0       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x000007dc       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000808       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(KL36_Bios.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xc20f
+ .debug_info    0x00000000      0xd47 ./06_NosPrg/isr.o
+ .debug_info    0x00000d47      0xd33 ./06_NosPrg/main.o
+ .debug_info    0x00001a7a      0xdef ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_info    0x00002869      0x5dd ./05_SoftComponent/common/common.o
+ .debug_info    0x00002e46     0x1308 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_info    0x0000414e     0x2261 ./04_UserBoard/uecom/uecom.o
+ .debug_info    0x000063af      0x17d ./04_UserBoard/light/light.o
+ .debug_info    0x0000652c      0x130 ./04_UserBoard/bootloader/bootloader.o
+ .debug_info    0x0000665c       0x26 ./03_MCU/startup/startup_MKL36Z4.o
+ .debug_info    0x00006682      0x424 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_info    0x00006aa6      0xc20 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_info    0x000076c6      0x579 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_info    0x00007c3f      0x413 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_info    0x00008052      0x63a ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_info    0x0000868c      0x5bf ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_info    0x00008c4b     0x1935 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_info    0x0000a580      0xa0b ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_info    0x0000af8b      0xd96 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_info    0x0000bd21      0x4ee ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_abbrev   0x00000000     0x285d
+ .debug_abbrev  0x00000000      0x2db ./06_NosPrg/isr.o
+ .debug_abbrev  0x000002db      0x2e2 ./06_NosPrg/main.o
+ .debug_abbrev  0x000005bd      0x2c0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_abbrev  0x0000087d      0x1d1 ./05_SoftComponent/common/common.o
+ .debug_abbrev  0x00000a4e      0x3a1 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_abbrev  0x00000def      0x475 ./04_UserBoard/uecom/uecom.o
+ .debug_abbrev  0x00001264       0xa7 ./04_UserBoard/light/light.o
+ .debug_abbrev  0x0000130b       0xdd ./04_UserBoard/bootloader/bootloader.o
+ .debug_abbrev  0x000013e8       0x14 ./03_MCU/startup/startup_MKL36Z4.o
+ .debug_abbrev  0x000013fc      0x10d ./03_MCU/startup/system_MKL36Z4.o
+ .debug_abbrev  0x00001509      0x323 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_abbrev  0x0000182c      0x1ae ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_abbrev  0x000019da      0x150 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_abbrev  0x00001b2a      0x1cf ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_abbrev  0x00001cf9      0x19e ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_abbrev  0x00001e97      0x2b4 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_abbrev  0x0000214b      0x2e2 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_abbrev  0x0000242d      0x2c8 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_abbrev  0x000026f5      0x168 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_loc      0x00000000     0x631a
+ .debug_loc     0x00000000      0x1f6 ./06_NosPrg/isr.o
+ .debug_loc     0x000001f6       0x6b ./06_NosPrg/main.o
+ .debug_loc     0x00000261      0xb80 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_loc     0x00000de1      0x1e2 ./05_SoftComponent/common/common.o
+ .debug_loc     0x00000fc3      0xd76 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_loc     0x00001d39     0x1819 ./04_UserBoard/uecom/uecom.o
+ .debug_loc     0x00003552       0xa5 ./04_UserBoard/light/light.o
+ .debug_loc     0x000035f7       0x53 ./04_UserBoard/bootloader/bootloader.o
+ .debug_loc     0x0000364a      0x726 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_loc     0x00003d70       0xa4 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_loc     0x00003e14       0x6b ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_loc     0x00003e7f      0x483 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_loc     0x00004302       0x49 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_loc     0x0000434b     0x119c ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_loc     0x000054e7      0x97a ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_loc     0x00005e61      0x356 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_loc     0x000061b7      0x163 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_aranges  0x00000000      0x590
+ .debug_aranges
+                0x00000000       0x40 ./06_NosPrg/isr.o
+ .debug_aranges
+                0x00000040       0x40 ./06_NosPrg/main.o
+ .debug_aranges
+                0x00000080       0x38 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_aranges
+                0x000000b8       0x60 ./05_SoftComponent/common/common.o
+ .debug_aranges
+                0x00000118       0x68 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_aranges
+                0x00000180       0xc0 ./04_UserBoard/uecom/uecom.o
+ .debug_aranges
+                0x00000240       0x30 ./04_UserBoard/light/light.o
+ .debug_aranges
+                0x00000270       0x20 ./04_UserBoard/bootloader/bootloader.o
+ .debug_aranges
+                0x00000290       0x20 ./03_MCU/startup/startup_MKL36Z4.o
+ .debug_aranges
+                0x000002b0       0x20 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_aranges
+                0x000002d0       0x70 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_aranges
+                0x00000340       0x48 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_aranges
+                0x00000388       0x20 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_aranges
+                0x000003a8       0x50 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_aranges
+                0x000003f8       0x38 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_aranges
+                0x00000430       0x60 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_aranges
+                0x00000490       0x78 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_aranges
+                0x00000508       0x58 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_aranges
+                0x00000560       0x30 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_ranges   0x00000000      0xb50
+ .debug_ranges  0x00000000       0x30 ./06_NosPrg/isr.o
+ .debug_ranges  0x00000030       0x48 ./06_NosPrg/main.o
+ .debug_ranges  0x00000078       0xb0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_ranges  0x00000128       0x98 ./05_SoftComponent/common/common.o
+ .debug_ranges  0x000001c0      0x110 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_ranges  0x000002d0       0xe0 ./04_UserBoard/uecom/uecom.o
+ .debug_ranges  0x000003b0       0x20 ./04_UserBoard/light/light.o
+ .debug_ranges  0x000003d0       0x10 ./04_UserBoard/bootloader/bootloader.o
+ .debug_ranges  0x000003e0       0x10 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_ranges  0x000003f0       0x90 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_ranges  0x00000480       0x38 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_ranges  0x000004b8       0x28 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_ranges  0x000004e0       0x40 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_ranges  0x00000520       0x40 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_ranges  0x00000560      0x4f0 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_ranges  0x00000a50       0x68 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_ranges  0x00000ab8       0x78 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_ranges  0x00000b30       0x20 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_macro    0x00000000     0xfdc5
+ .debug_macro   0x00000000      0x2dd ./06_NosPrg/isr.o
+ .debug_macro   0x000002dd      0xa2a ./06_NosPrg/isr.o
+ .debug_macro   0x00000d07       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x00000d1d       0x22 ./06_NosPrg/isr.o
+ .debug_macro   0x00000d3f       0x4f ./06_NosPrg/isr.o
+ .debug_macro   0x00000d8e       0x51 ./06_NosPrg/isr.o
+ .debug_macro   0x00000ddf       0xef ./06_NosPrg/isr.o
+ .debug_macro   0x00000ece       0x6a ./06_NosPrg/isr.o
+ .debug_macro   0x00000f38      0x1df ./06_NosPrg/isr.o
+ .debug_macro   0x00001117       0x39 ./06_NosPrg/isr.o
+ .debug_macro   0x00001150       0x3a ./06_NosPrg/isr.o
+ .debug_macro   0x0000118a       0x26 ./06_NosPrg/isr.o
+ .debug_macro   0x000011b0      0x306 ./06_NosPrg/isr.o
+ .debug_macro   0x000014b6       0x10 ./06_NosPrg/isr.o
+ .debug_macro   0x000014c6     0xc3a9 ./06_NosPrg/isr.o
+ .debug_macro   0x0000d86f       0x2e ./06_NosPrg/isr.o
+ .debug_macro   0x0000d89d       0x3a ./06_NosPrg/isr.o
+ .debug_macro   0x0000d8d7       0x64 ./06_NosPrg/isr.o
+ .debug_macro   0x0000d93b       0x52 ./06_NosPrg/isr.o
+ .debug_macro   0x0000d98d       0x22 ./06_NosPrg/isr.o
+ .debug_macro   0x0000d9af       0x2e ./06_NosPrg/isr.o
+ .debug_macro   0x0000d9dd       0x28 ./06_NosPrg/isr.o
+ .debug_macro   0x0000da05       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000da1b       0x2e ./06_NosPrg/isr.o
+ .debug_macro   0x0000da49       0x28 ./06_NosPrg/isr.o
+ .debug_macro   0x0000da71       0x58 ./06_NosPrg/isr.o
+ .debug_macro   0x0000dac9       0x17 ./06_NosPrg/isr.o
+ .debug_macro   0x0000dae0       0x35 ./06_NosPrg/isr.o
+ .debug_macro   0x0000db15       0x9c ./06_NosPrg/isr.o
+ .debug_macro   0x0000dbb1       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000dbc7       0x97 ./06_NosPrg/isr.o
+ .debug_macro   0x0000dc5e      0x353 ./06_NosPrg/isr.o
+ .debug_macro   0x0000dfb1       0xf6 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e0a7       0x10 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e0b7       0x58 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e10f       0x1f ./06_NosPrg/isr.o
+ .debug_macro   0x0000e12e       0x43 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e171       0x20 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e191      0x18e ./06_NosPrg/isr.o
+ .debug_macro   0x0000e31f       0x10 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e32f       0xb6 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e3e5       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e3fb      0x129 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e524       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e53a       0x35 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e56f       0x22 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e591       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e5a7       0x28 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e5cf       0x16 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e5e5       0x10 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e5f5       0x10 ./06_NosPrg/isr.o
+ .debug_macro   0x0000e605       0x2e ./06_NosPrg/isr.o
+ .debug_macro   0x0000e633       0x1c ./06_NosPrg/isr.o
+ .debug_macro   0x0000e64f      0x2c7 ./06_NosPrg/main.o
+ .debug_macro   0x0000e916       0x1c ./06_NosPrg/main.o
+ .debug_macro   0x0000e932      0x1bd ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x0000eaef      0x16d ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x0000ec5c       0x10 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_macro   0x0000ec6c       0xbb ./05_SoftComponent/common/common.o
+ .debug_macro   0x0000ed27      0x19c ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x0000eec3       0x10 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_macro   0x0000eed3      0x212 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x0000f0e5       0x52 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x0000f137       0x55 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x0000f18c       0x57 ./04_UserBoard/uecom/uecom.o
+ .debug_macro   0x0000f1e3       0xd3 ./04_UserBoard/light/light.o
+ .debug_macro   0x0000f2b6       0x22 ./04_UserBoard/light/light.o
+ .debug_macro   0x0000f2d8       0xc5 ./04_UserBoard/bootloader/bootloader.o
+ .debug_macro   0x0000f39d       0x9f ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x0000f43c       0x4b ./03_MCU/startup/system_MKL36Z4.o
+ .debug_macro   0x0000f487       0xca ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x0000f551       0x28 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_macro   0x0000f579       0xc5 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_macro   0x0000f63e       0xca ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x0000f708       0x10 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_macro   0x0000f718       0xca ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x0000f7e2       0x22 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_macro   0x0000f804       0xca ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x0000f8ce       0x28 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_macro   0x0000f8f6       0xca ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x0000f9c0       0x1c ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_macro   0x0000f9dc       0xca ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x0000faa6       0x4c ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_macro   0x0000faf2      0x177 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x0000fc69       0x5e ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_macro   0x0000fcc7       0xca ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_macro   0x0000fd91       0x34 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_line     0x00000000     0x7c92
+ .debug_line    0x00000000      0xf00 ./06_NosPrg/isr.o
+ .debug_line    0x00000f00      0xeb7 ./06_NosPrg/main.o
+ .debug_line    0x00001db7      0x6c8 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_line    0x0000247f      0x4b6 ./05_SoftComponent/common/common.o
+ .debug_line    0x00002935      0x86c ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_line    0x000031a1      0xc45 ./04_UserBoard/uecom/uecom.o
+ .debug_line    0x00003de6      0x4f3 ./04_UserBoard/light/light.o
+ .debug_line    0x000042d9      0x451 ./04_UserBoard/bootloader/bootloader.o
+ .debug_line    0x0000472a       0x78 ./03_MCU/startup/startup_MKL36Z4.o
+ .debug_line    0x000047a2      0x326 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_line    0x00004ac8      0x666 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_line    0x0000512e      0x4e1 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_line    0x0000560f      0x465 ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_line    0x00005a74      0x57a ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_line    0x00005fee      0x49c ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_line    0x0000648a      0x804 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_line    0x00006c8e      0x575 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_line    0x00007203      0x5de ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_line    0x000077e1      0x4b1 ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_str      0x00000000    0x4fc07
+ .debug_str     0x00000000    0x4e683 ./06_NosPrg/isr.o
+                              0x4eb8a (size before relaxing)
+ .debug_str     0x0004e683      0x16a ./06_NosPrg/main.o
+                              0x4eb9b (size before relaxing)
+ .debug_str     0x0004e7ed       0xfa ./05_SoftComponent/timeStamp/timeStamp.o
+                              0x4e052 (size before relaxing)
+ .debug_str     0x0004e8e7      0x2dd ./05_SoftComponent/common/common.o
+                              0x4aefe (size before relaxing)
+ .debug_str     0x0004ebc4      0x19e ./04_UserBoard/ueupdate/ueupdate.o
+                              0x4df77 (size before relaxing)
+ .debug_str     0x0004ed62      0x475 ./04_UserBoard/uecom/uecom.o
+                              0x4ea8b (size before relaxing)
+ .debug_str     0x0004f1d7       0x34 ./04_UserBoard/light/light.o
+                              0x4ad2c (size before relaxing)
+ .debug_str     0x0004f20b       0x78 ./04_UserBoard/bootloader/bootloader.o
+                              0x4ac24 (size before relaxing)
+ .debug_str     0x0004f283       0x33 ./03_MCU/startup/startup_MKL36Z4.o
+                                 0xb5 (size before relaxing)
+ .debug_str     0x0004f2b6      0x152 ./03_MCU/startup/system_MKL36Z4.o
+                              0x4abbc (size before relaxing)
+ .debug_str     0x0004f408       0xf1 ./03_MCU/MCU_drivers/uart/uart.o
+                              0x4b05e (size before relaxing)
+ .debug_str     0x0004f4f9       0xae ./03_MCU/MCU_drivers/tsi/tsi.o
+                              0x4af2f (size before relaxing)
+ .debug_str     0x0004f5a7       0x58 ./03_MCU/MCU_drivers/systick/systick.o
+                              0x4ae7f (size before relaxing)
+ .debug_str     0x0004f5ff       0xdc ./03_MCU/MCU_drivers/spi/spi.o
+                              0x4ae0a (size before relaxing)
+ .debug_str     0x0004f6db       0x77 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+                              0x4afde (size before relaxing)
+ .debug_str     0x0004f752      0x17f ./03_MCU/MCU_drivers/i2c/i2c.o
+                              0x4b039 (size before relaxing)
+ .debug_str     0x0004f8d1      0x127 ./03_MCU/MCU_drivers/gpio/gpio.o
+                              0x4b022 (size before relaxing)
+ .debug_str     0x0004f9f8      0x13a ./03_MCU/MCU_drivers/flash/flash.o
+                              0x4debc (size before relaxing)
+ .debug_str     0x0004fb32       0xd5 ./03_MCU/MCU_drivers/adc/adc.o
+                              0x4adb2 (size before relaxing)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./06_NosPrg/isr.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./06_NosPrg/main.o
+ .comment       0x0000007e       0x7f ./05_SoftComponent/timeStamp/timeStamp.o
+ .comment       0x0000007e       0x7f ./05_SoftComponent/common/common.o
+ .comment       0x0000007e       0x7f ./04_UserBoard/ueupdate/ueupdate.o
+ .comment       0x0000007e       0x7f ./04_UserBoard/uecom/uecom.o
+ .comment       0x0000007e       0x7f ./04_UserBoard/light/light.o
+ .comment       0x0000007e       0x7f ./04_UserBoard/bootloader/bootloader.o
+ .comment       0x0000007e       0x7f ./03_MCU/startup/system_MKL36Z4.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/uart/uart.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/tsi/tsi.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/systick/systick.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/spi/spi.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/i2c/i2c.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/gpio/gpio.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/flash/flash.o
+ .comment       0x0000007e       0x7f ./03_MCU/MCU_drivers/adc/adc.o
+
+.debug_frame    0x00000000     0x1044
+ .debug_frame   0x00000000       0x9c ./06_NosPrg/isr.o
+ .debug_frame   0x0000009c       0x94 ./06_NosPrg/main.o
+ .debug_frame   0x00000130       0xa0 ./05_SoftComponent/timeStamp/timeStamp.o
+ .debug_frame   0x000001d0       0xa8 ./05_SoftComponent/common/common.o
+ .debug_frame   0x00000278      0x140 ./04_UserBoard/ueupdate/ueupdate.o
+ .debug_frame   0x000003b8      0x2b0 ./04_UserBoard/uecom/uecom.o
+ .debug_frame   0x00000668       0x58 ./04_UserBoard/light/light.o
+ .debug_frame   0x000006c0       0x30 ./04_UserBoard/bootloader/bootloader.o
+ .debug_frame   0x000006f0       0x20 ./03_MCU/startup/system_MKL36Z4.o
+ .debug_frame   0x00000710      0x108 ./03_MCU/MCU_drivers/uart/uart.o
+ .debug_frame   0x00000818       0x94 ./03_MCU/MCU_drivers/tsi/tsi.o
+ .debug_frame   0x000008ac       0x2c ./03_MCU/MCU_drivers/systick/systick.o
+ .debug_frame   0x000008d8       0xb0 ./03_MCU/MCU_drivers/spi/spi.o
+ .debug_frame   0x00000988       0x58 ./03_MCU/MCU_drivers/lptmr/lptmr.o
+ .debug_frame   0x000009e0      0x110 ./03_MCU/MCU_drivers/i2c/i2c.o
+ .debug_frame   0x00000af0       0xe4 ./03_MCU/MCU_drivers/gpio/gpio.o
+ .debug_frame   0x00000bd4       0xb4 ./03_MCU/MCU_drivers/flash/flash.o
+ .debug_frame   0x00000c88       0x50 ./03_MCU/MCU_drivers/adc/adc.o
+ .debug_frame   0x00000cd8       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000cf8       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000d18       0x34 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_muldi3.o)
+ .debug_frame   0x00000d4c       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000d88       0x38 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x00000dc0       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x00000dfc       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00000e38       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x00000e74       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x00000ea0       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000ec8       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00000ef4       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000f1c       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000f3c       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcat.o)
+ .debug_frame   0x00000f64       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x00000f84       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strcpy.o)
+ .debug_frame   0x00000fa4       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x00000fd0       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strncpy.o)
+ .debug_frame   0x00000ffc       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-strstr.o)
+ .debug_frame   0x00001024       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
